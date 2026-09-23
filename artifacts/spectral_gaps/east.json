@@ -1,0 +1,187 @@
+{
+  "artifact_kind": "spectral_gap_table",
+  "claim_grade": "control",
+  "claim_id": "P0.spectral_gaps.east",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "4d2554baa0ce8c201e68167e128afe3bd8307c86a685b5ff42358bcc4bc65039",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "Spectral gaps are float64 diagnostics and not theorem-graded exact-rational certificates.",
+    "Mixing-time bounds are used for shell-window calibration only."
+  ],
+  "payload": {
+    "artifact_status": "phase0_diagnostic",
+    "model": "east",
+    "note": "Pre-certificate spectral diagnostic table; not an honesty-ledger-graded certificate.",
+    "rows": [
+      {
+        "N": 6,
+        "epsilon": "1/10",
+        "gap": 7.721134544413921e-05,
+        "mixing_time_bound": 212102.500413622,
+        "tau_rel": 12951.464506255483
+      },
+      {
+        "N": 6,
+        "epsilon": "1/5",
+        "gap": 0.0004522079949388358,
+        "mixing_time_bound": 32306.20369535945,
+        "tau_rel": 2211.3717828789313
+      },
+      {
+        "N": 6,
+        "epsilon": "3/10",
+        "gap": 0.001159671227696335,
+        "mixing_time_bound": 11785.559295601373,
+        "tau_rel": 862.3133661654098
+      },
+      {
+        "N": 6,
+        "epsilon": "2/5",
+        "gap": 0.002148736956048891,
+        "mixing_time_bound": 6073.628656133276,
+        "tau_rel": 465.3896779617014
+      },
+      {
+        "N": 6,
+        "epsilon": "1/2",
+        "gap": 0.0033552520666573216,
+        "mixing_time_bound": 3756.7918619238317,
+        "tau_rel": 298.0402008950262
+      },
+      {
+        "N": 6,
+        "epsilon": "3/5",
+        "gap": 0.004721531523047884,
+        "mixing_time_bound": 2597.3303950026666,
+        "tau_rel": 211.7956843279681
+      },
+      {
+        "N": 6,
+        "epsilon": "7/10",
+        "gap": 0.006200560544467049,
+        "mixing_time_bound": 1933.8365900324793,
+        "tau_rel": 161.2757415766758
+      },
+      {
+        "N": 8,
+        "epsilon": "1/10",
+        "gap": 2.525350789261971e-05,
+        "mixing_time_bound": 692747.3537071148,
+        "tau_rel": 39598.459123068926
+      },
+      {
+        "N": 8,
+        "epsilon": "1/5",
+        "gap": 0.0001865587510245792,
+        "mixing_time_bound": 83054.37050514248,
+        "tau_rel": 5360.24171746438
+      },
+      {
+        "N": 8,
+        "epsilon": "3/10",
+        "gap": 0.0005394897883160832,
+        "mixing_time_bound": 26752.39141324233,
+        "tau_rel": 1853.6032037257157
+      },
+      {
+        "N": 8,
+        "epsilon": "2/5",
+        "gap": 0.0010784130398537872,
+        "mixing_time_bound": 12740.96241164871,
+        "tau_rel": 927.2884906283973
+      },
+      {
+        "N": 8,
+        "epsilon": "1/2",
+        "gap": 0.0017757012449438614,
+        "mixing_time_bound": 7456.949857519618,
+        "tau_rel": 563.1577963057715
+      },
+      {
+        "N": 8,
+        "epsilon": "3/5",
+        "gap": 0.002599447574053726,
+        "mixing_time_bound": 4947.2863909215,
+        "tau_rel": 384.6971217967452
+      },
+      {
+        "N": 8,
+        "epsilon": "7/10",
+        "gap": 0.00352011984107925,
+        "mixing_time_bound": 3567.212506981793,
+        "tau_rel": 284.08123732895564
+      },
+      {
+        "N": 10,
+        "epsilon": "1/10",
+        "gap": 1.086323551091617e-05,
+        "mixing_time_bound": 1688068.1284322247,
+        "tau_rel": 92053.60585206196
+      },
+      {
+        "N": 10,
+        "epsilon": "1/5",
+        "gap": 9.898697002908019e-05,
+        "mixing_time_bound": 162933.3396769665,
+        "tau_rel": 10102.33972922115
+      },
+      {
+        "N": 10,
+        "epsilon": "3/10",
+        "gap": 0.00031479049477833865,
+        "mixing_time_bound": 47559.754070335395,
+        "tau_rel": 3176.715995519989
+      },
+      {
+        "N": 10,
+        "epsilon": "2/5",
+        "gap": 0.0006659138600664249,
+        "mixing_time_bound": 21357.27511752347,
+        "tau_rel": 1501.695729685293
+      },
+      {
+        "N": 10,
+        "epsilon": "1/2",
+        "gap": 0.0011392140354511415,
+        "mixing_time_bound": 12012.818969966378,
+        "tau_rel": 877.7981738997701
+      },
+      {
+        "N": 10,
+        "epsilon": "3/5",
+        "gap": 0.0017146504147679265,
+        "mixing_time_bound": 7742.8618822612325,
+        "tau_rel": 583.2092602592392
+      },
+      {
+        "N": 10,
+        "epsilon": "7/10",
+        "gap": 0.0023716413731755814,
+        "mixing_time_bound": 5461.166442152367,
+        "tau_rel": 421.6489100377852
+      }
+    ]
+  },
+  "quantifier_domain": {
+    "N_values": [
+      6,
+      8,
+      10
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "03e26e5bb5368881a98d2468b470b8fd09db66bcf3a0acaf8fb34d868f22b0fa"
+  }
+}

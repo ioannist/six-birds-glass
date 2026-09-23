@@ -1,0 +1,115 @@
+{
+  "artifact_kind": "foreclosure_sweep",
+  "claim_grade": "theorem_audited_class",
+  "claim_id": "GT3.energy_lens_sweep.east_N8",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "49dc92a33c07b7c7e9e4b92fec3a975530107b65d18cbc72359eb19519332e06",
+  "evidence_type": "exact_rational",
+  "nonclaims": [
+    "finite N=8 East foreclosure over Def(l_energy), not a continuum or all-lens claim"
+  ],
+  "payload": {
+    "N": 8,
+    "agreeing_predicates": 512,
+    "all_agree": true,
+    "asymmetry_check": {
+      "abs_gap": "169/1536",
+      "event_left": "n_1",
+      "event_right": "n_N",
+      "value_left": "169/1536",
+      "value_right": "0/1"
+    },
+    "energy_level_distribution_h_prime": {
+      "0": "12301/13824",
+      "1": "1459/13824",
+      "2": "7/1536",
+      "3": "1/13824",
+      "4": "0/1",
+      "5": "0/1",
+      "6": "0/1",
+      "7": "0/1",
+      "8": "0/1"
+    },
+    "energy_level_distribution_mu": {
+      "0": "12301/13824",
+      "1": "1459/13824",
+      "2": "7/1536",
+      "3": "1/13824",
+      "4": "0/1",
+      "5": "0/1",
+      "6": "0/1",
+      "7": "0/1",
+      "8": "0/1"
+    },
+    "epsilon": "1/2",
+    "first_disagreement": null,
+    "lens_id": "L_energy",
+    "lens_image_size": 9,
+    "prep_steps": 3,
+    "separating_entry": {
+      "abs_gap": "169/1536",
+      "continuation_id": "identity_probe",
+      "event_id": "n_1",
+      "value_h": "169/1536",
+      "value_hprime": "0/1"
+    },
+    "t_for_02_statement": "the distinguishing readout (n_1-based) is not in Def(l_energy); constructive witness exhibited, not generic counting",
+    "total_predicates": 512,
+    "witness_pair": {
+      "current_signature": [
+        {
+          "energy": 0,
+          "value": "12301/13824"
+        },
+        {
+          "energy": 1,
+          "value": "1459/13824"
+        },
+        {
+          "energy": 2,
+          "value": "7/1536"
+        },
+        {
+          "energy": 3,
+          "value": "1/13824"
+        },
+        {
+          "energy": 4,
+          "value": "0/1"
+        },
+        {
+          "energy": 5,
+          "value": "0/1"
+        },
+        {
+          "energy": 6,
+          "value": "0/1"
+        },
+        {
+          "energy": 7,
+          "value": "0/1"
+        },
+        {
+          "energy": 8,
+          "value": "0/1"
+        }
+      ],
+      "h_id": "mu",
+      "hprime_id": "h_reflect"
+    },
+    "witness_provenance": "standalone W_reflection witness constructed for this sweep; not chained to the GT2.kovacs_moment certificate (a separate witness family per design/specs/04_gt2_witnesses.md \u00a74)."
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/2"
+    ],
+    "lens_catalog_hash": "2b7c4a7abd187a15c5e70324ebe04a474b287a68074bd9853b2c7e0398f051ba",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "f766f70a1983138186cdb85d038e5ab160e76b299f883be207ed8a0d6b628b39"
+  }
+}

@@ -1,0 +1,21 @@
+six-birds-papers
+
+# Unpublished Six Birds corpus material and internal review scaffolding — keep private.
+# external_review/ holds full .tex of unpublished corpus papers + the reviewer zip.
+# design/reference/ holds digests of those unpublished papers and absolute local paths.
+# .codex/ is the internal Cody/Eddy multi-agent review tooling, prompts, and session logs.
+# proposal_glass_unclosed_layer.md is the internal executable build plan for the paper.
+external_review/
+design/reference/
+.codex/
+proposal_glass_unclosed_layer.md
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+build/
+dist/
+.venv/

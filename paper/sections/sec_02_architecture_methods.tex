@@ -1,0 +1,132 @@
+\section{Definitions and Methods}
+\label{sec:methods}
+%% Packet W-01. No claims-ledger rows attach here directly; background + certificate discipline.
+%% Readability pass 2026-09-22: objects defined in ordinary probabilistic terms first; framework
+%% labels kept as anchors.
+
+\subsection{The objects, in plain terms}
+
+Everything in this paper is built from a finite-state Markov chain and a choice of what to
+observe. Five objects carry all seven results; we define each in ordinary terms, with the Kovacs
+experiment as the running example, and give its source in the Six Birds Theory (SBT) corpus, which
+we cite rather than re-derive \sbtcite{sbt-primer,sbt-foundations-i,sbt-foundations-ii,%
+sbt-foundations-iii,sbt-foundations-iv,sbt-paper-a,sbt-paper-b,sbt-paper-c}.
+
+\begin{description}[leftmargin=1.5em, itemsep=4pt]
+  \item[Lens.] The observable panel: a map $f$ from the microstate space $Z$ to a finite set of
+    readout values. Our main lens is the energy readout $L_{\mathrm{energy}}$, the number of up
+    spins; the ``thermodynamic lens'' $\Pi_{\mathrm{std}}$ is this readout together with its
+    declared panel. In the laboratory the lens is the dilatometer. (SBT: a finite theory
+    package, F-I \sbtcite{sbt-foundations-i}, Def.~1.)
+  \item[Closure and the closure deficit.] A lens is \emph{closed} at horizon $\tau$, for a
+    given law and a given distribution over microstates, if the readout now determines the
+    distribution of the readout $\tau$ steps later, with nothing further gained from the
+    microstate. The \emph{closure deficit}
+    \[
+      \mathrm{CD}_{\tau}(\Pi) \;=\; I\!\left(X_t;\, Y_{t+\tau} \,\middle|\, Y_t\right)
+    \]
+    is the conditional mutual information, in nats \cite{cover-thomas-2006}, between the microstate $X_t$ and the future
+    readout $Y_{t+\tau}$ given the present readout $Y_t$, under the declared law and state
+    distribution. It is zero exactly when the $\tau$-step readout transition probabilities are the same from
+    every \emph{positive-mass} microstate with the same readout; when the declared distribution
+    has full support this is $\tau$-lumpability of the (kernel, lens) pair itself
+    \cite{burke-rosenblatt-1958,kemeny-snell-1960,buchholz-1994}, and a
+    zero-mass region is never audited (the distribution-dependent situation studied as weak
+    lumpability \cite{rubino-sericola-1989}; a point-mass start on East $N=2$ has $\mathrm{CD}=0$
+    although the kernel is not lumpable, a regression-tested control). Lumpability at one horizon
+    does not by itself imply it at others, so the $\tau$ ladder is declared. When positive it is an exact lower bound on what any autonomous law at
+    that horizon, written in the lens's vocabulary, must discard. This is the informational-closure criterion of
+    \cite{bertschinger-2006,pfante-2014}; a readout that is not closed obeys a law with a memory
+    kernel, in the projection-operator sense of \cite{zwanzig-1961,mori-1965}. (SBT: F-III
+    \sbtcite{sbt-foundations-iii} T8; \sbtcite{sbt-paper-b} Def.~3.1.)
+  \item[Packaging map and idempotence defect.] A second, coarser diagnostic. Evolve the chain
+    $\tau$ steps, push the distribution through the lens, and lift it back to a microstate
+    distribution by a declared rule (the ``prototype'' for each readout value):
+    $E_{\tau,f}(\mu) = U_f(Q_f(\mu P^{\tau}))$. The \emph{idempotence defect}
+    $\delta_{\tau,f}$ is the largest total-variation distance, over starting microstates,
+    between applying this map twice and applying it once. It is a saturation diagnostic and
+    nothing more: a lumpable lens can still have $\delta_{\tau,f} > 0$ (the unconstrained
+    control at $N=2$, $\epsilon=1/2$, $\tau=1$ has exact defect $2/9$, and this is a regression
+    test), so the defect is reported in GT1 only as a ratio between the aging protocol and its
+    equilibrium baseline, never as a closure criterion. (SBT: F-I Def.~9.)
+  \item[Preparation histories, quotients, and witnesses.] A \emph{preparation history} is a
+    protocol word (``equilibrate at $\epsilon_1$, quench to $\epsilon_2$, age $t_w$, jump to
+    $\epsilon_3$'') together with the state distribution it produces. Over a declared finite
+    catalog of histories and continuation protocols, the \emph{current quotient} $Q$ identifies
+    histories with equal present lens readouts, and the \emph{predictive quotient} $M$ identifies
+    histories with equal future readout statistics under every declared continuation (the
+    causal-state construction of computational mechanics
+    \cite{crutchfield-young-1989,shalizi-crutchfield-2001,shalizi-moore-2025}, restricted to a
+    declared finite catalog). Under
+    the framework's definitions $M$ refines $Q$, so there is always a comparison map
+    $\pi: M \to Q$. A \emph{witness}, or split pair, is two histories $h, h'$ that $Q$
+    identifies and $M$ separates: same now, different later. Witnesses exist exactly when $\pi$
+    merges distinct $M$-classes (``strictly refining''). The Kovacs sample at its crossing moment and an equilibrated sample
+    at the same volume are the laboratory picture of a witness pair. (SBT: \sbtcite{sbt-paper-a}, Defs.~2.2--2.4
+    and Thm.~3.5; machine-checked as
+    \texttt{strictRefinement\_iff\_nonempty\_predictiveWitness}, \S\ref{sec:lean}.)
+  \item[Memory coordinates and buyback.] A witness pair can be resolved by adding coordinates to
+    the lens. The \emph{buyback curve} records, for each budget of added scalars, which declared
+    candidate coordinates resolve the pair; each such addition is a recorded, selected,
+    non-unique choice (a ``lift'' in SBT terms). Fictive temperature is one such candidate.
+    (SBT: F-II \texttt{prop:forgetting-lifts}.)
+\end{description}
+
+Four more pieces of vocabulary recur. A \emph{lens-definable predicate} is a yes/no function of
+the readout value; a static order parameter built from the lens is one of these. A
+\emph{shell} is a frozen set of eligibility conditions under which a certificate is claimed: for
+GT6, the model and $N$, the declared $\epsilon$ grid, the declared $\tau$ windows per protocol
+leg, a non-equilibration criterion at the measurement time, and the presence of a Kovacs hump,
+each checked by a membership predicate with an exit counter that must read zero. A
+\emph{strict extension} (SBT: a strict promotion) is the statement that the predictive
+description $M$ carries information the declared present description $Q$ cannot, certified by an
+explicit checklist (a ``gate table'') and by ablations (a ``knockout panel''). And the \emph{six
+roles} P1--P6 are the framework's fixed list of ways a description can fail to close; the only
+ones this paper files are P4 (``the future depends on more than the present readout'') and P5
+(``the packaging of the present readout is not a closed projection''). Where a claim is filed in
+that vocabulary, we say so and gloss it.
+
+\paragraph{Claim grades and nonclaims.} Every result carries exactly one grade, taken from the
+framework's fidelity scale (F-II \sbtcite{sbt-foundations-ii}, \S9.3): \emph{theorem-grade
+(audited class)}, proved or audited unconditionally within the covered finite scope, at the
+artifact's declared evidence type (exact rational or deterministic float64);
+\emph{certificate-grade (shell-local)}, the standard of paper [C] \sbtcite{sbt-paper-c}, valid
+on the frozen shell with no broader-class transfer; \emph{run-only readout}, a measured number
+with no model fitted to it; \emph{recognition-grade}, a demonstration rather than a theorem; or
+\emph{control}. Every artifact carries a machine-readable envelope (\texttt{claim\_id},
+\texttt{claim\_grade}, \texttt{quantifier\_domain}, \texttt{nonclaims}) validated against a schema
+in the reproducibility package. Nonclaims are not boilerplate: the full nonclaims ledger is printed
+in \S\ref{sec:discussion}, and several are load-bearing (for example GT6's verdict basis,
+\S\ref{sec:gt6}).
+
+\subsection{Exact arithmetic and the freeze discipline}
+
+Exact rational arithmetic (Python \texttt{fractions.Fraction}) carries the kernels, stationary
+measures, witness gaps, the GT3 predicate sweep, the trap-invariance lemma, the GT1
+idempotence-defect ratio ($289/121$), and the lumpable zero control (whose CD is exactly $0$
+because exact lumpability is verified symbolically). Not everything theorem-graded is rational,
+and each artifact says which it is: GT1's CD grid is deterministic float64 evidence
+(\texttt{evidence\_type: float64\_deterministic} in the artifact itself), and its declared margin
+$3/2$ is checked in float64. The claim's grade rests on the audited-class quantification plus
+the artifact's declared evidence type, not on a pretended exactness. Float64 also appears in
+explicitly labeled diagnostics (spectral gaps, windowed CD diagnostics, GT7 Monte Carlo spot
+checks, the GT6 pressure closure). Controls accompany every certificate, including the
+constructed negative controls of the triage panel (\S\ref{sec:gt3-gt4}).
+
+Pre-registration (GT7, \S\ref{sec:gt7}) and the paper's own evidence base are frozen by sha256
+content hashes over canonical JSON. Each freeze artifact carries a \texttt{content\_hash} and a
+\texttt{freeze\_note}, and every cross-artifact citation pins the target's hash, so regenerating
+any artifact invalidates, detectably, every citation of it. A repository-wide test suite enforces
+all such bindings, and the paper's own claim citations (the bracketed row labels throughout,
+e.g.\ [GT1]) are pinned the same way: each carries a hidden artifact hash checked against the
+claims ledger and the current artifact bytes at build time. Version-control history is
+deliberately not the freeze mechanism; the content hashes are the proof object.
+
+\subsection{What the reader should check}
+
+The claims ledger (\texttt{paper/claims\_ledger.json}) is the paper's load-bearing skeleton: one
+row per claim with final wording, grade, quantifier domain, anchors into the SBT corpus, artifact
+hashes, and nonclaims. Every results section below is a transcription of its ledger rows into
+prose; any discrepancy between prose and ledger is a bug in the prose. A reader with the
+repository can re-run every certificate: the test suite, the Lean build, and the three checkers
+(claims ledger, GT6 filing, empirical bridges) all run from a clean checkout.

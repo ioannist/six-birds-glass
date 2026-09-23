@@ -1,0 +1,229 @@
+{
+  "artifact_kind": "knockout_panel",
+  "claim_grade": "certificate_shell_local",
+  "claim_id": "GT6.knockout_panel.glass_shell",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "46797c9aa07ba325e7952a5e0b55d1e6fc4bdddb515b96d38867f31110b5d8f7",
+  "config_path": "configs/kovacs_hump_default.json",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "Knockout rows are shell-local diagnostics, not shell-general strict-extension proofs.",
+    "P4-P6 rows are capability-loss degradations, not numeric re-simulation degradations."
+  ],
+  "payload": {
+    "artifact_status": "phase3_shell_lawfulness_panel",
+    "full_loop_nondegeneracy": {
+      "affinity_audit_available": true,
+      "nonempty_scalar_pool": true,
+      "packaging_diagnostic_available": true,
+      "real_constraint_activity": true,
+      "real_kernel_activity": true,
+      "real_schedule_variation": true
+    },
+    "knockouts": [
+      {
+        "baseline_value": {
+          "hump_found": true,
+          "trace_variation": "1368301669415186272592135143328103706579522272682962060567623998451559399411783903026577353618096979162888924341077577035267583225940043884884590480046337/2519265325765655183510450913087738707604044323244094779168939497959346479468957122500000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "degraded": true,
+        "kind": "numeric",
+        "knockout_value": {
+          "hump_found": false,
+          "miss_reason": "does not start below equilibrium",
+          "trace_variation": "0/1"
+        },
+        "notes": "operator rewrite disabled by replacing every run kernel with the identity kernel",
+        "primitive": "P1",
+        "threshold": "identity trace variation must be exactly 0"
+      },
+      {
+        "baseline_value": {
+          "east_exactly_lumpable": false
+        },
+        "degraded": true,
+        "kind": "numeric",
+        "knockout_value": {
+          "unconstrained_exactly_lumpable": true
+        },
+        "notes": "admissibility gating disabled by replacing East constraints with C_i == 1",
+        "primitive": "P2",
+        "threshold": "unconstrained control must be exactly lumpable under L_energy"
+      },
+      {
+        "baseline_value": {
+          "hump_found": true
+        },
+        "degraded": true,
+        "kind": "numeric",
+        "knockout_value": {
+          "hump_found": false,
+          "miss_reason": "does not start below equilibrium"
+        },
+        "notes": "protocol/timescale adaptation disabled by replacing the schedule with one constant hold",
+        "primitive": "P3",
+        "threshold": "constant-epsilon replacement must fail the hump detector"
+      },
+      {
+        "baseline_value": {
+          "scalar_pool": [
+            "T_f",
+            "D",
+            "n_1"
+          ]
+        },
+        "degraded": true,
+        "kind": "capability_loss",
+        "knockout_value": {
+          "raw_budgets": [
+            0
+          ],
+          "saturation_budget": null,
+          "scalar_pool": []
+        },
+        "notes": "lens-selection/refinement catalog disabled by declaring an empty scalar pool",
+        "primitive": "P4",
+        "threshold": null
+      },
+      {
+        "baseline_value": {
+          "delta_tau_f": "25/64",
+          "diagnostic_N": 8
+        },
+        "degraded": true,
+        "kind": "capability_loss",
+        "knockout_value": null,
+        "notes": "packaging/completion disabled; E_{tau,f}, delta_{tau,f}, and T1 strata are undefined",
+        "primitive": "P5",
+        "threshold": null
+      },
+      {
+        "baseline_value": {
+          "mixed_square_affinity": -0.6666666666666665
+        },
+        "degraded": true,
+        "kind": "capability_loss",
+        "knockout_value": null,
+        "notes": "budget/ledger audit disabled; P6_drive classification is unavailable",
+        "primitive": "P6",
+        "threshold": null
+      }
+    ],
+    "note": "GB6 shell and primitive-knockout panel; pressure closure and strict-extension hypotheses are later Phase 3 packets.",
+    "numeric_vs_capability_loss_note": "P1-P3 are numeric re-simulation degradations; P4-P6 are structural capability-loss degradations.",
+    "shell_witnesses": [
+      {
+        "N": 10,
+        "checkpoints": [
+          {
+            "label": "epsilon_grid",
+            "notes": "every schedule epsilon lies in DEFAULT_EPSILON_GRID and the config grid",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_0",
+            "notes": "zero-step preparation leg is exempt from hold-window checks",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_1",
+            "notes": "steps=40, lower=tau_alpha/100000=1688069/100000, tau_alpha=1688069",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_2",
+            "notes": "steps=60, lower=tau_alpha/100000=10679/50000, tau_alpha=21358",
+            "passed": true
+          },
+          {
+            "label": "non_equilibration_at_measurement",
+            "notes": "|E_start_probe - E_eq|=148985149051063914604177335573588295651072135106145725543667018711762478839672044383449/1283054199428149216387392169079725544167090444745950000000000000000000000000000000000000, tolerance=0/1",
+            "passed": true
+          },
+          {
+            "label": "kovacs_hump_witness",
+            "notes": "found=True, t_K=1, t_peak=35, reason=None",
+            "passed": true
+          }
+        ],
+        "config_path": "configs/kovacs_hump_default.json",
+        "exit_count": 0,
+        "in_shell": true,
+        "label": "kovacs_N10"
+      },
+      {
+        "N": 8,
+        "checkpoints": [
+          {
+            "label": "epsilon_grid",
+            "notes": "every schedule epsilon lies in DEFAULT_EPSILON_GRID and the config grid",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_0",
+            "notes": "zero-step preparation leg is exempt from hold-window checks",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_1",
+            "notes": "steps=20, lower=tau_alpha/100000=173187/25000, tau_alpha=692748",
+            "passed": true
+          },
+          {
+            "label": "tau_window_leg_2",
+            "notes": "steps=30, lower=tau_alpha/100000=12741/100000, tau_alpha=12741",
+            "passed": true
+          },
+          {
+            "label": "non_equilibration_at_measurement",
+            "notes": "|E_start_probe - E_eq|=18187961196979795979364396845116810625773485/444615731130780287069695832516755746631712768, tolerance=0/1",
+            "passed": true
+          },
+          {
+            "label": "kovacs_hump_witness",
+            "notes": "found=True, t_K=0, t_peak=25, reason=None",
+            "passed": true
+          }
+        ],
+        "config_path": "configs/gt6_shell_witness_n8.json",
+        "exit_count": 0,
+        "in_shell": true,
+        "label": "kovacs_N8"
+      }
+    ],
+    "thresholds": {
+      "capability_loss_knockouts": {
+        "P4": "empty scalar pool leaves only B=0 buyback and no saturation budget",
+        "P5": "packaging endomap disabled, so delta_tau_f and strata are undefined",
+        "P6": "affinity/EPR audit disabled, so P6_drive classification is unavailable"
+      },
+      "non_equilibration_tolerance": "0/1",
+      "numeric_knockouts": {
+        "P1": "identity trace variation must be exactly 0 while baseline varies",
+        "P2": "unconstrained control must be exactly lumpable under L_energy",
+        "P3": "constant-epsilon replacement must fail the hump detector"
+      },
+      "tau_alpha_lower_divisor": 100000
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8,
+      10
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "24d09e2d690888f2fc54121ba0ea0d4e0363071ea52871ab7092d634bce1f24f"
+  }
+}

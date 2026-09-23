@@ -1,0 +1,72 @@
+{
+  "artifact_kind": "math_demo",
+  "claim_grade": "recognition",
+  "claim_id": "GB2.protocol_relative_closure_deficit.demo",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "4c06fb3f936c5d42fe794c2d4cd9166aab38492d783f56fcf5aac55eee03f267",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "GB2 demo records finite protocol-CD computations, not a GT claim certificate.",
+    "Windowed and marginalized CD values are float64 diagnostics; exactness is reserved for the lumpability check."
+  ],
+  "payload": {
+    "artifact_status": "phase2_math_demo",
+    "lumpable_multi_cell_catalog": {
+      "N": 4,
+      "epsilons": [
+        "1/5",
+        "1/2"
+      ],
+      "is_lumpable": true,
+      "tau": 2,
+      "violation": null
+    },
+    "math_note": "math/gb2_protocol_cd.md",
+    "non_lumpable_aging_catalog": {
+      "N": 4,
+      "epsilon_hi": "7/10",
+      "epsilon_lo": "1/10",
+      "epsilon_mid": "2/5",
+      "is_lumpable": false,
+      "marginalized_cd": 0.08511917590958296,
+      "tau": 2,
+      "violation": {
+        "left_probability": "235/784",
+        "left_state": 1,
+        "right_probability": "0/1",
+        "right_state": 2,
+        "source_fiber": 1,
+        "target_fiber": 0
+      },
+      "windowed_cd": 0.0857357670568603,
+      "windowed_minus_marginalized": 0.0006165911472773428
+    },
+    "note": "GB2 protocol-CD demonstration artifact; not a GT-claim certificate.",
+    "stationary_consistency": {
+      "N": 4,
+      "absolute_difference": 0.0,
+      "epsilon": "1/2",
+      "protocol_relative_cd": 0.07089419113954812,
+      "stationary_cd": 0.07089419113954812,
+      "tau": 2
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      4
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "2/5",
+      "1/2",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east",
+      "unconstrained"
+    ],
+    "protocol_catalog_hash": "99b9947c81cda975c5d670d2b33c6eacad845e23ed613a8d11cdcc91955ab095"
+  }
+}

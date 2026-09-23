@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sixbirds_glass"
+version = "0.0.0"
+description = "Exact-finite computational lab for Glass Is an Unclosed Layer"
+readme = "proposal_glass_unclosed_layer.md"
+# Developed/tested on Python 3.10.12 with mypy 2.1.0, pytest 9.0.2, and ruff 0.15.4.
+requires-python = ">=3.10"
+dependencies = [
+    "jsonschema>=4.22",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.10",
+    "pytest>=8.2",
+    "ruff>=0.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["src"]
+strict = true
+warn_unused_ignores = true
+warn_return_any = true
+disallow_any_generics = false
+
+[[tool.mypy.overrides]]
+module = ["numpy", "numpy.*"]
+ignore_missing_imports = true
+allow_untyped_calls = true
+
+[[tool.mypy.overrides]]
+module = ["jsonschema", "jsonschema.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+markers = [
+    "slow: exact-rational tests over N=10 East state spaces or real Kovacs search/tuning",
+]

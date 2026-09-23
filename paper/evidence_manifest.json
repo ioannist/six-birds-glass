@@ -1,0 +1,231 @@
+{
+  "content_hash": "93e67a2deff7c660c75cfba7efe9fe5c659f984af9b89ec24f0d1c545b575a05",
+  "counts": {
+    "artifacts": 21,
+    "bridges": 3,
+    "lean": 13,
+    "registry": 3,
+    "scripts": 3,
+    "total": 43
+  },
+  "entries": [
+    {
+      "bytes": 8445,
+      "path": "artifacts/benchmark_suite/phase1_parity.json",
+      "sha256": "fade825187d851683d7f035f34e06b3c9ae0ded9b7b2b1afc69e6f5ab74b545d"
+    },
+    {
+      "bytes": 2598,
+      "path": "artifacts/gb1_demo.json",
+      "sha256": "4173705a52c358bc74b51815929cb2a28c8f680b3421dafdb7633e97b051fa8e"
+    },
+    {
+      "bytes": 2087,
+      "path": "artifacts/gb2_demo.json",
+      "sha256": "847f389464f9196f2315c05e3cef842efa94f201aad26f19b5dc4071e043f081"
+    },
+    {
+      "bytes": 6143,
+      "path": "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+      "sha256": "a0cea276116f05fcbb10844c527aac69d2027c70210a19db4753364d6c54d44e"
+    },
+    {
+      "bytes": 4198,
+      "path": "artifacts/gt1_delta_tables/east_n8_l_energy.json",
+      "sha256": "29fbfc474de70a4a5c70f4664677df926e62c306bd52b786755aa23a379fefab"
+    },
+    {
+      "bytes": 3202,
+      "path": "artifacts/gt2_witnesses/kovacs_moment.json",
+      "sha256": "321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf"
+    },
+    {
+      "bytes": 2946,
+      "path": "artifacts/gt3_foreclosure/lens_class_sweep.json",
+      "sha256": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7"
+    },
+    {
+      "bytes": 9984,
+      "path": "artifacts/gt4_triage/regime_table.json",
+      "sha256": "160ed9c4bb65a8189f012fba1fb7e4a55fc17e323050437206c341c077b53619"
+    },
+    {
+      "bytes": 3960,
+      "path": "artifacts/gt5_dimension/buyback_curve.json",
+      "sha256": "3f3c56405847a079f48bae350b3b35e901a5731470bcb4a092bd7f682f075559"
+    },
+    {
+      "bytes": 1263,
+      "path": "artifacts/gt5_dimension/max_fiber.json",
+      "sha256": "746b44e6c2f7f92364137a202f7306b6afc9e99c413fb4dd3a40d47bfd6f94c8"
+    },
+    {
+      "bytes": 16527,
+      "path": "artifacts/gt6_bridge/audit.json",
+      "sha256": "6453d0e36a5f43e0a3e7ed9f69f53e00a3c6cef7aa1ddea4019522d5670cab97"
+    },
+    {
+      "bytes": 8170,
+      "path": "artifacts/gt6_bridge/knockouts.json",
+      "sha256": "7302945f1769aff3995cea782b6572bc5765c2c398db94088115addf0b28efeb"
+    },
+    {
+      "bytes": 12360,
+      "path": "artifacts/gt6_bridge/pressure_closure.json",
+      "sha256": "ce66da2ec600565cd5fd869a5a3abdf10098dc0b52ecf2cf7f79eca5a06a146c"
+    },
+    {
+      "bytes": 3511,
+      "path": "artifacts/gt6_bridge/strict_extension.json",
+      "sha256": "f5f9558e0ffa786ac8a28254e555d398eff572d2936aea89a889ea160cb7bed2"
+    },
+    {
+      "bytes": 43652,
+      "path": "artifacts/gt7_constants/east_reference.json",
+      "sha256": "4905b013624462549b9a4cdb18f51d0220f70be29976be461e5a8681978dcab8"
+    },
+    {
+      "bytes": 55086,
+      "path": "artifacts/gt7_constants/fa_target.json",
+      "sha256": "f2c310018fbf57e4d5166ccbbcd616f32422fcb01ce382e1db3c9c31087348f3"
+    },
+    {
+      "bytes": 94513,
+      "path": "artifacts/gt7_constants/gt7_transfer_scores.json",
+      "sha256": "37ac2b8f4bcb55cf1f2cf9f0518850a84039c3e51177d3000d0244b5ed6cc96e"
+    },
+    {
+      "bytes": 39022,
+      "path": "artifacts/gt7_constants/trap_target.json",
+      "sha256": "671a28b4a4a9d812a1a6cb6e0083fc23ac01360c6ef5f6327b99de6560c153c2"
+    },
+    {
+      "bytes": 31977,
+      "path": "artifacts/kovacs_hump_check/result.json",
+      "sha256": "9d2fcba8b060c58d73f68c13ac6cf4d8defde7ad5b133bc414be8166e1461189"
+    },
+    {
+      "bytes": 10283,
+      "path": "artifacts/lean_fidelity_table.json",
+      "sha256": "014c387c154a27d21d86e0454c25fea4ddc7ac8ecd3e7d3ea116d6f068a296c1"
+    },
+    {
+      "bytes": 4971,
+      "path": "artifacts/spectral_gaps/east.json",
+      "sha256": "576de95a7de5e67c0cec532b7d1aaad310a52246330e04c4c810be21e833ae69"
+    },
+    {
+      "bytes": 2367,
+      "path": "bridges/colloid_aging.json",
+      "sha256": "80bc17fe8faf4763130b74da1d7b969d1514f95969ed7fbce3c4224b5fe1c1c0"
+    },
+    {
+      "bytes": 3238,
+      "path": "bridges/kovacs_pvac.json",
+      "sha256": "8015ce419a3a00e8a1b81217d0796ef53a6467db81cb774d0fa9711694087ab8"
+    },
+    {
+      "bytes": 2707,
+      "path": "bridges/spin_glass_memory.json",
+      "sha256": "73cd3f732fbbd37b9480d0f42571d229a5afa0fc0134454e890367a21ca58439"
+    },
+    {
+      "bytes": 4306,
+      "path": "experiments/check_bridges.py",
+      "sha256": "e1025a82d6ec9d19930f2c43a7c4d25974d93f01ae89b2955c85f8ca1174d04c"
+    },
+    {
+      "bytes": 5686,
+      "path": "experiments/check_gt6_filing.py",
+      "sha256": "d61fb14d50177d69a68ef2ac5ceed199f9b643f6ec36001e568cae67ceda2a9a"
+    },
+    {
+      "bytes": 6243,
+      "path": "experiments/score_transfer.py",
+      "sha256": "beb83ce759f656ae1b60fdecd22dc736fe682440eba338e279dab9199ad21b22"
+    },
+    {
+      "bytes": 3163,
+      "path": "lean/GlassWitness/Instance.lean",
+      "sha256": "8df214180a49c4bde6b73b456a2c34e7c32ddb4f33110f8e749a583144fa554b"
+    },
+    {
+      "bytes": 2568,
+      "path": "lean/GlassWitness/ScopeBoundary.lean",
+      "sha256": "c70185334829fe8ad9f879a2288e90efe3d24700b8eeb5593f2de05341b62a51"
+    },
+    {
+      "bytes": 425,
+      "path": "lean/HolonomyMemory.lean",
+      "sha256": "ccfab89cd11646e81f9c3becb6d68c985a6008cbce859fefb7df4bfcc96602b6"
+    },
+    {
+      "bytes": 2166,
+      "path": "lean/HolonomyMemory/Asymmetry.lean",
+      "sha256": "755550e091a88e44eb61d70375ba17ab8240bedafed4396155a6879d5bce9487"
+    },
+    {
+      "bytes": 129,
+      "path": "lean/HolonomyMemory/Basic.lean",
+      "sha256": "be0deec8c5147927263d5f4405a31bbaac87827208773819d2d2dde07e760a9a"
+    },
+    {
+      "bytes": 2701,
+      "path": "lean/HolonomyMemory/Equivalences.lean",
+      "sha256": "05264f45e1273233dd2c96b4744231ecf9affc1a31f36e3f5b89f94b994fbfda"
+    },
+    {
+      "bytes": 1183,
+      "path": "lean/HolonomyMemory/Interfaces.lean",
+      "sha256": "36404f8b5458056e556cf339a15ea633259b6d0dba7e02132f3d75f18e0b5ffe"
+    },
+    {
+      "bytes": 1380,
+      "path": "lean/HolonomyMemory/Loops.lean",
+      "sha256": "766b72a626a4ce95f27234240d90b0fb61b4f4bac36540912318db1830b5e311"
+    },
+    {
+      "bytes": 5569,
+      "path": "lean/HolonomyMemory/Sufficiency.lean",
+      "sha256": "6dc4803a34f3ece0a64556b1de26eef839cb5a841b146adddb4fa86eba9dcc71"
+    },
+    {
+      "bytes": 3154,
+      "path": "lean/HolonomyMemory/Transport.lean",
+      "sha256": "3578f5ee1a69e2a98d2590cc18ed851b1aeaa75c09c52b1d2e476fb5073cb507"
+    },
+    {
+      "bytes": 2339,
+      "path": "lean/HolonomyMemory/Witnesses.lean",
+      "sha256": "2b893d247aa25eadfd42323e600945674875f84ddccd51562ab5ce8a4911b235"
+    },
+    {
+      "bytes": 174,
+      "path": "lean/lakefile.toml",
+      "sha256": "f7ff8c1c9f5238c5ad24d57a236d81e61ce5c8258af7a16cfeb00929a9ea8a24"
+    },
+    {
+      "bytes": 24,
+      "path": "lean/lean-toolchain",
+      "sha256": "e755dd42499cb1469c4acaf7503bda8009efe72bd992fe23570fd085ef46b0cb"
+    },
+    {
+      "bytes": 13455,
+      "path": "registry/gt7_observations.json",
+      "sha256": "105a4cfd5b17f92375ca7d260d7ada3bdb2dc2215425384fdb8f506b676e5578"
+    },
+    {
+      "bytes": 114456,
+      "path": "registry/predictions_f5e2a3332a2191a2.json",
+      "sha256": "3afe026caa7491c1e8ba30e49cc4971f8156864ccbdff1cf1ccd3e95a83cf637"
+    },
+    {
+      "bytes": 11107,
+      "path": "registry/readouts.json",
+      "sha256": "ff1b5b85386fe90202276f4e3c09e0b4d3ee27b7cd836696376cecd4739afad4"
+    }
+  ],
+  "freeze_note": "The Phase 5 paper evidence base is frozen by sha256 content hashes rather than implementation git commits, matching the content-hash discipline used by the GT7 registries; content_hash is computed over canonical JSON with the content_hash field absent.",
+  "manifest_kind": "paper_evidence_manifest",
+  "purpose": "Single hash root for every evidence file the Phase 5 paper may cite."
+}

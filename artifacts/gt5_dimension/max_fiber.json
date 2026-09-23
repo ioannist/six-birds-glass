@@ -1,0 +1,43 @@
+{
+  "artifact_kind": "max_fiber",
+  "claim_grade": "theorem_audited_class",
+  "claim_id": "GT5.max_fiber.kovacs_moment.east_N10",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "46797c9aa07ba325e7952a5e0b55d1e6fc4bdddb515b96d38867f31110b5d8f7",
+  "config_path": "configs/kovacs_hump_default.json",
+  "evidence_type": "exact_rational",
+  "nonclaims": [
+    "buyback saturation or nonsaturation is not a GB5 repair-impossibility certificate; GB5 requires a separate exhaustive repair-class sweep"
+  ],
+  "payload": {
+    "current_quotient_size": 1,
+    "fiber_histogram": {
+      "20/7": 2
+    },
+    "history_count": 2,
+    "interface": "mid",
+    "max_fiber_size": 2,
+    "nontriviality_threshold_met": true,
+    "package_ref": "generated:kovacs_moment:east_N10:L_energy",
+    "predictive_quotient_size": 2
+  },
+  "quantifier_domain": {
+    "N_values": [
+      10
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "eacaa860b45121167fe2382aac912161df0d6a0d79b267d384dd6ae90f86916b",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "24d09e2d690888f2fc54121ba0ea0d4e0363071ea52871ab7092d634bce1f24f"
+  }
+}

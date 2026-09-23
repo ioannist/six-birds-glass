@@ -1,0 +1,80 @@
+\section{GT6: The Memory Layer Strictly Extends the Observable Layer}
+\label{sec:gt6}
+%% Packet W-06. Ledger rows: GT6, NEG.material_forcing_absent.
+
+\subsection{Claim and verdict basis}
+
+In plain terms: describing an East glass by the future-equivalence class of its preparation
+history carries information that the declared energy-based description cannot, and the
+framework's checklist for certifying such a statement (a gate table with pass/fail rows, plus
+ablations) is completed for the audited shell, the frozen eligibility conditions defined in
+\S\ref{sec:methods}. Precisely:
+
+\claimref{GT6}{6453d0e36a5f43e0a3e7ed9f69f53e00a3c6cef7aa1ddea4019522d5670cab97}
+For the audited East glass shell ($N=8$, declared $\epsilon$ grid and protocol windows), the
+promotion filing of F-III \S10 (bridge record, gate table, knockout panel, nonclaim register,
+checker) is complete, and the gate-table verdict is \texttt{strict}: the predictive-structure
+layer strictly extends the current-observable layer on this shell. Grade: certificate
+(shell-local, the standard of paper [C] \sbtcite{sbt-paper-c}): valid on the frozen shell, with
+no broader-class transfer claimed.
+
+Because an earlier draft of this project's own design documents overstated this result, the basis
+of the verdict is quoted verbatim from the audit artifact rather than paraphrased:
+
+\begin{quote}
+``verdict: strict is established via F-III T19/T20 (non-factorization from GT2/GT3 witnesses).
+Paper [C]'s thm:strict-extension (the fuller completion-dynamics route requiring material
+P4$\leftarrow$P5 forcing) is NOT invoked: H4\_forcing.material\_forcing\_count = 0 for this shell,
+filed as an honest negative sub-result, not as a satisfied hypothesis.''
+\end{quote}
+
+That is: the strictness verdict rests on \emph{non-factorization}. GT2 exhibits histories that
+the energy-based description merges and the predictive one separates, and GT3 shows that no
+energy-definable predicate can undo the merge, so the predictive description cannot be a function
+of the energy-based one; the framework's theorems T19/T20 turn that into the verdict. The verdict does
+\emph{not} rest on paper [C]'s stronger completion-dynamics theorem, whose ``material forcing''
+hypothesis this shell simply does not satisfy. (Material forcing means that the catalog of
+protocols contains \emph{conditioned} schedules, in which the next temperature step depends on
+the measured panel, as in real glass processing, and that some distinctions between histories
+exist only because of them. The audited catalog produced none.)
+
+\claimref{NEG.material\_forcing\_absent}{f5f9558e0ffa786ac8a28254e555d398eff572d2936aea89a889ea160cb7bed2}
+The forcing check itself is a result: $\texttt{material\_forcing\_count} = 0$ on the audited
+shell. Absence of material forcing here is not evidence about other shells or protocols; it marks
+the exact boundary of which [C] machinery this instantiation exercises.
+
+\subsection{Gate table and knockout panel}
+
+The gate table (Table~\ref{tab:gt6-gate-table}) lists the framework's required checks for a
+strict-extension verdict and the evidence for each; two rows are marked not required because the
+claim is about enrichment of the description, not about a closed macroscopic dynamics.
+
+\input{tables/out/tab_gt6_gate_table.tex}
+
+The knockout panel (Table~\ref{tab:gt6-knockouts}) is an ablation study: each of the six
+primitives P1--P6 that the framework says a closed description can depend on is disabled in turn,
+and the effect on the result is recorded, in two distinct modes that the artifact's own nonclaim
+keeps separate. For P1--P3 the knockouts are \emph{numeric}: disabling the primitive (identity
+run kernels; the unconstrained-lumpable replacement; constant-$\epsilon$ replacement) degrades a
+declared numeric diagnostic past its declared threshold. For P4--P6 the knockouts are
+\emph{capability-loss} rows: removing the primitive makes the relevant downstream diagnostic
+unavailable or undefined rather than numerically degraded. There is no numeric threshold to cross
+in those rows, and none is claimed.
+
+\input{tables/out/tab_gt6_knockouts.tex}
+
+Supporting diagnostics are filed at their true, lower grades: the Fekete pressure-closure table is
+a float64 diagnostic (not an exact-rational certificate; sparse $N=10$ rows skipped by declared
+threshold and reported as such), and the spectral-gap table (\S\ref{sec:models}) calibrates the
+shell windows only. The gate row H5 (the macro-admissibility obstruction) cites the GT1
+theorem-grade certificate by content hash; paper [C] itself glosses this obligation as failure of
+admissible aggregation or lumpability at the macro level, which is precisely what GT1 certifies.
+
+\subsection{What strictness does not mean}
+
+The artifact's nonclaim register (printed in full in \S\ref{sec:discussion}) is part of the
+result. In particular: strictness is shell-local (no shell-general strict-bridge theorem, no
+broader-class transfer); strictness does not imply that the memory layer has an autonomous closed
+dynamics of its own, nor that anything drives it (no P6\_drive audit was performed); the pressure
+gap is neither a closure deficit nor the strictness witness; and the promotion is a single bridge
+$T_0 \to T_1$. The framework has no theorem for stacking such bridges, and none is used.

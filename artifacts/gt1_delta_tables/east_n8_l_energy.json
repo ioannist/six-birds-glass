@@ -1,0 +1,134 @@
+{
+  "artifact_kind": "delta_table",
+  "claim_grade": "theorem_audited_class",
+  "claim_id": "GT1.east.8.L_energy.delta",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "6f148b4971abcdda81daac4ba7b49d2b8d9b34158c63e921c3c034372b8b96f8",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "GT1 certificate is scoped to East N=8 and L_energy only; FA and L_panel are undone extensions.",
+    "The tau ladder is the declared finite ladder [1, 2, 4, 8], not the full combinatorial grid.",
+    "Constrained East equilibrium under L_energy is a nonzero stationary CD baseline; only the unconstrained lumpable control is exact-zero.",
+    "[B] benchmark-parity control is filed as skipped in this artifact because the paper-specific example chains were not ported in this remediation packet."
+  ],
+  "payload": {
+    "controls": {
+      "b_benchmark_parity": {
+        "pass": null,
+        "reason": "Paper [B] example-chain parity was not ported in this remediation packet.",
+        "status": "skipped"
+      },
+      "delta_is_saturation_diagnostic_only": {
+        "note": "No claim is made that delta itself counts glass states.",
+        "pass": true
+      },
+      "equilibrium_fixed_point_identity": {
+        "case": "equilibrium_hot_baseline",
+        "pass": true,
+        "prototype_rule": "gibbs"
+      }
+    },
+    "grid": [
+      {
+        "case": "equilibrium_hot_baseline",
+        "delta_float": 0.2649221453287197,
+        "delta_pq": "1225/4624",
+        "epsilon": "7/10",
+        "epsilon_retention_pq": "1225/4624",
+        "fixed_point_identity_pass": true,
+        "prototype_rule": "gibbs",
+        "tau": 1,
+        "uniform_matches_gibbs_exact": true,
+        "window_flags": [
+          "declared_delta_tau"
+        ]
+      },
+      {
+        "case": "equilibrium_hot_baseline",
+        "delta_float": 0.2649221453287197,
+        "delta_pq": "1225/4624",
+        "epsilon": "7/10",
+        "epsilon_retention_pq": "1225/4624",
+        "fixed_point_identity_pass": true,
+        "prototype_rule": "uniform",
+        "tau": 1,
+        "uniform_matches_gibbs_exact": true,
+        "window_flags": [
+          "declared_delta_tau"
+        ]
+      },
+      {
+        "case": "aging_cold_leg",
+        "delta_float": 0.6327479338842975,
+        "delta_pq": "1225/1936",
+        "epsilon": "1/10",
+        "epsilon_retention_pq": "1225/1936",
+        "fixed_point_identity_pass": null,
+        "prototype_rule": "gibbs",
+        "tau": 1,
+        "uniform_matches_gibbs_exact": true,
+        "window_flags": [
+          "declared_delta_tau"
+        ]
+      },
+      {
+        "case": "aging_cold_leg",
+        "delta_float": 0.6327479338842975,
+        "delta_pq": "1225/1936",
+        "epsilon": "1/10",
+        "epsilon_retention_pq": "1225/1936",
+        "fixed_point_identity_pass": null,
+        "prototype_rule": "uniform",
+        "tau": 1,
+        "uniform_matches_gibbs_exact": true,
+        "window_flags": [
+          "declared_delta_tau"
+        ]
+      }
+    ],
+    "prototype_rule_note": "For East with L_energy, gibbs-within-fiber and uniform prototypes are exactly identical because the stationary weight depends only on energy inside each fiber.",
+    "prototype_rules": [
+      "gibbs",
+      "uniform"
+    ],
+    "scope": {
+      "N": 8,
+      "epsilon_hi": "7/10",
+      "epsilon_lo": "1/10",
+      "lens": "L_energy",
+      "math_reference": "math/gb2_protocol_cd.md",
+      "model": "east",
+      "out_of_scope": [
+        "FA replication",
+        "L_panel",
+        "N=10",
+        "full tau ladder"
+      ],
+      "t_w": 20
+    },
+    "thresholds": {
+      "achieved_delta_ratio": "289/121",
+      "aging_exceeds_equilibrium_margin": true,
+      "delta_margin_ratio_declared": "2/1"
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "51c57c8652174929c1511da78fecd41620dd1713d370b45de194adc61a0594f3"
+  }
+}

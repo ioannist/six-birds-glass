@@ -1,0 +1,216 @@
+{
+  "artifact_kind": "lean_fidelity_table",
+  "claim_grade": "recognition",
+  "claim_id": "GB9.lean_fidelity_table",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "df254a2af32958e05ac3bb5ff3d537860e21cb6f9b7e959cf6fd74fea86fe659",
+  "config_path": "lean/",
+  "evidence_type": "lean_checked",
+  "nonclaims": [
+    "The real Kovacs numeric split-pair witness is not encoded in Lean.",
+    "No non-vacuous PredictiveWitness, StrictRefinement, or LoopAsymmetry instance is claimed.",
+    "The GlassWitness instance is structural and index-based, not a real numeric package export."
+  ],
+  "payload": {
+    "allowed_extra_fidelity": "computational evidence only",
+    "fidelity_legend": [
+      "verified",
+      "narrowed / parametric",
+      "schema (projection)",
+      "trivial",
+      "typed mirror"
+    ],
+    "native_decide_grep_result": "",
+    "rows": [
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_implies_currentEventEquiv",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic implication.",
+        "paper_or_project_claim": "A Thm 3.1: future predictive equivalence implies current event equivalence"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "predictiveToCurrent_commutes_with_transport",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic implication.",
+        "paper_or_project_claim": "A Thm 3.2: predictive-to-current map commutes with transport"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "predictiveQuotient_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic theorem.",
+        "paper_or_project_claim": "A Thm 3.3: predictive quotient is future-sufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_stateEq_implies_futurePredictiveEquiv",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic theorem.",
+        "paper_or_project_claim": "Kernel-refinement lemma: sufficient state equality implies future equivalence"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic theorem.",
+        "paper_or_project_claim": "A Thm 3.4: future-sufficient states factor through predictive quotient on reachable states"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorization_unique_onReachable",
+        "native_decide_used": false,
+        "notes": "Vendored unchanged; abstract generic theorem.",
+        "paper_or_project_claim": "A Thm 3.4: reachable factorization uniqueness"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Witnesses.lean",
+        "lean_name": "strictRefinement_iff_nonempty_predictiveWitness",
+        "native_decide_used": false,
+        "notes": "True as a general implication, but its antecedent is unsatisfiable for any RouteTransportCore instance -- see strictRefinement_impossible_GENERIC (P4-11) -- so this theorem cannot be witnessed non-vacuously by any concrete instance, glass or otherwise.",
+        "paper_or_project_claim": "A Thm 3.5: strict refinement iff nonempty predictive witness"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Asymmetry.lean",
+        "lean_name": "loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+        "native_decide_used": false,
+        "notes": "True as a general implication, but its antecedent is unsatisfiable for any RouteTransportCore instance -- see strictRefinement_impossible_GENERIC (P4-11) -- so this theorem cannot be witnessed non-vacuously by any concrete instance, glass or otherwise.",
+        "paper_or_project_claim": "A Thm 3.6: loop asymmetry exhibits moved predictive class with fixed current image"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "current_implies_future_GENERIC",
+        "native_decide_used": false,
+        "notes": "New derivation from RouteTransportCore axioms.",
+        "paper_or_project_claim": "GB9 scope-boundary lemma: current equivalence implies future equivalence"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "predictiveWitness_impossible_GENERIC",
+        "native_decide_used": false,
+        "notes": "New corollary of current_implies_future_GENERIC.",
+        "paper_or_project_claim": "GB9 corollary: predictive witnesses are impossible in RouteTransportCore"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "strictRefinement_impossible_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proved through predictiveWitness_impossible_GENERIC and the vendored iff theorem.",
+        "paper_or_project_claim": "GB9 corollary: strict refinement is impossible in RouteTransportCore"
+      },
+      {
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "push_id",
+        "native_decide_used": false,
+        "notes": "Real proof over one small structural glass-shaped instance.",
+        "paper_or_project_claim": "glassInstance coherence proof: push_id"
+      },
+      {
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "observe_push",
+        "native_decide_used": false,
+        "notes": "Real proof over one small structural glass-shaped instance.",
+        "paper_or_project_claim": "glassInstance coherence proof: observe_push"
+      },
+      {
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "push_compose",
+        "native_decide_used": false,
+        "notes": "Real proof over one small structural glass-shaped instance.",
+        "paper_or_project_claim": "glassInstance coherence proof: push_compose"
+      },
+      {
+        "fidelity": "typed mirror",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "glassInstance",
+        "native_decide_used": false,
+        "notes": "Typed structural mirror of the two-interface Kovacs package shape.",
+        "paper_or_project_claim": "glassInstance structural RouteTransportCore data"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "does not depend on any axioms",
+        "fidelity": "schema (projection)",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "glassPredictiveQuotient_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Specializes an already-proven generic theorem to one instance.",
+        "paper_or_project_claim": "Specialization of predictive quotient sufficiency to glassInstance at mid"
+      },
+      {
+        "fidelity": "computational evidence only",
+        "lean_file": null,
+        "lean_name": null,
+        "native_decide_used": false,
+        "notes": "No Lean encoding is claimed or attempted for this witness's real numeric values; current_implies_future_GENERIC shows any such attempt would be incoherent under RouteTransportCore's axioms. This certificate's exact-rational Python computation (evidence_type: exact_rational in its own artifact envelope) is the only claim made about it: artifacts/gt2_witnesses/kovacs_moment.json.",
+        "paper_or_project_claim": "Real Kovacs exact-rational numeric split-pair witness"
+      }
+    ]
+  },
+  "quantifier_domain": {
+    "N_values": [],
+    "epsilon_grid": [],
+    "lens_catalog_hash": "49d191708fa01e51f4ea4bb85576c46f9c3b142ed6d9d13242cac77bf467474a",
+    "model_families": [
+      "abstract_route_transport",
+      "glass_structural_instance"
+    ],
+    "protocol_catalog_hash": "9c0fafe7cfbde4a5f9214b3dd5b4dd3080db382a4cb32b0d88ef94065b963630"
+  },
+  "scope_boundary_finding": "For every RouteTransportCore instance, CurrentEventEquiv implies FuturePredictiveEquiv via pullEvent and observe_push. PredictiveWitness, StrictRefinement, and non-vacuous LoopAsymmetry therefore cannot be instantiated honestly in this core; the real Kovacs numeric witness remains an exact-rational Python certificate only. The closest precedents are Kemeny-Snell strong lumpability for the proof shape and Chu-space biextensional collapse for the vocabulary."
+}

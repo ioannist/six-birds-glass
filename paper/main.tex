@@ -1,0 +1,162 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{mathtools}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[numbers]{natbib}
+\usepackage{doi}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{orcidlink}
+\usepackage{titling}
+
+%--- paper-local packages ---
+% longtable is required by the generated tables under tables/out/.
+\usepackage{longtable}
+
+\input{includes/paper_macros.tex}
+\input{includes/release_metadata}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\floatname{algorithm}{Algorithm}
+
+\urlstyle{same}
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  labelsep=period
+}
+\captionsetup[table]{skip=6pt,position=top}
+\captionsetup[figure]{skip=6pt}
+\captionsetup[algorithm]{skip=6pt,position=top}
+\crefname{algorithm}{algorithm}{algorithms}
+\Crefname{algorithm}{Algorithm}{Algorithms}
+\crefname{theorem}{theorem}{theorems}
+\Crefname{theorem}{Theorem}{Theorems}
+\crefname{lemma}{lemma}{lemmas}
+\Crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{proposition}{propositions}
+\Crefname{proposition}{Proposition}{Propositions}
+\crefname{corollary}{corollary}{corollaries}
+\Crefname{corollary}{Corollary}{Corollaries}
+\crefname{definition}{definition}{definitions}
+\Crefname{definition}{Definition}{Definitions}
+\crefname{remark}{remark}{remarks}
+\Crefname{remark}{Remark}{Remarks}
+\setlist[enumerate]{leftmargin=*, itemsep=2pt, topsep=4pt}
+\setlength{\droptitle}{-3.2em}
+\pretitle{\begin{center}\LARGE\bfseries}
+\posttitle{\par\end{center}\vspace{0.5em}}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\par\end{center}\vspace{-0.4em}}
+\predate{\begin{center}\small}
+\postdate{\par\end{center}\vspace{0.6em}}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+\allowdisplaybreaks[2]
+\fancypagestyle{firstpage}{\fancyhf{}
+  \fancyfoot[C]{\scriptsize Automorph Inc., Wilmington, DE, USA \quad \texttt{ioannis@automorph.io} \quad \textcopyright\ \manuscriptyear \quad CC-BY 4.0}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\title{Glass Is an Unclosed Layer:\\
+  Kovacs Memory as Predictive-Quotient Residue}
+\author{Ioannis Tsiokos\,\orcidlink{0009-0009-7659-5964}}
+\date{\manuscriptdate\quad\manuscriptversion\\[0.3em]
+  \ifpaperhasdoi DOI: \href{https://doi.org/\paperdoi}{\paperdoi}\fi}
+\hypersetup{
+  pdftitle={Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue},
+  pdfauthor={Ioannis Tsiokos},
+  hidelinks
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{firstpage}
+
+\begin{abstract}
+Sixty years of searching have produced no universally accepted static order parameter for glass,
+and the Kovacs crossover experiment of 1963 illustrates the difficulty: at the crossing moment the glass equals
+its equilibrium in the monitored quantity and then departs from it, so that quantity alone does
+not fix what happens next. We turn that observation into theorems on a small, exactly computable
+class of kinetically constrained models (East, Fredrickson--Andersen, and a Bouchaud-type trap
+family), where kernels, stationary measures, witnesses, and zero controls are ratios of integers
+and the remaining certificate evidence is deterministic float64, labeled as such in each
+artifact. The question we make precise is whether a declared readout forms a \emph{closed}
+description: whether its present value determines its own future statistics. On the declared
+scope we show: the energy readout of an aging East chain is far from closed, its closure deficit
+exceeding the constrained-equilibrium baseline by a certified margin of $3/2$ (achieved
+$\approx 1.64$), and that baseline is itself provably nonzero, because closure is a property of
+the kinetic constraint rather than of equilibrium (GT1); the Kovacs protocol yields an exact pair
+of preparation histories with identical present mean energy and different futures (GT2); all
+$512$ yes/no functions of the declared energy readout agree on such a pair while a finer readout
+of the same microstate separates it, so no static order parameter built from the energy readout
+separates, on that class, what the pair's futures separate (GT3); five constructed look-alike
+regimes are correctly rejected by the same classifier that accepts the Kovacs candidate (GT4);
+one added scalar coordinate, a fictive-temperature-like index among others, resolves the pair,
+which demonstrates the repair mechanism without proving that one scalar is insufficient in
+general (GT5); the description of histories by future-equivalence strictly extends the declared
+energy-based description, certified for the audited shell (GT6);
+and aging constants frozen on East and transferred to FA under a pre-registered no-fitting protocol
+scored 8 passes and 14 one-sided failures, with the trap family unobservable for a reason we
+prove: the declared trap weight family's stationary distribution is exactly temperature-invariant
+(GT7). A vendored Lean core machine-checks the abstract witness and refinement theorems;
+attempting to encode the numeric witness produced a machine-checked impossibility theorem that
+locates that core's expressiveness boundary. Every claim is hash-pinned to its artifacts, and the
+full ledger of what is \emph{not} claimed is printed unabridged.
+\end{abstract}
+
+\medskip
+\noindent\textbf{Keywords.} glass transition; Kovacs effect; aging and memory; kinetically
+constrained models; East model; fictive temperature; closure deficit; lumpability; predictive
+quotient; Six Birds Theory; emergence calculus; exact finite certificates; pre-registered
+prediction; Lean.
+
+% Manuscript inputs.
+\input{sections/sec_01_introduction}
+\input{sections/sec_02_architecture_methods}
+\input{sections/sec_03_models_pipeline}
+\input{sections/sec_04_gt1}
+\input{sections/sec_05_gt2_gt5}
+\input{sections/sec_06_gt3_gt4}
+\input{sections/sec_07_gt6}
+\input{sections/sec_08_gt7}
+\input{sections/sec_09_gb9_lean}
+\input{sections/sec_10_gb10_bridges}
+\input{sections/sec_11_discussion}
+\input{sections/sec_12_conclusion}
+
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,67 @@
+{
+  "bridge_id": "kovacs_pvac",
+  "substrate_observable": {
+    "substrate": "polyvinyl acetate (PVAc)",
+    "observable": "specific-volume departure during volume recovery",
+    "protocol": "temperature-jump, aging hold, and second temperature jump in the Kovacs volume-recovery protocol"
+  },
+  "instrument": {
+    "apparatus": "dilatometric specific-volume measurement as reported in the Kovacs PVAc literature",
+    "resolution": "pending_source: source-specific numeric noise band and figure-resolution details were not verified in this session",
+    "visibility_record": {
+      "visible": [
+        "one-time specific volume",
+        "hump shape after the second temperature jump",
+        "later drift of matched-volume specimens"
+      ],
+      "suppressed": [
+        "polymer-chain conformational microstate",
+        "microscopic relaxation-channel decomposition",
+        "continuum-limit constitutive model"
+      ]
+    }
+  },
+  "level_map": [
+    {
+      "formal_object": "GT2 Kovacs-moment split pair and exact crossing/hump witness in artifacts/gt2_witnesses/kovacs_moment.json",
+      "formal_artifact_hash": "321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf",
+      "measured_structure": "measured Kovacs hump in PVAc volume recovery and matched-volume specimens with different later drift"
+    },
+    {
+      "formal_object": "GT5 buyback curve in artifacts/gt5_dimension/buyback_curve.json",
+      "formal_artifact_hash": "3f3c56405847a079f48bae350b3b35e901a5731470bcb4a092bd7f682f075559",
+      "measured_structure": "single-fictive-temperature readout as an intentionally limited scalar shadow of richer memory coordinates"
+    }
+  ],
+  "threshold_witness_relation": [
+    {
+      "signature": "Kovacs hump",
+      "criterion": "hump amplitude exceeds the declared instrument noise band and the measured drift changes sign after the crossing",
+      "threshold_value": "pending_source: exact source noise band not verified here"
+    },
+    {
+      "signature": "matched-volume split pair",
+      "criterion": "two specimens are matched on visible specific volume while their subsequent volume drift differs beyond the declared noise band",
+      "threshold_value": "pending_source: numeric drift threshold requires source recheck or digitization"
+    }
+  ],
+  "suppressed_structure_nonclaims": [
+    "no realization claim",
+    "no continuum-limit claim",
+    "microscopic detail suppressed",
+    "KCM kinetics are not the lab kinetics",
+    "bridge records do not fit East parameters to PVAc curves"
+  ],
+  "sources": [
+    {
+      "citation": "Kovacs, A. J. (1963), Fortschritte der Hochpolymeren-Forschung, volume recovery and glass transition in polyvinyl acetate",
+      "data_location": "pending_source: figure-level data location and stated precision require source recheck"
+    },
+    {
+      "citation": "Modern PVAc Kovacs-effect replications and analyses exist; exact bibliographic and figure-level details pending source verification",
+      "data_location": "pending_source"
+    }
+  ],
+  "status": "pending_source",
+  "pending_source_note": "General landmark facts are filed; exact numeric resolution, figure references, and digitized thresholds remain pending source verification."
+}

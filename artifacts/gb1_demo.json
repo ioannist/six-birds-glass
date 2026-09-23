@@ -1,0 +1,79 @@
+{
+  "artifact_kind": "math_demo",
+  "claim_grade": "recognition",
+  "claim_id": "GB1.temperature_protocol_trap.demo",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "78195cbe8aac6d4fae98b24add3b4a7c16671a855cc89690830385ba75fab7b5",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "GB1 demo records a pseudo-EPR identity and finite numerical check, not a closed general theorem.",
+    "The open obligation remains filed in the payload and is not discharged by this artifact."
+  ],
+  "payload": {
+    "artifact_status": "phase2_math_demo",
+    "common_temperature_recovery": {
+      "boundary_rate": 0.0,
+      "stationary_epr": 2.711709361697228e-30,
+      "temperatures": {
+        "0": 2.0,
+        "1": 2.0
+      }
+    },
+    "math_note": "math/gb1_temperature_trap.md",
+    "mixed_square_affinity": {
+      "absolute_error": 2.220446049250313e-16,
+      "energy_formula": -0.6666666666666667,
+      "kernel_log_ratio": -0.6666666666666665
+    },
+    "note": "GB1 demonstration artifact; not a GT-claim certificate.",
+    "open_obligation": "converting the clock-path expectation of the moving-reference telescoping boundary into the unconditional per-step KL envelope for arbitrary evolving state laws, without an additional domination or stationarity assumption",
+    "pseudo_epr_identity": {
+      "absolute_error": 1.734723475976807e-18,
+      "boundary_rate": 0.007933483003413132,
+      "candidate_epr": 0.007933483003413134
+    },
+    "three_state_demo": {
+      "alpha": 0.3333333333333333,
+      "bound_rate": 0.007933483003413132,
+      "energies": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 2.0
+      },
+      "sigma_vs_bound": [
+        {
+          "T": 1,
+          "bound": 0.007933483003413132,
+          "holds": true,
+          "sigma": 0.0066112358361776515
+        },
+        {
+          "T": 2,
+          "bound": 0.015866966006826265,
+          "holds": true,
+          "sigma": 0.013222471672355279
+        },
+        {
+          "T": 3,
+          "bound": 0.023800449010239397,
+          "holds": true,
+          "sigma": 0.019833707508532913
+        }
+      ],
+      "stationary_epr": 0.0066112358361776515,
+      "temperatures": {
+        "0": 3.0,
+        "1": 1.0
+      }
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [],
+    "epsilon_grid": [],
+    "lens_catalog_hash": "11f3c0246cf2d03cee18aa6c936dfb067425515369f2ab7317cb99e85d440393",
+    "model_families": [
+      "finite_protocol_trap_demo"
+    ],
+    "protocol_catalog_hash": "7847217d7ee184320d458a8554acb201bd55f8c7ed28c8d4c785cfb3d83d9307"
+  }
+}

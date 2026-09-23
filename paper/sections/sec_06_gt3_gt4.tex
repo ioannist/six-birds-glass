@@ -1,0 +1,92 @@
+\section{GT3 and GT4: Foreclosure and the Kill-Test Panel}
+\label{sec:gt3-gt4}
+%% Packet W-05. Ledger rows: GT3, GT4, GB1.
+
+\subsection{GT3: the order-parameter search, foreclosed on its declared class}
+
+In plain terms: a static order parameter built from the energy readout is a function of the
+energy value. On $N=8$ spins the energy takes $9$ values, so there are exactly $2^9 = 512$
+yes/no functions of it, and we can check them all. Every one of them agrees on a pair of histories
+that a finer readout of the same microstate, the occupation of the site next to the wall, tells
+apart. Precisely:
+
+\claimref{GT3}{25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7}
+On the declared scope (East, $N=8$, $\epsilon = 1/2$), the definability bound of F-III T14 makes
+the static-order-parameter search space finite: a fixed lens with image size $9$ defines exactly
+$2^9 = 512$ predicates. The sweep checks all $512$: every one agrees on the exhibited witness
+pair, while a distinguishing readout based on $n_1$ (the occupation of the site next to the wall)
+separates it, with exact gap $169/1536$ on the separating continuation
+(Table~\ref{tab:gt3-foreclosure}). The witness pair is a standalone reflection pair
+constructed for this sweep, deliberately \emph{not} chained to the GT2 certificate, so the two
+results fail independently. This is a constructive foreclosure: the distinguishing readout is
+exhibited and proven absent from the set of energy-definable predicates, not inferred from
+counting. Grade: theorem (audited class).
+
+\input{tables/out/tab_gt3_foreclosure.tex}
+
+The field-facing sentence, ``there is no static order parameter for glass,'' is licensed here
+\emph{only} as the declared-class shadow of this theorem (F-II item E2), with the class, the
+catalog, and the suppressed content named in the same breath: no predicate definable from the
+declared energy lens on the declared class separates what memory separates. Reading it as a
+statement about other instruments, other lens classes (in particular the amorphous order of
+random first-order transition theory \cite{kirkpatrick-thirumalai-wolynes-1989,lubchenko-wolynes-2007},
+the configurational-entropy line descending from \cite{adam-gibbs-1965}, or the local-structure
+measures surveyed in \cite{royall-williams-2015}), or the continuum is not licensed, and this
+paper does not do so. What the theorem does license, via the framework's no-free-distinction law
+(F-IV F12), is narrower and exact: any readout that \emph{does} separate this pair must carry
+declared information beyond the energy readout. Here that information is a present structural
+coordinate of the microstate ($n_1$, under the identity continuation), not a record of the
+history; the separation shows that the energy-based description is incomplete, and GT5
+separately shows that one added coordinate, structural or history-based, suffices to repair it
+on the Kovacs pair.
+
+\subsection{GT4: the kill-test panel}
+
+A memory signature can be faked. GT4 builds five schematic fixtures for the ways it can be
+faked, each a small package of two or three microstates at $N=4$ with declared readouts and
+continuations, and checks that the same deterministic classifier that accepts the Kovacs
+candidate (a reflection pair at $N=8$, distinguishable by the full spin panel but not by its
+reflection-invariant part) rejects all five. The fixtures are regime schemata, not physical
+mechanisms: the ``protocol trap'' pair carries a residue of its schedule in the readout, and its
+``honest'' twin replaces the identity continuation by a constant reset so the residue is no
+longer future-visible; the ``flattenable'' pair does the same for an incomplete continuation
+catalog; the ``explicitly latent'' pair differs in a bit the present readout does not see; the
+``dissipative'' fixture merges the two histories at a later interface; and the ``flat'' control
+is two copies of the $N=4$ equilibrium distribution, which by construction has nothing to
+separate. Precisely:
+
+\claimref{GT4}{160ed9c4bb65a8189f012fba1fb7e4a55fc17e323050437206c341c077b53619}
+Over the declared $9$-member thermal benchmark family, the deterministic triage classification
+identifies \texttt{kovacs\_wheel}, the Kovacs memory candidate, as the sole
+\texttt{coherent\_candidate}, while the five declared non-coherent regime controls
+(\texttt{artifact\_trap}, \texttt{dissipative}, \texttt{explicit\_latent}, \texttt{flat},
+\texttt{flattenable}) are correctly killed or cleared (Table~\ref{tab:gt4-regime-triage}).
+Protocol-trap discipline is applied: raw and cleared classifications are both recorded, so the
+table shows each artifact being caught (for instance, the naive protocol-trap fixture classifies as \texttt{artifact\_trap} raw and
+its constant-reset twin as \texttt{flat}). Grade: theorem (audited class), over the declared finite family only, not a
+shell-general theorem.
+
+\input{tables/out/tab_gt4_regime_triage.tex}
+
+\subsection{GB1: the protocol-trap caveat, carried openly}
+
+The ``protocol trap'' is a warning about arrows of time, not about memory: a system whose
+dynamics switch between several kernels under a clock can show a spurious time asymmetry if the
+clock is left outside the state. The framework's published theorem on this (F-I T-AOT-02) says
+that when the clock is reversible and every phase kernel is reversible with respect to a
+\emph{common} stationary measure, the autonomous lift of the system has zero entropy production
+and zero path-reversal asymmetry at every horizon, so any observed arrow must come from an
+external schedule or a stroboscopic fit. Kovacs kernels $K_\epsilon$ are reversible with respect
+to different Gibbs measures for each $\epsilon$, so the theorem does not apply as published, and
+the temperature switches contribute a nonzero boundary term.
+
+\claimref{GB1}{4173705a52c358bc74b51815929cb2a28c8f680b3421dafdb7633e97b051fa8e}
+GB1, the temperature-protocol version in the style of the protocol-trap microarticle
+\sbtcite{sbt-protocol-trap}, ships as a recognition-grade mathematical demonstration: an exact
+identity for that boundary term (a pseudo-entropy-production identity) plus a finite exact
+numerical check, with the general inequality filed as an explicitly open obligation in the
+artifact payload. Its role is to keep the arrow-of-time audit separate from the memory
+classification: GT4's triage computation is deterministic and exact, but the clock-audit
+\emph{discipline} it applies (raw versus cleared classification) rests, for temperature
+protocols, partly on this demonstration rather than on a closed theorem. This is the framework's
+conditional-reporting rule working as designed.

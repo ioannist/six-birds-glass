@@ -1,0 +1,432 @@
+{
+  "artifact_kind": "pressure_closure",
+  "claim_grade": "certificate_shell_local",
+  "claim_id": "GT6.pressure_closure.glass_shell",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "0cc7a0a370a5abd38e185c604e9e11616d8587ce222c2eb7b86d9318b421e51d",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "Pressure closure is a float64 Fekete diagnostic, not an exact-rational certificate.",
+    "N=10 dense pressure rows may be skipped by declared threshold and are reported as such."
+  ],
+  "payload": {
+    "artifact_status": "phase3_pressure_closure_support",
+    "declarations": {
+      "dense_state_threshold": 256,
+      "n_min": 4,
+      "n_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "subadditivity_pairs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "tilt_grid": [
+        "-1/2",
+        "-1/5",
+        "0/1",
+        "1/5",
+        "1/2"
+      ]
+    },
+    "note": "Fekete pressure-closure support table for route (a); N=10 dense rows are explicitly skipped when they exceed the declared dense threshold.",
+    "rows": [
+      {
+        "N": 10,
+        "shell_exits": 0,
+        "size": 1024,
+        "skip_reason": "state_count=1024 exceeds dense_state_threshold=256",
+        "status": "skipped_dense_threshold",
+        "tilt": "-1/2",
+        "witness": "kovacs_N10"
+      },
+      {
+        "N": 10,
+        "shell_exits": 0,
+        "size": 1024,
+        "skip_reason": "state_count=1024 exceeds dense_state_threshold=256",
+        "status": "skipped_dense_threshold",
+        "tilt": "-1/5",
+        "witness": "kovacs_N10"
+      },
+      {
+        "N": 10,
+        "shell_exits": 0,
+        "size": 1024,
+        "skip_reason": "state_count=1024 exceeds dense_state_threshold=256",
+        "status": "skipped_dense_threshold",
+        "tilt": "0/1",
+        "witness": "kovacs_N10"
+      },
+      {
+        "N": 10,
+        "shell_exits": 0,
+        "size": 1024,
+        "skip_reason": "state_count=1024 exceeds dense_state_threshold=256",
+        "status": "skipped_dense_threshold",
+        "tilt": "1/5",
+        "witness": "kovacs_N10"
+      },
+      {
+        "N": 10,
+        "shell_exits": 0,
+        "size": 1024,
+        "skip_reason": "state_count=1024 exceeds dense_state_threshold=256",
+        "status": "skipped_dense_threshold",
+        "tilt": "1/2",
+        "witness": "kovacs_N10"
+      },
+      {
+        "N": 8,
+        "computed_ladder_inf": -0.02691224699851217,
+        "epsilon": "2/5",
+        "fekete_gap": 0.0010949737451725824,
+        "growth_bound": -0.02691224699851217,
+        "ladder": {
+          "1": -0.014152147336218232,
+          "2": -0.01809862370283409,
+          "3": -0.02087119246182577,
+          "4": -0.022860571113040653,
+          "5": -0.024320040333638875,
+          "6": -0.025415014078811457,
+          "7": -0.026254718330645417,
+          "8": -0.02691224699851217
+        },
+        "margins": {
+          "mixing_time_bound": 12740.96241164871,
+          "spectral_gap": 0.0010784130398537872,
+          "tau_rel": 927.2884906283973
+        },
+        "shell_exits": 0,
+        "size": 256,
+        "status": "computed",
+        "subadditivity_checks": [
+          {
+            "log_phi_n_plus_log_phi_m": -0.028304294672436465,
+            "log_phi_n_plus_m": -0.03619724740566818,
+            "m": 1,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.05034939474188641,
+            "log_phi_n_plus_m": -0.0626135773854773,
+            "m": 2,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.09881082479114549,
+            "log_phi_n_plus_m": -0.12160020166819438,
+            "m": 3,
+            "n": 2,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.15405586183763992,
+            "log_phi_n_plus_m": -0.18378302831451793,
+            "m": 4,
+            "n": 3,
+            "passed": true,
+            "tolerance": 1e-10
+          }
+        ],
+        "subadditivity_verified": true,
+        "tilt": "-1/2",
+        "witness": "kovacs_N8"
+      },
+      {
+        "N": 8,
+        "computed_ladder_inf": -0.017147998518886768,
+        "epsilon": "2/5",
+        "fekete_gap": 0.0011986035260563473,
+        "growth_bound": -0.017147998518886768,
+        "ladder": {
+          "1": -0.006494948262102162,
+          "2": -0.008928603424984756,
+          "3": -0.010952632785030026,
+          "4": -0.012643669621541833,
+          "5": -0.014063580786762179,
+          "6": -0.015262184312818526,
+          "7": -0.016279565848014828,
+          "8": -0.017147998518886768
+        },
+        "margins": {
+          "mixing_time_bound": 12740.96241164871,
+          "spectral_gap": 0.0010784130398537872,
+          "tau_rel": 927.2884906283973
+        },
+        "shell_exits": 0,
+        "size": 256,
+        "status": "computed",
+        "subadditivity_checks": [
+          {
+            "log_phi_n_plus_log_phi_m": -0.012989896524204325,
+            "log_phi_n_plus_m": -0.017857206849969512,
+            "m": 1,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.024352155112071675,
+            "log_phi_n_plus_m": -0.03285789835509008,
+            "m": 2,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.05071510520505959,
+            "log_phi_n_plus_m": -0.07031790393381089,
+            "m": 3,
+            "n": 2,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": -0.0834325768412574,
+            "log_phi_n_plus_m": -0.1139569609361038,
+            "m": 4,
+            "n": 3,
+            "passed": true,
+            "tolerance": 1e-10
+          }
+        ],
+        "subadditivity_verified": true,
+        "tilt": "-1/5",
+        "witness": "kovacs_N8"
+      },
+      {
+        "N": 8,
+        "computed_ladder_inf": 2.775557561562891e-17,
+        "epsilon": "2/5",
+        "fekete_gap": 7.401486830834375e-18,
+        "growth_bound": 2.775557561562891e-17,
+        "ladder": {
+          "1": 2.2204460492503128e-16,
+          "2": 1.1102230246251564e-16,
+          "3": 7.401486830834377e-17,
+          "4": 5.551115123125782e-17,
+          "5": 4.440892098500626e-17,
+          "6": 3.700743415417188e-17,
+          "7": 3.172065784643304e-17,
+          "8": 2.775557561562891e-17
+        },
+        "margins": {
+          "mixing_time_bound": 12740.96241164871,
+          "spectral_gap": 0.0010784130398537872,
+          "tau_rel": 927.2884906283973
+        },
+        "shell_exits": 0,
+        "size": 256,
+        "status": "computed",
+        "subadditivity_checks": [
+          {
+            "log_phi_n_plus_log_phi_m": 4.4408920985006257e-16,
+            "log_phi_n_plus_m": 2.2204460492503128e-16,
+            "m": 1,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 4.4408920985006257e-16,
+            "log_phi_n_plus_m": 2.2204460492503128e-16,
+            "m": 2,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 4.4408920985006257e-16,
+            "log_phi_n_plus_m": 2.2204460492503128e-16,
+            "m": 3,
+            "n": 2,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 4.4408920985006257e-16,
+            "log_phi_n_plus_m": 2.2204460492503128e-16,
+            "m": 4,
+            "n": 3,
+            "passed": true,
+            "tolerance": 1e-10
+          }
+        ],
+        "subadditivity_verified": true,
+        "tilt": "0/1",
+        "witness": "kovacs_N8"
+      },
+      {
+        "N": 8,
+        "computed_ladder_inf": 1.2369962430439276,
+        "epsilon": "2/5",
+        "fekete_gap": 0.025244098052393138,
+        "growth_bound": 1.2369962430439276,
+        "ladder": {
+          "1": 1.4613377142377355,
+          "2": 1.409986071774871,
+          "3": 1.3675409234113243,
+          "4": 1.332155006437226,
+          "5": 1.3023922275378823,
+          "6": 1.2771481294854892,
+          "7": 1.2555705504757582,
+          "8": 1.2369962430439276
+        },
+        "margins": {
+          "mixing_time_bound": 12740.96241164871,
+          "spectral_gap": 0.0010784130398537872,
+          "tau_rel": 927.2884906283973
+        },
+        "shell_exits": 0,
+        "size": 256,
+        "status": "computed",
+        "subadditivity_checks": [
+          {
+            "log_phi_n_plus_log_phi_m": 2.922675428475471,
+            "log_phi_n_plus_m": 2.819972143549742,
+            "m": 1,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 4.281309857787477,
+            "log_phi_n_plus_m": 4.102622770233973,
+            "m": 2,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 6.922594913783715,
+            "log_phi_n_plus_m": 6.511961137689411,
+            "m": 3,
+            "n": 2,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 9.431242795982877,
+            "log_phi_n_plus_m": 8.788993853330307,
+            "m": 4,
+            "n": 3,
+            "passed": true,
+            "tolerance": 1e-10
+          }
+        ],
+        "subadditivity_verified": true,
+        "tilt": "1/5",
+        "witness": "kovacs_N8"
+      },
+      {
+        "N": 8,
+        "computed_ladder_inf": 3.292869122065538,
+        "epsilon": "2/5",
+        "fekete_gap": 0.03546367616019541,
+        "growth_bound": 3.292869122065538,
+        "ladder": {
+          "1": 3.6700371907240563,
+          "2": 3.5635409672344776,
+          "3": 3.4841389693445373,
+          "4": 3.4243032605569277,
+          "5": 3.3785805584775543,
+          "6": 3.343116882317359,
+          "7": 3.3151909060545877,
+          "8": 3.292869122065538
+        },
+        "margins": {
+          "mixing_time_bound": 12740.96241164871,
+          "spectral_gap": 0.0010784130398537872,
+          "tau_rel": 927.2884906283973
+        },
+        "shell_exits": 0,
+        "size": 256,
+        "status": "computed",
+        "subadditivity_checks": [
+          {
+            "log_phi_n_plus_log_phi_m": 7.340074381448113,
+            "log_phi_n_plus_m": 7.127081934468955,
+            "m": 1,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 10.797119125193012,
+            "log_phi_n_plus_m": 10.452416908033612,
+            "m": 2,
+            "n": 1,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 17.579498842502566,
+            "log_phi_n_plus_m": 16.892902792387773,
+            "m": 3,
+            "n": 2,
+            "passed": true,
+            "tolerance": 1e-10
+          },
+          {
+            "log_phi_n_plus_log_phi_m": 24.14962995026132,
+            "log_phi_n_plus_m": 23.206336342382112,
+            "m": 4,
+            "n": 3,
+            "passed": true,
+            "tolerance": 1e-10
+          }
+        ],
+        "subadditivity_verified": true,
+        "tilt": "1/2",
+        "witness": "kovacs_N8"
+      }
+    ]
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8,
+      10
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "dacf1bb86b771e4b945d018041c5d72b709df961d5e14115e115309494381747"
+  }
+}

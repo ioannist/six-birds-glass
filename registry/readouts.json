@@ -1,0 +1,458 @@
+{
+  "content_hash": "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+  "freeze_note": "The design text describes F1 as a git commit, but this repository has only the manager-created design-pack commit and implementation commits are manager-gated. This registry is therefore frozen by its own canonical JSON content_hash, computed with the content_hash field removed.",
+  "grid_products": {
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "hump_surface_cells": [
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      }
+    ],
+    "protocol_catalog_instances": [
+      {
+        "constructor": "p_kovacs",
+        "instance_id": "kovacs_default",
+        "params": {
+          "epsilon_hi": "7/10",
+          "epsilon_lo": "1/10",
+          "epsilon_mid": "2/5",
+          "t_w": 40,
+          "tau_hot": 0,
+          "tau_probe": 60
+        }
+      },
+      {
+        "constructor": "p_kovacs",
+        "instance_id": "kovacs_short",
+        "params": {
+          "epsilon_hi": "7/10",
+          "epsilon_lo": "1/10",
+          "epsilon_mid": "2/5",
+          "t_w": 30,
+          "tau_hot": 0,
+          "tau_probe": 60
+        }
+      },
+      {
+        "constructor": "p_quench",
+        "instance_id": "quench_only",
+        "params": {
+          "epsilon_hi": "7/10",
+          "epsilon_lo": "1/10",
+          "t_w": 60,
+          "tau_mix": 0
+        }
+      }
+    ],
+    "tau_ladder": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "readouts": [
+    {
+      "definition": "first step t on the ε_mid leg of `P_kovacs(t_w)` with (⟨E⟩(t) - E_eq(ε_mid)) changing sign",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "exact trace (N ≤ 10) or MC trace (N ≤ 16, frozen seeds)",
+      "readout_id": "t_K",
+      "run_only": true
+    },
+    {
+      "definition": "max_t≥t_K (⟨E⟩(t) - E_eq(ε_mid)); report as exact rational (certificate runs) or mean ± MC band (sweeps)",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "same",
+      "readout_id": "hump_height",
+      "run_only": true
+    },
+    {
+      "definition": "argmax of the above",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "same",
+      "readout_id": "t_peak",
+      "run_only": true
+    },
+    {
+      "definition": "the map (ε_hi, ε_lo, ε_mid, t_w) ↦ (t_K, t_peak, hump_height) over the declared grid product",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "Leg-2 sweep",
+      "readout_id": "hump_surface",
+      "run_only": true
+    },
+    {
+      "definition": "MaxFiber and buyback-curve knots (see `07_gt5_dimension.md`) as functions of protocol-catalog index",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "pipeline",
+      "readout_id": "memdim_profile",
+      "run_only": true
+    },
+    {
+      "definition": "the sequence CD_τ(Π_std) and δ_{τ,f} over the declared τ ladder during aging; the \"exponent\" is a declared secant slope between two frozen ladder points, NOT a fit",
+      "gt3_cross_ref": {
+        "artifact_hash": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json"
+      },
+      "produced_by": "GT1 tables",
+      "readout_id": "deficit_decay",
+      "run_only": true
+    }
+  ],
+  "registry_version": 1
+}

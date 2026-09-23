@@ -1,0 +1,121 @@
+{
+  "artifact_kind": "strict_extension_hypotheses",
+  "claim_grade": "certificate_shell_local",
+  "claim_id": "GT6.strict_extension_inputs.east_shell_N8",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "044aea07f53aaf18ef7ae3da5cc871f3a2f7ed6d14671a2da28c8a82ebef9558",
+  "config_path": "configs/gt6_shell_witness_n8.json",
+  "evidence_type": "exact_rational",
+  "nonclaims": [
+    "strict-extension inputs are shell-local and do not claim continuum or all-protocol closure",
+    "H5 and non-factorization are cited from prior artifacts, not recomputed here"
+  ],
+  "payload": {
+    "H2_endomap": {
+      "prototype_rule": "gibbs_within_L_energy_fibers",
+      "seed_count": 9,
+      "tau": 1,
+      "well_defined": true
+    },
+    "H3_saturation": {
+      "final_strata": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "iterations_to_saturation": 3,
+      "saturated": true,
+      "seed_count": 9,
+      "strata_count": 9
+    },
+    "H4_forcing": {
+      "material_forcing_count": 0,
+      "material_forcing_strata": [],
+      "with_conditioning": {
+        "final_strata": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "iterations_to_saturation": 3,
+        "saturated": true,
+        "seed_count": 9,
+        "strata_count": 9
+      },
+      "without_conditioning": {
+        "final_strata": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "iterations_to_saturation": 3,
+        "saturated": true,
+        "seed_count": 9,
+        "strata_count": 9
+      }
+    },
+    "H5_macro_admissibility_obstruction": {
+      "artifact_path": "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+      "sha256": "a0cea276116f05fcbb10844c527aac69d2027c70210a19db4753364d6c54d44e",
+      "summary": "GT1 closure-deficit certificate records constrained East under L_energy with positive CD against the declared equilibrium baseline."
+    },
+    "nonfactorization": {
+      "citations": [
+        {
+          "artifact_path": "artifacts/gt2_witnesses/kovacs_moment.json",
+          "has_split_pair": true,
+          "sha256": "321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf",
+          "summary": "GT2 Kovacs-moment witness: same current energy readout, separated future.",
+          "t0_descriptor": "L_energy.mean=20/7"
+        },
+        {
+          "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json",
+          "has_split_pair": true,
+          "sha256": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7",
+          "summary": "GT3 reflection witness: same full L_energy distribution over Def(l_energy), separated by n_1 readout.",
+          "t0_descriptor": "L_energy.full_distribution.N8.reflection_pair"
+        }
+      ],
+      "descriptor_count": 2,
+      "rate": "1/1",
+      "split_descriptor_count": 2
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "0b89a4ce75981d8341707c8a9fc8ffc27dbb6277a3960a4b3148eb977a3f68a4"
+  }
+}

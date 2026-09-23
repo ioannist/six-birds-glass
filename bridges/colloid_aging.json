@@ -1,0 +1,53 @@
+{
+  "bridge_id": "colloid_aging",
+  "substrate_observable": {
+    "substrate": "colloidal glass such as PMMA or polystyrene suspension near the glass volume fraction",
+    "observable": "two-time intermediate scattering function f(q, t_w, t)",
+    "protocol": "waiting-time-dependent aging measurement after preparation or quench at fixed observed structure"
+  },
+  "instrument": {
+    "apparatus": "dynamic light scattering or confocal microscopy correlation measurement",
+    "resolution": "pending_source: q value, volume fraction, and reported uncertainty band were not verified in this session",
+    "visibility_record": {
+      "visible": [
+        "two-time scattering correlation",
+        "waiting time",
+        "coarse structural panel such as static pair structure"
+      ],
+      "suppressed": [
+        "particle-level trajectory ensemble",
+        "hydrodynamic and polydispersity details",
+        "full preparation-history microstate"
+      ]
+    }
+  },
+  "level_map": [
+    {
+      "formal_object": "GB2 protocol-relative closure-deficit demonstration in artifacts/gb2_demo.json",
+      "formal_artifact_hash": "847f389464f9196f2315c05e3cef842efa94f201aad26f19b5dc4071e043f081",
+      "measured_structure": "waiting-time-dependent future relaxation at matched current structural panel"
+    }
+  ],
+  "threshold_witness_relation": [
+    {
+      "signature": "aging at fixed current structure",
+      "criterion": "two waiting-time classes have matched declared structural panel while their later f(q,t) curves separate beyond the declared uncertainty band",
+      "threshold_value": "pending_source: numeric separation band requires source-specific recheck"
+    }
+  ],
+  "suppressed_structure_nonclaims": [
+    "no realization claim",
+    "no continuum-limit claim",
+    "microscopic detail suppressed",
+    "KCM kinetics are not the lab kinetics",
+    "the bridge records a closure-deficit shadow, not a colloid parameter fit"
+  ],
+  "sources": [
+    {
+      "citation": "Courtland and Weeks (2003)-class colloidal-glass aging measurements of two-time dynamics",
+      "data_location": "pending_source: exact figure, q value, and uncertainty band require source recheck"
+    }
+  ],
+  "status": "pending_source",
+  "pending_source_note": "The qualitative bridge is filed; exact source fields for q, volume fraction, and uncertainty remain pending."
+}

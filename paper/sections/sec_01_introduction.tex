@@ -1,0 +1,131 @@
+\section{Introduction}
+\label{sec:intro}
+%% Packet W-11 (first half; written last, from the frozen results sections, per
+%% design/paper_plan.md and paper/narrative.md). Readability pass 2026-09-22: rewritten for a
+%% glass-physics reader; claims unchanged.
+
+\subsection{The problem}
+
+Anderson called the nature of glass and the glass transition probably the deepest and most
+interesting unsolved problem in solid-state theory \cite{anderson-1995}. One face of that problem is sixty years old and
+unusually concrete: no universally accepted static order parameter for glass has emerged. A glass and a liquid
+can agree in density, energy, and every routinely monitored one-time observable, yet behave
+differently \cite{debenedetti-stillinger-2001}; conventional low-order static correlations show no
+clear signature of the transition, and the candidate structural measures that do grow remain
+contested \cite{berthier-biroli-2011,cavagna-2009,tarjus-2011,royall-williams-2015}. A second face has sat in the laboratory record since 1963: Kovacs's
+crossover experiment \cite{kovacs-1963}. Equilibrate a polymer glass hot, quench it, age it, then
+jump the temperature up and watch its volume relax. At some moment the volume \emph{equals} its
+new equilibrium value, and does not stay there: it overshoots through a non-monotone hump before
+returning. At the crossing moment the sample is indistinguishable from equilibrium in the
+monitored observable and distinguishable from it in its future, a point made explicit at the
+level of configurations in simulation \cite{mossa-sciortino-2004}. The standard partial fix, the
+Tool--Narayanaswamy--Moynihan fictive temperature \cite{tool-1946,narayanaswamy-1971,moynihan-1976},
+adds one memory variable; richer protocols expose the limits of any single such variable and
+have motivated multiparameter models \cite{ritland-1956,kahr-1979,hodge-1994,mckenna-simon-2017}. Memory effects
+of this kind, in which a material's response depends on its history in a way no monitored
+one-time observable records, are now studied across many classes of matter \cite{keim-2019}.
+
+\subsection{The question, made precise}
+
+Both faces are the same question. Take a declared readout of the system (here, the energy of a
+spin chain; in the laboratory, the volume) and ask: \emph{is that readout a closed description of
+the dynamics?} A readout is closed over a horizon $\tau$ if its present value determines the
+statistics of its value $\tau$ steps later, so that a law can be written in the readout's
+vocabulary without loss, the informational closure of \cite{bertschinger-2006,pfante-2014}. In Markov-chain language the readout is closed at horizon $\tau$ exactly
+when the $\tau$-step readout transition probabilities agree across every populated microstate with
+the same readout, which for a fully supported distribution is lumpability of the readout
+\cite{burke-rosenblatt-1958,kemeny-snell-1960}. In this paper a static order-parameter candidate is taken in one operational sense only: a
+function of the declared readout that separates two preparations whose futures differ. Any
+function of the readout that fails to separate them (a constant does so trivially) cannot carry
+the information the futures carry, and that is the sense in which GT3 below forecloses the
+search: not that no coarsening of the energy is closed, but that none of them tells the exhibited
+pair apart. That is narrower than the field's usage. The Kovacs hump is a direct demonstration
+that the monitored volume is not closed.
+
+Once the question is put this way, three further questions become computable on a finite model.
+How far from closed is the readout, in nats? Can one exhibit a concrete certificate of the
+failure, that is, two preparation histories that agree on the readout now and differ in their
+futures? And is there \emph{any} function of the readout that recovers the missing predictive
+distinction, or must it be carried by a genuinely new coordinate, and at what cost?
+
+\subsection{What this paper does}
+
+We answer those questions on a class of models small enough that the certificates are exact
+ratios of integers wherever the artifact declares them so, and deterministic float64 elsewhere:
+kinetically constrained models
+\cite{ritort-sollich-2003,garrahan-sollich-toninelli-2011}, with the East model
+\cite{jackle-eisinger-1991} as the substrate on which everything is built and calibrated, and
+the Fredrickson--Andersen model \cite{fredrickson-andersen-1984} and a Bouchaud-type trap family
+\cite{bouchaud-1992,monthus-bouchaud-1996} as out-of-sample transfer targets. At the system sizes
+used ($N \le 10$ spins for certificates), transition kernels, stationary measures, witness pairs,
+and zero controls are ratios of integers; the closure-deficit grid of GT1 is deterministic
+float64 and is labeled as such in its artifact, with its margin far from the rounding scale. The
+price is that every result is a statement about a declared finite class of models, sizes,
+observables, and protocols, and we state that scope in every claim.
+
+The bookkeeping that keeps those scopes honest is borrowed from a certificate-based closure
+calculus, Six Birds Theory \sbtcite{sbt-primer,sbt-foundations-i,sbt-foundations-ii,%
+sbt-foundations-iii,sbt-foundations-iv,sbt-paper-a,sbt-paper-b,sbt-paper-c}. The reader does not
+need that corpus to follow this paper: \S\ref{sec:methods} defines every object we use in
+ordinary probabilistic terms, and the framework's own labels appear only where a claim is filed in
+its vocabulary, always with a plain gloss. Readers who want the formal anchors will find each
+claim's corpus reference in the claims ledger shipped with the paper.
+
+The results, each at its declared scope (\S\ref{sec:gt1}--\S\ref{sec:gt7}), read as follows.
+
+\begin{itemize}
+  \item \textbf{GT1, the energy readout is not closed.} For an aging East chain, the closure
+    deficit of the energy readout (the conditional mutual information between the microstate now
+    and the energy later, given the energy now) exceeds the same quantity at constrained
+    equilibrium by a certified factor of at least $3/2$. A correction to our own design
+    expectations came with it: the equilibrium value is provably \emph{not} zero, because
+    closure depends on where the mobile excitations sit, not on whether the chain is stationary.
+  \item \textbf{GT2, the Kovacs witness.} The Kovacs protocol on East yields an exact pair of
+    preparation histories with the same present mean energy and different future mean energies
+    under the declared continuation.
+  \item \textbf{GT3, the order-parameter search is foreclosed on the declared class.} Every one of
+    the $512$ yes/no functions definable from the declared energy readout agrees on a witness
+    pair that a finer readout of the same microstate (the occupation of the site next to the
+    wall) separates. On that class, no static order parameter built from the energy readout can
+    do the job; whatever does the job must carry information the energy readout does not.
+  \item \textbf{GT4, the kill-test panel.} The classifier that accepts the Kovacs memory
+    candidate correctly rejects five constructed look-alike regimes, schematic fixtures for a
+    protocol artifact, dissipation, an explicitly latent variable, an equilibrium control, and an
+    incomplete continuation catalog.
+  \item \textbf{GT5, the cost of repair.} One added scalar coordinate resolves the witness pair,
+    and a fictive-temperature-like index (the index of the grid point whose equilibrium mean energy is closest to each
+    microstate's energy, averaged over the history) is one of three that do. The
+    certificate shows the repair mechanism on this pair; it does not prove that one scalar is
+    insufficient in general.
+  \item \textbf{GT6, the memory layer is strictly richer.} The description of histories by
+    future-equivalence strictly extends the declared energy-based description, certified for the
+    audited shell (the frozen set of eligibility conditions, \S\ref{sec:methods}) by an explicit
+    gate table and ablation panel.
+  \item \textbf{GT7, aging constants transfer only partly.} Six aging readouts were frozen on
+    East, predictions for FA and the trap family were pre-registered, and the targets were then
+    run and scored mechanically: 8 of 22 scored predictions passed, 14 failed on the same side,
+    and the trap family produced no Kovacs hump at all, for a reason we prove.
+\end{itemize}
+
+Two further results come from the formalization effort (\S\ref{sec:lean}). A vendored core of
+the framework's theorems is machine-checked in the Lean proof assistant, and the attempt to encode
+the numeric Kovacs witness in that core produced a machine-checked impossibility theorem instead,
+which locates exactly which certificates can live in that core and why.
+
+\subsection{How to read the claims}
+
+Four contributions, in the order we would defend them. First, the \textbf{discipline}: every
+claim quantifies over a declared finite class, is pinned by content hash to the artifact that
+supports it, is accompanied by controls, and is filed together with what it does \emph{not}
+assert; honest negatives are results, and the discipline forced several of our own claims to
+shrink. Second, the \textbf{result complex} itself: seven claims, four bridges, and six honest
+negatives, each hash-pinned to its artifacts. The bracketed labels throughout, such as [GT1], are
+machine-checked citations into the claims ledger, not decoration. Third, the
+\textbf{freeze-and-transfer protocol with its actual scoreboard}: the failures are results, with
+a clean one-sided pattern and a proven structural explanation for the empty column. Fourth, the
+\textbf{Lean-checked core and the scope-boundary finding}.
+
+What this paper is not: it proves nothing about all glasses, the continuum, or the ideal-glass
+transition; it makes no irreversibility claims; and its field-facing sentence, ``no static order
+parameter,'' is licensed only over the declared class it is proved on. The full list of nonclaims
+is printed, unabridged, in \S\ref{sec:discussion}.

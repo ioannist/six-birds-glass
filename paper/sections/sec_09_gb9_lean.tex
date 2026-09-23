@@ -1,0 +1,68 @@
+\section{GB9: The Lean-Checked Core and the Scope-Boundary Finding}
+\label{sec:lean}
+%% Packet W-08. Ledger rows: GB9, FINDING.lean_collapse, NEG.lean_instance_structural.
+
+\subsection{What is machine-checked}
+
+Lean \cite{de-moura-ullrich-2021} is a proof assistant: a theorem stated in it is accepted only when a machine has checked
+every step, and a development ``compiles sorry-free'' when no step has been left as an
+unproved placeholder. We use it for the abstract theorems the certificates rely on (for example,
+that a witness pair exists if and only if the predictive description is strictly finer than the
+present one), so that those steps do not depend on a reader trusting the prose. Precisely:
+
+\claimref{GB9}{014c387c154a27d21d86e0454c25fea4ddc7ac8ecd3e7d3ea116d6f068a296c1}
+The vendored \texttt{HolonomyMemory} core (paper [A]'s Lean development
+\sbtcite{sbt-paper-a}) plus this project's \texttt{GlassWitness} extension compile sorry-free on
+the pinned toolchain (\texttt{leanprover/lean4:4.29.0}), with per-theorem axiom audits. Per the
+framework's fidelity legend, every row of the canonical 17-row fidelity table
+(Table~\ref{tab:lean-fidelity-full}) carries its true label: 11 rows \emph{verified} (including
+the three generic collapse theorems below and [A]'s witness/strict-refinement equivalence), 3
+\emph{narrowed/parametric} (core structure fields), 1 \emph{typed mirror} (the glass instance), 1
+\emph{schema projection}, and 1 \emph{computational evidence only} (the numeric Kovacs witness,
+which is deliberately not encoded; see below). No schema or trivial declaration is described as a
+verified proof anywhere in this paper, and closure-deficit computations are deterministic
+computational evidence, not Lean theorems.
+
+\input{tables/out/tab_lean_fidelity_full.tex}
+
+\subsection{The collapse finding}
+
+We intended to encode the numeric Kovacs witness of \S\ref{sec:gt2-gt5} in the core as well. The
+attempt produced a theorem instead: in this core, no such witness can exist. Precisely:
+
+\claimref{FINDING.lean\_collapse}{c70185334829fe8ad9f879a2288e90efe3d24700b8eeb5593f2de05341b62a51}
+For \emph{every} instance of \texttt{RouteTransportCore}, the \texttt{observe\_push} coherence
+field, combined with \texttt{CurrentEventEquiv}'s universal quantification over events, forces
+current equivalence to imply future-predictive equivalence
+(\texttt{current\_implies\_future\_GENERIC}); consequently non-vacuous \texttt{PredictiveWitness},
+\texttt{StrictRefinement}, and \texttt{LoopAsymmetry} instances cannot be constructed in this core
+at all (\texttt{predictiveWitness\_impossible\_GENERIC} and its strict-refinement companion;
+machine-checked, sorry-free). The mechanism: the core's naturality axiom lets every future event
+be pulled back to a present event, so ``agreement on all present events'' silently includes
+agreement on all pulled-back futures, and there is nothing left for a witness to separate.
+
+This is a genuine result about the formal core's expressiveness, strictly stronger than paper
+[A]'s own declared boundary, and it has a familiar shape. It is the proof pattern of strong
+lumpability for Markov chains \cite{kemeny-snell-1960,buchholz-1994}, where a local one-step
+coherence condition propagates an equivalence to all future times; and it has the form of
+biextensional collapse in the Chu-space sense \cite{barr-1979,pratt-1999,parente-2024}, with
+\texttt{pullEvent} playing a role analogous to the Chu transform's naturality condition. We
+offer the Chu-space reading as an analogy; no formal correspondence is claimed or proved here. The instructive
+contrast is the causal-state construction of computational mechanics
+\cite{shalizi-crutchfield-2001}, where agreement on the present generally does \emph{not} imply
+agreement on the future: the collapse here is forced by this core's axiom, not a generic feature
+of prediction.
+
+\subsection{The consequence, stated as understanding rather than apology}
+
+\claimref{NEG.lean\_instance\_structural}{014c387c154a27d21d86e0454c25fea4ddc7ac8ecd3e7d3ea116d6f068a296c1}
+The finding explains exactly which certificates can live in Lean and which cannot. The abstract
+theorems (witness if and only if strict refinement; factorization through $M$ and its uniqueness
+on the reachable image) are verified generically and apply to any instantiation. But a
+non-vacuous \emph{numeric} witness instance is unbuildable in this core, so \texttt{glassInstance}
+is filed as what it is: a typed, index-based structural mirror, with the real Kovacs split pair
+remaining exact-rational computational evidence in its own artifact (\S\ref{sec:gt2-gt5}). The
+Python certificates avoid the collapse because they quantify over a finite \emph{declared} catalog
+of futures rather than over all pullback-closed events. A formal core admitting numeric glass
+witnesses would need weaker coherence axioms; that is future formalization work, now with a
+machine-checked specification of exactly what must change.

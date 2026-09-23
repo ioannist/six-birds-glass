@@ -1,0 +1,19 @@
+% Shared manuscript macros for the paper.
+% Stable, cross-section macros — keep wording mechanically enforced via these.
+% Add macros incrementally as new vocabulary stabilizes during drafting; never redefine locally.
+
+%--- claim pinning -----------------------------------------------------------
+% \claimref{ROW_ID}{SHA256}: pins a claims-ledger row + one of its cited artifact hashes at the
+% citation site. The hash argument is NOT rendered (it would be noise in running prose); it is a
+% machine-checkable pin that tests/test_paper_gates.py verifies against paper/claims_ledger.json
+% and the current artifact bytes. Never hand-edit the hash without re-running
+% experiments/check_claims_ledger.py.
+\newcommand{\claimref}[2]{[#1]}
+
+%--- citation discipline -----------------------------------------------------
+% \sbtcite{KEY}: thin wrapper so SBT-corpus citations are visually distinguishable in the source
+% from literature citations, even though both compile through the same .bib file.
+\newcommand{\sbtcite}[1]{\cite{#1}}
+
+%--- nonclaims ---------------------------------------------------------------
+\newcommand{\nonclaim}[1]{\par\noindent\textit{Nonclaim:} #1\par}

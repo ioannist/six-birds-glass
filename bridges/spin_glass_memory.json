@@ -1,0 +1,53 @@
+{
+  "bridge_id": "spin_glass_memory",
+  "substrate_observable": {
+    "substrate": "canonical spin-glass system such as CuMn-class dilute magnetic alloys or CdCr-In spinels",
+    "observable": "out-of-phase AC susceptibility chi-double-prime under cooling-stop-reheat protocols",
+    "protocol": "cooling with one or more stops, low-temperature continuation, and reheating through the stop temperature"
+  },
+  "instrument": {
+    "apparatus": "AC susceptibility measurement under controlled thermal cycling",
+    "resolution": "pending_source: experiment-specific susceptibility scatter and frequency settings were not verified in this session",
+    "visibility_record": {
+      "visible": [
+        "AC susceptibility curve",
+        "memory dip on reheating",
+        "cooling-stop protocol label"
+      ],
+      "suppressed": [
+        "microscopic spin configuration",
+        "domain-wall or droplet-scale state variables",
+        "full experimental thermal history below the visible protocol summary"
+      ]
+    }
+  },
+  "level_map": [
+    {
+      "formal_object": "loop-asymmetry pattern from design/reference/A_holonomy_memory.md Thm 3.6, with the phase-1 parity table in artifacts/benchmark_suite/phase1_parity.json as the filed toy-pattern artifact; no real-East loop-certificate artifact file is present",
+      "formal_artifact_hash": "fade825187d851683d7f035f34e06b3c9ae0ded9b7b2b1afc69e6f5ab74b545d",
+      "measured_structure": "memory dip reappearing on reheat as a laboratory shadow of a loop that leaves the current panel unchanged while moving predictive class"
+    }
+  ],
+  "threshold_witness_relation": [
+    {
+      "signature": "spin-glass memory dip",
+      "criterion": "dip depth relative to a reference cooling curve exceeds a declared multiple of quoted experimental scatter",
+      "threshold_value": "pending_source: numeric scatter multiple and source-specific resolution not verified here"
+    }
+  ],
+  "suppressed_structure_nonclaims": [
+    "no realization claim",
+    "no continuum-limit claim",
+    "microscopic detail suppressed",
+    "KCM kinetics are not the lab kinetics",
+    "the filed bridge cites a formal loop-pattern artifact, not a certified real-East loop artifact"
+  ],
+  "sources": [
+    {
+      "citation": "Jonason et al. (1998), Physical Review Letters 81:3243-class spin-glass memory and rejuvenation experiments using AC susceptibility",
+      "data_location": "pending_source: exact figure and scatter-band details require source recheck"
+    }
+  ],
+  "status": "pending_source",
+  "pending_source_note": "The spin-glass bridge is filed as a pattern-level bridge because no real-East GT2 loop artifact file is present in artifacts/gt2_witnesses."
+}

@@ -1,0 +1,66 @@
+{
+  "citation_policy": {
+    "allowed_entries_without_identifiers": [
+      "sbt-primer",
+      "sbt-foundations-i",
+      "sbt-foundations-ii",
+      "sbt-foundations-iii",
+      "sbt-foundations-iv",
+      "sbt-paper-a",
+      "sbt-paper-b",
+      "sbt-paper-c",
+      "sbt-protocol-trap"
+    ]
+  },
+  "paper": {
+    "title": "Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue"
+  },
+  "profile": "ioannis-tsiokos",
+  "release_policy": {
+    "expected_remote": "https://github.com/ioannist/six-birds-glass"
+  },
+  "schema_version": 1,
+  "zenodo": {
+    "metadata": {
+      "custom": {
+        "code:codeRepository": "https://github.com/ioannist/six-birds-glass",
+        "code:programmingLanguage": [
+          {
+            "id": "lean",
+            "title": {
+              "en": "Lean"
+            }
+          },
+          {
+            "id": "python",
+            "title": {
+              "en": "Python"
+            }
+          },
+          {
+            "id": "tex",
+            "title": {
+              "en": "TeX"
+            }
+          }
+        ]
+      },
+      "keywords": [
+        "glass transition",
+        "Kovacs effect",
+        "aging and memory",
+        "kinetically constrained models",
+        "East model",
+        "fictive temperature",
+        "closure deficit",
+        "lumpability",
+        "predictive quotient",
+        "Six Birds Theory",
+        "emergence calculus",
+        "exact finite certificates",
+        "pre-registered prediction",
+        "Lean"
+      ]
+    }
+  }
+}

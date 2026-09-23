@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sixbirds-glass/witness_certificate.schema.json",
+  "title": "GT2 witness / loop certificate payload",
+  "description": "Payload for artifact_kind 'witness_certificate' or 'loop_certificate' inside the common envelope (artifact_envelope.schema.json). Rationals are 'p/q' strings.",
+  "type": "object",
+  "required": ["package_ref", "interface", "lens_id", "continuation_catalog_hash", "diagnostics"],
+  "properties": {
+    "package_ref": { "type": "string", "description": "path/hash of the declared route-transport package file" },
+    "interface": { "type": "string" },
+    "lens_id": { "type": "string" },
+    "continuation_catalog_hash": { "type": "string", "description": "M is protocol-catalog-relative; the catalog hash scopes the claim" },
+    "witness_pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["h_id", "hprime_id", "s0_equal_entries", "separating_entry"],
+        "properties": {
+          "h_id": { "type": "string" },
+          "hprime_id": { "type": "string" },
+          "family": { "enum": ["W_reflection", "W_kovacs_moment", "W_twoglass", "W_fa", "other"] },
+          "s0_equal_entries": {
+            "type": "array",
+            "description": "per current-event: (event_id, value) — the shared observation value; the generator asserts exact Fraction equality of both histories' observations before writing the row",
+            "items": {
+              "type": "object",
+              "required": ["event_id", "value"],
+              "properties": { "event_id": { "type": "string" }, "value": { "$ref": "#/$defs/rational" } }
+            }
+          },
+          "separating_entry": {
+            "type": "object",
+            "required": ["continuation_id", "event_id", "value_h", "value_hprime", "abs_gap"],
+            "properties": {
+              "continuation_id": { "type": "string" },
+              "event_id": { "type": "string" },
+              "value_h": { "$ref": "#/$defs/rational" },
+              "value_hprime": { "$ref": "#/$defs/rational" },
+              "abs_gap": { "$ref": "#/$defs/rational" }
+            }
+          },
+          "tuning": { "type": "object", "description": "theta* values for randomized-stop constructions, if any", "additionalProperties": { "$ref": "#/$defs/rational" } }
+        }
+      }
+    },
+    "loop": {
+      "type": "object",
+      "description": "loop_certificate only",
+      "required": ["loop_id", "schedule_word", "current_action", "predictive_action"],
+      "properties": {
+        "loop_id": { "type": "string" },
+        "schedule_word": { "type": "array", "items": { "type": "object" } },
+        "current_action": {
+          "type": "object",
+          "required": ["classes_total", "classes_moved", "score"],
+          "properties": {
+            "classes_total": { "type": "integer" },
+            "classes_moved": { "type": "integer", "const": 0 },
+            "score": { "$ref": "#/$defs/rational" },
+            "fixed_class_evidence": { "type": "array", "items": { "type": "object" } }
+          }
+        },
+        "predictive_action": {
+          "type": "object",
+          "required": ["classes_total", "classes_moved", "score", "moved_classes"],
+          "properties": {
+            "classes_total": { "type": "integer" },
+            "classes_moved": { "type": "integer", "minimum": 1 },
+            "score": { "$ref": "#/$defs/rational" },
+            "moved_classes": { "type": "array", "items": { "type": "object" } }
+          }
+        },
+        "intertwining_exhibit": { "type": "object", "description": "the moved-predictive/fixed-current class instance" }
+      }
+    },
+    "diagnostics": {
+      "type": "object",
+      "required": ["history_count", "current_quotient_size", "predictive_quotient_size", "max_fiber_size", "witness_count", "exact_max_abs_future_gap_value"],
+      "properties": {
+        "history_count": { "type": "integer" },
+        "current_quotient_size": { "type": "integer" },
+        "predictive_quotient_size": { "type": "integer" },
+        "max_fiber_size": { "type": "integer" },
+        "witness_count": { "type": "integer" },
+        "exact_max_abs_future_gap_value": { "$ref": "#/$defs/rational" },
+        "loop_action_score_current_quotient": { "$ref": "#/$defs/rational" },
+        "loop_action_score_predictive_quotient": { "$ref": "#/$defs/rational" }
+      }
+    },
+    "lean_hooks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["theorem_name", "fidelity"],
+        "properties": {
+          "theorem_name": { "type": "string" },
+          "lean_file": { "type": "string" },
+          "fidelity": { "type": "string" },
+          "native_decide_used": { "type": "boolean" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rational": { "type": "string", "pattern": "^-?[0-9]+/[1-9][0-9]*$" }
+  }
+}

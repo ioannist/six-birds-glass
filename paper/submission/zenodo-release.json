@@ -1,0 +1,88 @@
+{
+  "artifact": {
+    "bytes": 501328,
+    "filename": "Tsiokos_2026_Glass_Is_an_Unclosed_Layer_Kovacs_Memory_as_Predictive_Quotient_Residue.pdf",
+    "pages": 32,
+    "path": "paper/submission/artifacts/Tsiokos_2026_Glass_Is_an_Unclosed_Layer_Kovacs_Memory_as_Predictive_Quotient_Residue.pdf",
+    "sha256": "aa2755ac96d487196828a45f082c26eb9bd3a900ffa5b16530165d9cdb463e55",
+    "source_git_commit": "1e94048e1f888b945529797d34f9dd9663cf06b1",
+    "validated_values": {
+      "copyright": "© 2026",
+      "license": "CC-BY 4.0",
+      "paper version": "Preprint v1.0",
+      "publication date": "23 September 2026",
+      "reserved DOI": "10.5281/zenodo.22911309"
+    }
+  },
+  "assembled_at_utc": "2026-09-23T06:53:51.445608+00:00",
+  "dashboard_url": "https://zenodo.org/deposit/22911309",
+  "deposition_id": 22911309,
+  "doi_reservation": {
+    "client": "datacite",
+    "identifier": "10.5281/zenodo.22911309",
+    "provider": "datacite",
+    "verified_via": "rdm_pid_table"
+  },
+  "draft_source": "created",
+  "manual_dashboard_publication_only": true,
+  "metadata": {
+    "citation_count": 72,
+    "path": "paper/submission/zenodo-metadata.json",
+    "sha256": "3009e09d214f706afb29a298b0ae0b263ae18b537ff46089bfa5a9b3ef6fad45",
+    "skipped_citations": [
+      {
+        "bib_key": "sbt-primer",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-foundations-i",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-foundations-ii",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-foundations-iii",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-foundations-iv",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-paper-a",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-paper-b",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-paper-c",
+        "reason": "no supported identifier field"
+      },
+      {
+        "bib_key": "sbt-protocol-trap",
+        "reason": "no supported identifier field"
+      }
+    ]
+  },
+  "paper_release_include": "paper/includes/release_metadata.tex",
+  "publication_date": "2026-09-23",
+  "remote_file": {
+    "bytes": 501328,
+    "filename": "Tsiokos_2026_Glass_Is_an_Unclosed_Layer_Kovacs_Memory_as_Predictive_Quotient_Residue.pdf",
+    "md5": "d57e6edd6883ee527d3221ad0aa031a1",
+    "sha256": "aa2755ac96d487196828a45f082c26eb9bd3a900ffa5b16530165d9cdb463e55",
+    "verified": true
+  },
+  "remote_metadata": {
+    "desired_sha256": "3009e09d214f706afb29a298b0ae0b263ae18b537ff46089bfa5a9b3ef6fad45",
+    "modified": "2026-09-23T07:00:38.262878+00:00",
+    "sha256": "061756f4483d6902e9c61e03df1732bfc293b432348ba3c57dd67090d53f4e26"
+  },
+  "reserved_doi": "10.5281/zenodo.22911309",
+  "schema_version": 1,
+  "stage": "file_uploaded"
+}

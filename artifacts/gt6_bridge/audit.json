@@ -1,0 +1,486 @@
+{
+  "artifact_kind": "audit",
+  "claim_grade": "certificate_shell_local",
+  "claim_id": "GT6.strict_bridge.glass_shell",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "044aea07f53aaf18ef7ae3da5cc871f3a2f7ed6d14671a2da28c8a82ebef9558",
+  "config_path": "configs/gt6_shell_witness_n8.json",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "GT6 is scoped to the audited glass shell, not to all East or glassy regimes.",
+    "No shell-general strict-bridge theorem is claimed.",
+    "No broader external-class theorem is claimed beyond the frozen finite class.",
+    "Strictness does not imply autonomous macro closure.",
+    "Strictness does not imply drive; P6_drive requires the separate GB1 audit discipline.",
+    "The pressure gap is not a KL closure deficit unless an explicit bridge is supplied.",
+    "The pressure gap is not the strictness witness; GT2/GT3 provide the strictness witnesses.",
+    "The gap functional is a conditional disintegration on strata, not stratumwise root separation.",
+    "This is a model realization, not a universal strict-extension theory.",
+    "T1 is a packaged completion layer, not repeated application of one fixed idempotent completion.",
+    "Single bridge only; no stacked or glued promotions are claimed."
+  ],
+  "payload": {
+    "adm_domain": {
+      "audit": [
+        "artifacts/gt6_bridge/audit.json",
+        "experiments/check_gt6_filing.py"
+      ],
+      "content": [
+        "artifacts/gt6_bridge/knockouts.json",
+        "artifacts/gt6_bridge/pressure_closure.json",
+        "artifacts/gt6_bridge/strict_extension.json",
+        "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+        "artifacts/gt2_witnesses/kovacs_moment.json",
+        "artifacts/gt3_foreclosure/lens_class_sweep.json",
+        "artifacts/gt5_dimension/max_fiber.json"
+      ],
+      "defects": [
+        "delta_fact",
+        "delta_sat",
+        "delta_forcing",
+        "delta_macro",
+        "delta_press"
+      ],
+      "dependencies": [
+        "artifacts/gt6_bridge/knockouts.json",
+        "artifacts/gt6_bridge/pressure_closure.json",
+        "artifacts/gt6_bridge/strict_extension.json",
+        "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+        "artifacts/gt2_witnesses/kovacs_moment.json",
+        "artifacts/gt3_foreclosure/lens_class_sweep.json",
+        "artifacts/gt5_dimension/max_fiber.json"
+      ],
+      "exclusion_checks": [
+        {
+          "check": "missing_or_infinite_component",
+          "note": "all components are finite JSON records",
+          "violated": false
+        },
+        {
+          "check": "host_tag_outside_host",
+          "note": "HostTag is H_prob and Host contains H_prob",
+          "violated": false
+        },
+        {
+          "check": "level_tag_outside_lev",
+          "note": "levels are restricted to Beh, Ver, Str",
+          "violated": false
+        },
+        {
+          "check": "package_failing_admpkg",
+          "note": "packages are named finite RouteTransport/packaging records",
+          "violated": false
+        },
+        {
+          "check": "inadmissible_instrument",
+          "note": "instrument is the finite East simulator plus pytest checker",
+          "violated": false
+        },
+        {
+          "check": "inadmissible_profile",
+          "note": "lambda_prom is the shell-local strict-promotion profile",
+          "violated": false
+        },
+        {
+          "check": "witness_update_actor_informant_violation",
+          "note": "P1-P6 witness/update roles follow GT6 mapping",
+          "violated": false
+        },
+        {
+          "check": "unresolved_or_incomplete_record_reference",
+          "note": "checker resolves artifact hashes and fields",
+          "violated": false
+        },
+        {
+          "check": "malformed_audit_record",
+          "note": "artifact envelope schema validates",
+          "violated": false
+        },
+        {
+          "check": "unknown_or_contradictory_source",
+          "note": "sources are design specs and generated artifacts",
+          "violated": false
+        },
+        {
+          "check": "missing_required_nonclaim",
+          "note": "checker verifies the required nonclaim set",
+          "violated": false
+        },
+        {
+          "check": "model_realization_asserted_as_universal_theorem",
+          "note": "nonclaims file model-only shell scope",
+          "violated": false
+        }
+      ],
+      "gates": [
+        "G_suff",
+        "G_desc",
+        "G_stab",
+        "G_ctrl",
+        "G_nosmuggle",
+        "G_vis",
+        "G_audit",
+        "G_strict",
+        "G_locglob"
+      ],
+      "host": [
+        "H_prob"
+      ],
+      "instrument": [
+        "East exact-rational simulation",
+        "pytest suite",
+        "GT6 checker"
+      ],
+      "judgments": [
+        "strict_promotion"
+      ],
+      "levels": [
+        "Beh",
+        "Ver",
+        "Str"
+      ],
+      "nonclaims": [
+        "GT6 is scoped to the audited glass shell, not to all East or glassy regimes.",
+        "No shell-general strict-bridge theorem is claimed.",
+        "No broader external-class theorem is claimed beyond the frozen finite class.",
+        "Strictness does not imply autonomous macro closure.",
+        "Strictness does not imply drive; P6_drive requires the separate GB1 audit discipline.",
+        "The pressure gap is not a KL closure deficit unless an explicit bridge is supplied.",
+        "The pressure gap is not the strictness witness; GT2/GT3 provide the strictness witnesses.",
+        "The gap functional is a conditional disintegration on strata, not stratumwise root separation.",
+        "This is a model realization, not a universal strict-extension theory.",
+        "T1 is a packaged completion layer, not repeated application of one fixed idempotent completion.",
+        "Single bridge only; no stacked or glued promotions are claimed."
+      ],
+      "notes": [
+        "empty finite families are filed as typed empty records where no glass content exists"
+      ],
+      "packages": [
+        "RouteTransportPackage",
+        "packaging_endomap",
+        "pressure_ladder"
+      ],
+      "primitives": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ],
+      "realization": "GlassShell_aud",
+      "source": [
+        "design/specs/08_gt6_extension.md",
+        "design/reference/foundations_III.md"
+      ],
+      "status": [
+        "certificate_shell_local"
+      ],
+      "updates": [
+        "P1 kernel",
+        "P2 constraint",
+        "P3 schedule",
+        "P4 lens",
+        "P5 packaging",
+        "P6 audit"
+      ],
+      "visibility": [
+        "visible_artifact_hashes",
+        "visible_nonclaims",
+        "visible_gate_table"
+      ],
+      "witnesses": [
+        "GT2.kovacs_moment",
+        "GT3.reflection_foreclosure"
+      ]
+    },
+    "bridge_records": [
+      {
+        "A": {
+          "audit_artifact": "artifacts/gt6_bridge/audit.json",
+          "checker": "check_gt6_filing.py"
+        },
+        "GateResults": [
+          {
+            "evidence": "audit.json filing assembled",
+            "gate": "G_suff",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "glass bridge claims strict object-map enrichment, not closed macro dynamics",
+            "gate": "G_desc",
+            "required": false,
+            "status": "not_required"
+          },
+          {
+            "evidence": "P3-04 saturated strata under E_{tau,f}",
+            "gate": "G_stab",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "P3-01 knockout panel controls",
+            "gate": "G_ctrl",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "six no-smuggling violation kinds checked",
+            "gate": "G_nosmuggle",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "visible citations and nonclaims filed",
+            "gate": "G_vis",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "checker validates hashes and verdict",
+            "gate": "G_audit",
+            "required": true,
+            "status": "pass"
+          },
+          {
+            "evidence": "GT2/GT3 constructive split witnesses",
+            "gate": "G_strict",
+            "required": true,
+            "status": "strict_pass"
+          },
+          {
+            "evidence": "shell-bound single bridge only; no stacked or glued promotions claimed",
+            "gate": "G_locglob",
+            "required": false,
+            "status": "not_required"
+          }
+        ],
+        "HostTag": "H_prob",
+        "L": {
+          "interface": "mid",
+          "lens": "L_energy",
+          "level": "Str"
+        },
+        "N": [
+          "GT6 is scoped to the audited glass shell, not to all East or glassy regimes.",
+          "No shell-general strict-bridge theorem is claimed.",
+          "No broader external-class theorem is claimed beyond the frozen finite class.",
+          "Strictness does not imply autonomous macro closure.",
+          "Strictness does not imply drive; P6_drive requires the separate GB1 audit discipline.",
+          "The pressure gap is not a KL closure deficit unless an explicit bridge is supplied.",
+          "The pressure gap is not the strictness witness; GT2/GT3 provide the strictness witnesses.",
+          "The gap functional is a conditional disintegration on strata, not stratumwise root separation.",
+          "This is a model realization, not a universal strict-extension theory.",
+          "T1 is a packaged completion layer, not repeated application of one fixed idempotent completion.",
+          "Single bridge only; no stacked or glued promotions are claimed."
+        ],
+        "O0": {
+          "codomain": "current-panel L_energy values"
+        },
+        "O1": {
+          "codomain": "packaged stratum labels / predictive quotient classes"
+        },
+        "T0": "T0:L_energy_pressure",
+        "T1": "T1:packaged_predictive_strata",
+        "Theta": {
+          "disintegration_threshold": {
+            "type": "\u0398_le_eps",
+            "value": 0.001
+          },
+          "saturation_empty_rounds": {
+            "type": "exact",
+            "value": 2
+          },
+          "shell_exit_count": {
+            "type": "exact",
+            "value": 0
+          }
+        },
+        "V": {
+          "visibility": "artifact hashes, gate table, nonclaims, and shell witnesses"
+        },
+        "carrier_S": {
+          "histories": [
+            "kovacs_N8",
+            "kovacs_N10"
+          ],
+          "protocol_catalog": "declared Kovacs shell configs",
+          "shell": "GB6:GlassShell_aud"
+        },
+        "delta": {
+          "delta_1_split_if_claimed": "not_claimed because G_desc=not_required",
+          "delta_fact": "GT2/GT3 constructive witnesses cited",
+          "delta_forcing": "0 material forcing strata in P3-04",
+          "delta_macro": "GT1 closure-deficit CD>0 citation",
+          "delta_nosmuggle": "all six no-smuggling checks filed pass",
+          "delta_press_analogue": "0.8771715228954812",
+          "delta_sat": "empty because P3-04 saturated=True",
+          "delta_stab": "empty because P3-04 saturated=True"
+        },
+        "id": "B_glass_T0_to_T1",
+        "lambda_prom": {
+          "profile": "shell_local_strict_promotion",
+          "single_bridge": true
+        },
+        "pi0": {
+          "map": "finite map from shell histories to L_energy current panel"
+        },
+        "pi1": {
+          "map": "finite map from shell histories to predictive quotient / strata labels"
+        }
+      }
+    ],
+    "citations": [
+      {
+        "artifact_path": "artifacts/gt6_bridge/knockouts.json",
+        "sha256": "7302945f1769aff3995cea782b6572bc5765c2c398db94088115addf0b28efeb"
+      },
+      {
+        "artifact_path": "artifacts/gt6_bridge/pressure_closure.json",
+        "sha256": "ce66da2ec600565cd5fd869a5a3abdf10098dc0b52ecf2cf7f79eca5a06a146c"
+      },
+      {
+        "artifact_path": "artifacts/gt6_bridge/strict_extension.json",
+        "sha256": "f5f9558e0ffa786ac8a28254e555d398eff572d2936aea89a889ea160cb7bed2"
+      },
+      {
+        "artifact_path": "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+        "sha256": "a0cea276116f05fcbb10844c527aac69d2027c70210a19db4753364d6c54d44e"
+      },
+      {
+        "artifact_path": "artifacts/gt2_witnesses/kovacs_moment.json",
+        "sha256": "321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf"
+      },
+      {
+        "artifact_path": "artifacts/gt3_foreclosure/lens_class_sweep.json",
+        "sha256": "25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7"
+      },
+      {
+        "artifact_path": "artifacts/gt5_dimension/max_fiber.json",
+        "sha256": "746b44e6c2f7f92364137a202f7306b6afc9e99c413fb4dd3a40d47bfd6f94c8"
+      }
+    ],
+    "disintegration": {
+      "P_T0": 1.2369962430439276,
+      "gap": 0.8771715228954812,
+      "passes_threshold": true,
+      "rejected_route_nonclaim": "no per-stratum thermodynamic autonomy claim; strata are fiber averages",
+      "stratum_pressures": {
+        "0": -0.03636764417087483,
+        "1": 0.16363235582912514,
+        "2": 0.3258920278462782,
+        "3": 0.48667131469299696,
+        "4": 0.6458493201727418,
+        "5": 0.663527763378787,
+        "6": 0.6403842120645774,
+        "7": 0.5527021396127966,
+        "8": 0.3472370315046319
+      },
+      "stratum_weights": {
+        "0": "390625/5764801",
+        "1": "1250000/5764801",
+        "2": "250000/823543",
+        "3": "200000/823543",
+        "4": "100000/823543",
+        "5": "32000/823543",
+        "6": "6400/823543",
+        "7": "5120/5764801",
+        "8": "256/5764801"
+      },
+      "threshold": 0.001,
+      "tilt": "1/5"
+    },
+    "gate_table": [
+      {
+        "evidence": "audit.json filing assembled",
+        "gate": "G_suff",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "glass bridge claims strict object-map enrichment, not closed macro dynamics",
+        "gate": "G_desc",
+        "required": false,
+        "status": "not_required"
+      },
+      {
+        "evidence": "P3-04 saturated strata under E_{tau,f}",
+        "gate": "G_stab",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "P3-01 knockout panel controls",
+        "gate": "G_ctrl",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "six no-smuggling violation kinds checked",
+        "gate": "G_nosmuggle",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "visible citations and nonclaims filed",
+        "gate": "G_vis",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "checker validates hashes and verdict",
+        "gate": "G_audit",
+        "required": true,
+        "status": "pass"
+      },
+      {
+        "evidence": "GT2/GT3 constructive split witnesses",
+        "gate": "G_strict",
+        "required": true,
+        "status": "strict_pass"
+      },
+      {
+        "evidence": "shell-bound single bridge only; no stacked or glued promotions claimed",
+        "gate": "G_locglob",
+        "required": false,
+        "status": "not_required"
+      }
+    ],
+    "realization_object": {
+      "components": [
+        "S_aud",
+        "T0",
+        "T1",
+        "pi0",
+        "pi1",
+        "F",
+        "Delta",
+        "A",
+        "N"
+      ],
+      "id": "GlassShell_aud"
+    },
+    "verdict": "strict"
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "0b89a4ce75981d8341707c8a9fc8ffc27dbb6277a3960a4b3148eb977a3f68a4"
+  },
+  "verdict_basis": "verdict: strict is established via F-III T19/T20 (non-factorization from GT2/GT3 witnesses). Paper [C]'s thm:strict-extension (the fuller completion-dynamics route requiring material P4<-P5 forcing) is NOT invoked: H4_forcing.material_forcing_count = 0 for this shell, filed as an honest negative sub-result, not as a satisfied hypothesis."
+}

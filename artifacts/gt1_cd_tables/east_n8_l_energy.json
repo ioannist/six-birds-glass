@@ -1,0 +1,203 @@
+{
+  "artifact_kind": "cd_table",
+  "claim_grade": "theorem_audited_class",
+  "claim_id": "GT1.east.8.L_energy",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "6f148b4971abcdda81daac4ba7b49d2b8d9b34158c63e921c3c034372b8b96f8",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "GT1 certificate is scoped to East N=8 and L_energy only; FA and L_panel are undone extensions.",
+    "The tau ladder is the declared finite ladder [1, 2, 4, 8], not the full combinatorial grid.",
+    "Constrained East equilibrium under L_energy is a nonzero stationary CD baseline; only the unconstrained lumpable control is exact-zero.",
+    "[B] benchmark-parity control is filed as skipped in this artifact because the paper-specific example chains were not ported in this remediation packet."
+  ],
+  "payload": {
+    "controls": {
+      "b_benchmark_parity": {
+        "pass": null,
+        "reason": "Paper [B] example-chain parity was not ported in this remediation packet; the artifact files this as an explicit open control.",
+        "status": "skipped"
+      },
+      "closure_discipline": {
+        "note": "No E^2=E closure-operator assertion is made; idempotence is reported only as a saturation diagnostic in the delta artifact.",
+        "pass": true
+      },
+      "east_equilibrium_stationary_consistency": {
+        "note": "This is a GB2 consistency control, not a zero-CD control: constrained East under L_energy is non-lumpable even at stationarity.",
+        "pass": true,
+        "rows": [
+          {
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.018874956367332683,
+            "stationary_cd": 0.018874956367332683,
+            "tau": 1,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.03606792671728994,
+            "stationary_cd": 0.03606792671728994,
+            "tau": 2,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.06557524946980982,
+            "stationary_cd": 0.06557524946980982,
+            "tau": 4,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.10811160492601928,
+            "stationary_cd": 0.10811160492601928,
+            "tau": 8,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          }
+        ]
+      },
+      "lumpable_unconstrained": {
+        "epsilon": "1/10",
+        "pass": true,
+        "rows": [
+          {
+            "closure_deficit_float": 1.506753534417161e-17,
+            "is_exactly_lumpable": true,
+            "tau": 1,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": -8.14318868963266e-18,
+            "is_exactly_lumpable": true,
+            "tau": 2,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": 1.960103628275049e-17,
+            "is_exactly_lumpable": true,
+            "tau": 4,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": -4.263899298582603e-17,
+            "is_exactly_lumpable": true,
+            "tau": 8,
+            "within_zero_tolerance": true
+          }
+        ]
+      }
+    },
+    "gb2_consistency_gate_pass": true,
+    "grid": [
+      {
+        "cd": 0.033650428255697584,
+        "cd_ratio_vs_equilibrium": 1.7828082672517933,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.018874956367332683,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 1,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.06372973562773282,
+        "cd_ratio_vs_equilibrium": 1.7669364842416238,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.03606792671728994,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 2,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.1131102045688765,
+        "cd_ratio_vs_equilibrium": 1.72489171575247,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.06557524946980982,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 4,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.1772123309557659,
+        "cd_ratio_vs_equilibrium": 1.6391610417497016,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.10811160492601928,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 8,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      }
+    ],
+    "scope": {
+      "N": 8,
+      "epsilon_hi": "7/10",
+      "epsilon_lo": "1/10",
+      "lens": "L_energy",
+      "math_reference": "math/gb2_protocol_cd.md",
+      "model": "east",
+      "out_of_scope": [
+        "FA replication",
+        "L_panel",
+        "N=10",
+        "full tau ladder"
+      ],
+      "t_w": 20
+    },
+    "tau_ladder": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "thresholds": {
+      "achieved_min_cd_ratio": 1.6391610417497016,
+      "aging_exceeds_equilibrium_margin": true,
+      "cd_margin_ratio_declared": "3/2"
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "51c57c8652174929c1511da78fecd41620dd1713d370b45de194adc61a0594f3"
+  }
+}
