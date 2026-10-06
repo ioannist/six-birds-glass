@@ -1,0 +1,4352 @@
+{
+  "content_hash": "f5e2a3332a2191a2eed36f9deed4ad99eace8a843023d6bd59dbf1cda9638c83",
+  "predictions": [
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "30",
+        "lo": "10"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.2809329385110208",
+        "lo": "0.09364431283700693"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.016254025162903904",
+        "lo": "0.005418008387634635"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "8",
+        "lo": "2"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "36",
+        "lo": "12"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.20075671425973024",
+        "lo": "0.06691890475324341"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "3",
+        "lo": "1"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.014827790240058942",
+        "lo": "0.004942596746686314"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "3",
+        "lo": "1"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "32",
+        "lo": "10"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.21545451789163578",
+        "lo": "0.07181817263054525"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "3",
+        "lo": "1"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.015913362645679788",
+        "lo": "0.005304454215226596"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:7-10_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "26",
+        "lo": "8"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.2555312025077928",
+        "lo": "0.08517706750259761"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.01478434895346322",
+        "lo": "0.004928116317821074"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "5",
+        "lo": "1"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "38",
+        "lo": "12"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.18807036457142554",
+        "lo": "0.06269012152380851"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.010881246087918385",
+        "lo": "0.0036270820293061285"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-10_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_3-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_3-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_2-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "33",
+        "lo": "11"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.18666274878479056",
+        "lo": "0.06222091626159685"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_2-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "t_w": 60
+      },
+      "interval": {
+        "hi": "0.010799805219727817",
+        "lo": "0.0035999350732426054"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "12",
+        "lo": "4"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "48",
+        "lo": "16"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.09206886534977615",
+        "lo": "0.030689621783258715"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "2",
+        "lo": "0"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_K",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "3",
+        "lo": "1"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "t_peak",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 20
+      },
+      "interval": {
+        "hi": "0.006800160224183111",
+        "lo": "0.0022667200747277035"
+      },
+      "margin_rule": "center * [0.5, 1.5], center = round(east_value / R) for times and east_hump_height / R for hump_height",
+      "prediction_type": "interval",
+      "readout_id": "hump_height",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_1-2_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_3-5_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_3-5_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_7-10_20",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 20
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:t_peak:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "fa:hump_height:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_K",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:t_peak:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "t_peak",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "trap:hump_height:3-5_1-5_7-10_60",
+      "grid_point": {
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "t_w": 60
+      },
+      "prediction_type": "no_prediction",
+      "readout_id": "hump_height",
+      "target_family": "trap"
+    },
+    {
+      "cell_id": "fa:t_K_order:eps_mid_3-5_vs_1-2",
+      "compare_to_cell_id": "fa:t_K:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "order_relation",
+      "readout_id": "t_K",
+      "relation": ">=",
+      "rescaling_map_id": "spectral_gap_ratio_fa",
+      "target_family": "fa1f"
+    },
+    {
+      "cell_id": "trap:t_K_order:eps_mid_3-5_vs_1-2",
+      "compare_to_cell_id": "trap:t_K:7-10_1-10_1-2_20",
+      "grid_point": {
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "t_w": 20
+      },
+      "prediction_type": "order_relation",
+      "readout_id": "t_K",
+      "relation": ">=",
+      "rescaling_map_id": "spectral_gap_ratio_trap",
+      "target_family": "trap"
+    }
+  ],
+  "readouts_freeze_hash": "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+  "registry_version": 1,
+  "rescaling_maps": [
+    {
+      "definition": "spectral_gap(FA kernel, N=10, epsilon) / spectral_gap(East kernel, N=10, epsilon), evaluated at the cell's epsilon_mid",
+      "map_id": "spectral_gap_ratio_fa",
+      "parameters": {
+        "1/10": 17.126920157767387,
+        "1/2": 1.6791854422885781,
+        "1/5": 4.799433696359647,
+        "2/5": 2.0252579885819086,
+        "3/10": 2.7491356138284497,
+        "3/5": 1.4844230903421405,
+        "7/10": 1.3631087487198466
+      }
+    },
+    {
+      "definition": "spectral_gap(trap kernel, declared M=8 weights at epsilon) / spectral_gap(East kernel, N=10, epsilon), evaluated at the cell's epsilon_mid",
+      "map_id": "spectral_gap_ratio_trap",
+      "parameters": {
+        "1/10": 1430.5060143666217,
+        "1/2": 22.734861133649726,
+        "1/5": 183.15452046901623,
+        "2/5": 35.004355676387156,
+        "3/10": 65.8212324128331,
+        "3/5": 16.61555028474342,
+        "7/10": 13.10478381277626
+      }
+    }
+  ],
+  "scoring_script_hash": "beb83ce759f656ae1b60fdecd22dc736fe682440eba338e279dab9199ad21b22",
+  "source_artifact_hash": "4905b013624462549b9a4cdb18f51d0220f70be29976be461e5a8681978dcab8",
+  "source_family": "east"
+}

@@ -1,0 +1,96 @@
+\section{GB9: The Lean-Checked Core and the Scope-Boundary Theorem}
+\label{sec:lean}
+
+\subsection{What is machine-checked}
+
+Lean \cite{de-moura-ullrich-2021} is a proof assistant: a theorem stated in it is accepted only
+when a machine has checked every step, and a development ``compiles sorry-free'' when no step has
+been left as an unproved placeholder. We use it for two things. The first is the abstract theorems
+the certificates rely on, for example that a witness pair exists if and only if the predictive
+description is strictly finer than the present one. The second is the logical consequences of the
+exact witness tables that the computation exports. Neither then depends on a reader trusting the
+prose. Precisely:
+
+\claimref{GB9}{712fa267299cef1fce505d5b88bb7689edac6f3cadbcdc932e371592a24ce78a}
+Three Lean developments compile sorry-free on the pinned toolchain,
+\texttt{leanprover/\allowbreak{}lean4:4.29.0}: the vendored legacy \texttt{HolonomyMemory} core (paper [A]'s
+development \sbtcite{sbt-paper-a}); the \texttt{DeclaredMemory} core, adapted from the upstream
+route-transport development by renaming modules and namespace only, with its mathematical
+declarations unchanged; and this project's \texttt{GlassWitness} extension. All $96$ theorems carry
+per-theorem axiom reports, regenerated from the live build, that match the stored audit. No
+theorem depends on anything beyond the standard axioms \texttt{propext},
+\texttt{Classical.choice} and \texttt{Quot.sound}, and no \texttt{native\_decide}, \texttt{sorry}
+or custom axiom appears. Per the framework's fidelity legend, each row of the $97$-row fidelity
+table (Appendix~\ref{app:lean}; $96$ theorems plus one row for evidence that lives outside Lean)
+carries its true label: $70$ \emph{verified}, $25$ \emph{narrowed/parametric} (the finite rational
+lookup witnesses and their generic constructors), $1$ \emph{schema projection}, and $1$
+\emph{computational evidence only}. No schema or trivial declaration is described as a verified
+proof, and closure-deficit computations are not Lean theorems.
+
+Among the verified rows are the witness/strict-refinement equivalence
+(\texttt{strictRefinement\_\allowbreak{}iff\_\allowbreak{}nonempty\_\allowbreak{}predictiveWitness}) and the factorization theorems for
+future-sufficient states. Their direction matters: the minimal predictive quotient $M$ factors,
+uniquely on the reachable image, through \emph{any} future-sufficient state $S$. The converse need
+not hold, since $S$ may carry redundant information.
+
+\subsection{The witness tables}
+
+The numeric witnesses are checked in the \texttt{DeclaredMemory} core as finite tables of exact
+rationals, exported by a generator from the Python computation:
+
+\begin{itemize}
+  \item \texttt{NumericN10}: the GT2 Kovacs pair, current mean energy $20/7$ and the two exact
+    five-step future values.
+  \item \texttt{NumericN8}: a mean-energy pair of the same kind on the $N=8$ GT6 shell
+    configuration (current mean energy $16/7$).
+  \item \texttt{EnergyN8}: the GT6 pair, with nine current events (the complete energy
+    distribution, shared by both histories) and $21$ future horizons.
+\end{itemize}
+
+For each, Lean checks the rational inequalities by kernel reduction and proves strict refinement,
+nonfactorization of the future through the current readout, and failure of future sufficiency
+for the current readout. For \texttt{EnergyN8} this covers every horizon and every descriptor
+computed from the current energy law. Generic constructors prove the same consequences for any
+table with an actual rational split, and a constant-future negative control shows that a table
+without a split yields no strictness.
+
+\claimref{NEG.lean\_instance\_structural}{712fa267299cef1fce505d5b88bb7689edac6f3cadbcdc932e371592a24ce78a}
+The boundary of this mechanization is precise. Lean checks the exported tables and what follows
+from them. It does not compute the East kernel, the preparations, the randomized-stop tuning, the
+null-vector selector, or the equality of the two current energy laws in GT6; those are verified in
+exact Python before export, and the fidelity table carries them as its one
+computational-evidence row. The legacy \texttt{glassInstance} remains a typed, index-based
+structural mirror.
+
+\subsection{The scope-boundary theorem}
+
+Why a second core? Because in the legacy core no witness can exist at all, and Lean proves it.
+
+\claimref{FINDING.lean\_collapse}{b29d612b26eddaa25183177e66a480e4b317ebd3e7794e16f1776a1e8ac08e11}
+For \emph{every} instance of the legacy \texttt{RouteTransportCore}, the \texttt{observe\_push}
+coherence field, combined with \texttt{CurrentEventEquiv}'s universal quantification over events,
+forces current equivalence to imply future-predictive equivalence
+(\texttt{current\_\allowbreak{}implies\_\allowbreak{}future\_\allowbreak{}GENERIC}). Consequently the map from predictive to current
+classes is injective, and \texttt{PredictiveWitness}, \texttt{StrictRefinement} and
+\texttt{LoopAsymmetry} instances cannot be constructed in that core
+(\texttt{predictiveWitness\_\allowbreak{}impossible\_\allowbreak{}GENERIC}, \texttt{strictRefinement\_\allowbreak{}impossible\_\allowbreak{}GENERIC},
+\texttt{predictiveToCurrent\_\allowbreak{}injective\_\allowbreak{}GENERIC}, \texttt{loopAsymmetry\_\allowbreak{}impossible\_\allowbreak{}GENERIC};
+machine-checked, sorry-free).
+
+The mechanism is simple. The legacy core's naturality axiom lets every future event be pulled back
+to a present event, so ``agreement on all present events'' silently includes agreement on all
+pulled-back futures, and nothing is left for a witness to separate. The \texttt{DeclaredMemory}
+core drops the pullback and its coherence field: future observations are declared events of the
+pushed history rather than present events in disguise. That single change is what admits the
+tables above. The Python certificates never had the problem, because they quantify over a finite
+\emph{declared} catalog of futures rather than over all pullback-closed events.
+
+The collapse has a familiar shape. It is the proof pattern of strong lumpability for Markov chains
+\cite{kemeny-snell-1960,buchholz-1994}, where a local one-step coherence condition propagates an
+equivalence to all future times. It also has the form of biextensional collapse in the Chu-space
+sense \cite{barr-1979,pratt-1999,parente-2024}, with \texttt{pullEvent} playing a role analogous to
+the Chu transform's naturality condition; we offer this reading as an analogy, and no formal
+correspondence is claimed or proved. The instructive contrast is the causal-state construction of
+computational mechanics \cite{shalizi-crutchfield-2001}, where agreement on the present generally
+does \emph{not} imply agreement on the future: the collapse is forced by the legacy core's axiom,
+not by prediction itself.

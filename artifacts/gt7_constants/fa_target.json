@@ -1,0 +1,1731 @@
+{
+  "artifact_kind": "constants_readout",
+  "claim_grade": "run_only_readout",
+  "claim_id": "GT7.fa_target",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+  "config_path": "registry/readouts.json",
+  "evidence_type": "monte_carlo_frozen_seeds",
+  "freeze_refs": [
+    "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+    "f5e2a3332a2191a2eed36f9deed4ad99eace8a843023d6bd59dbf1cda9638c83"
+  ],
+  "nonclaims": [
+    "FA target run only; scoring is deferred to the frozen transfer scorer.",
+    "memdim_profile and deficit_decay transfer are out of scope for this target artifact."
+  ],
+  "payload": {
+    "hump_surface_exact": [
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-10_20",
+          "t_K": "fa:t_K:7-10_1-10_1-10_20",
+          "t_peak": "fa:t_peak:7-10_1-10_1-10_20"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-10_60",
+          "t_K": "fa:t_K:7-10_1-10_1-10_60",
+          "t_peak": "fa:t_peak:7-10_1-10_1-10_60"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-5_20",
+          "t_K": "fa:t_K:7-10_1-10_1-5_20",
+          "t_peak": "fa:t_peak:7-10_1-10_1-5_20"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-5_60",
+          "t_K": "fa:t_K:7-10_1-10_1-5_60",
+          "t_peak": "fa:t_peak:7-10_1-10_1-5_60"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_3-10_20",
+          "t_K": "fa:t_K:7-10_1-10_3-10_20",
+          "t_peak": "fa:t_peak:7-10_1-10_3-10_20"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_3-10_60",
+          "t_K": "fa:t_K:7-10_1-10_3-10_60",
+          "t_peak": "fa:t_peak:7-10_1-10_3-10_60"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_2-5_20",
+          "t_K": "fa:t_K:7-10_1-10_2-5_20",
+          "t_peak": "fa:t_peak:7-10_1-10_2-5_20"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "38753052224384307466821850999644696406120698718148686954100552981752376184828211266004785219/85895517055059361316044512220201475205370769719542760000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 1,
+        "t_peak": 24,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_2-5_60",
+          "t_K": "fa:t_K:7-10_1-10_2-5_60",
+          "t_peak": "fa:t_peak:7-10_1-10_2-5_60"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "16378903489514021525502200081698580893384635227505689721202936010674850296973306334423407480808405066472120568803695811901505024709983069485982267853074911838345347367389103821038887066144358293/47455400583993322633678123508598365152082572933007886887178486094738037854397190027038196549069285555430000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 3,
+        "t_peak": 33,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-2_20",
+          "t_K": "fa:t_K:7-10_1-10_1-2_20",
+          "t_peak": "fa:t_peak:7-10_1-10_1-2_20"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "3449612901126740670239561377165697047792439539322221674762823926498214905417850555385848272697047446231/16963944416984962012196180417436241119039616961010750000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 8,
+        "t_peak": 35,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_1-2_60",
+          "t_K": "fa:t_K:7-10_1-10_1-2_60",
+          "t_peak": "fa:t_peak:7-10_1-10_1-2_60"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "7275011156190524570100494143041817726611421359518641543435740485558759431813750623325477652330340451727650189227238073000867045133189382074076695196530870519850348974780945410817758297643371272977295214863109508666408053/59138857473773951858654700226872413576228477519230996839893887775286753568653113076043835983121846726475000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 15,
+        "t_peak": 60,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_3-5_20",
+          "t_K": "fa:t_K:7-10_1-10_3-5_20",
+          "t_peak": "fa:t_peak:7-10_1-10_3-5_20"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "9641019489965594324753470198193032276605805204915047653663838146792334167122763450352815334515486594971379990146569971701325989447662287751031570087884700031000019/259807778503386784267058466863435464737888148122704401800912861373436370144913919049728000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 28,
+        "t_peak": 60,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_3-5_60",
+          "t_K": "fa:t_K:7-10_1-10_3-5_60",
+          "t_peak": "fa:t_peak:7-10_1-10_3-5_60"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_7-10_20",
+          "t_K": "fa:t_K:7-10_1-10_7-10_20",
+          "t_peak": "fa:t_peak:7-10_1-10_7-10_20"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-10_7-10_60",
+          "t_K": "fa:t_K:7-10_1-10_7-10_60",
+          "t_peak": "fa:t_peak:7-10_1-10_7-10_60"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-10_20",
+          "t_K": "fa:t_K:7-10_1-5_1-10_20",
+          "t_peak": "fa:t_peak:7-10_1-5_1-10_20"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-10_60",
+          "t_K": "fa:t_K:7-10_1-5_1-10_60",
+          "t_peak": "fa:t_peak:7-10_1-5_1-10_60"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-5_20",
+          "t_K": "fa:t_K:7-10_1-5_1-5_20",
+          "t_peak": "fa:t_peak:7-10_1-5_1-5_20"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-5_60",
+          "t_K": "fa:t_K:7-10_1-5_1-5_60",
+          "t_peak": "fa:t_peak:7-10_1-5_1-5_60"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_3-10_20",
+          "t_K": "fa:t_K:7-10_1-5_3-10_20",
+          "t_peak": "fa:t_peak:7-10_1-5_3-10_20"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_3-10_60",
+          "t_K": "fa:t_K:7-10_1-5_3-10_60",
+          "t_peak": "fa:t_peak:7-10_1-5_3-10_60"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_2-5_20",
+          "t_K": "fa:t_K:7-10_1-5_2-5_20",
+          "t_peak": "fa:t_peak:7-10_1-5_2-5_20"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_2-5_60",
+          "t_K": "fa:t_K:7-10_1-5_2-5_60",
+          "t_peak": "fa:t_peak:7-10_1-5_2-5_60"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "964857846599008599010176875496852961744293469978229998683171874353165064757346262692367519671986699627010454512360660179028194594414115733015542886914870795599138310038431/2961039315641301936049435989214452799850785084919197943571602213145880672470426451968000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 1,
+        "t_peak": 30,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-2_20",
+          "t_K": "fa:t_K:7-10_1-5_1-2_20",
+          "t_peak": "fa:t_peak:7-10_1-5_1-2_20"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "1534925906084163729037361266953470428068227099459532625929811033361927882285750221527220549/7284388505888388029236250704218077942041804800000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 5,
+        "t_peak": 31,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_1-2_60",
+          "t_K": "fa:t_K:7-10_1-5_1-2_60",
+          "t_peak": "fa:t_peak:7-10_1-5_1-2_60"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "5921822672439910269481445058192948913652715916424961095515064472131448246241633388157734376295832313193572967425356390018146656197686151456901604600932637379257850621207765883386446191461248904454577998119/55690133193615803957674303911214804067757847457644073490602003240370505641407335964344320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 14,
+        "t_peak": 60,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_3-5_20",
+          "t_K": "fa:t_K:7-10_1-5_3-5_20",
+          "t_peak": "fa:t_peak:7-10_1-5_3-5_20"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "92151354526291437418098770189474177319488227268426780934283719254458564810484351601513094184345792643421739436134616885686043985329185946351286601247109918511/2259141516044200321877446736421406183138481294164717823117154964435218024916372684800000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 24,
+        "t_peak": 60,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_3-5_60",
+          "t_K": "fa:t_K:7-10_1-5_3-5_60",
+          "t_peak": "fa:t_peak:7-10_1-5_3-5_60"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_7-10_20",
+          "t_K": "fa:t_K:7-10_1-5_7-10_20",
+          "t_peak": "fa:t_peak:7-10_1-5_7-10_20"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:7-10_1-5_7-10_60",
+          "t_K": "fa:t_K:7-10_1-5_7-10_60",
+          "t_peak": "fa:t_peak:7-10_1-5_7-10_60"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-10_20",
+          "t_K": "fa:t_K:3-5_1-10_1-10_20",
+          "t_peak": "fa:t_peak:3-5_1-10_1-10_20"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-10_60",
+          "t_K": "fa:t_K:3-5_1-10_1-10_60",
+          "t_peak": "fa:t_peak:3-5_1-10_1-10_60"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-5_20",
+          "t_K": "fa:t_K:3-5_1-10_1-5_20",
+          "t_peak": "fa:t_peak:3-5_1-10_1-5_20"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-5_60",
+          "t_K": "fa:t_K:3-5_1-10_1-5_60",
+          "t_peak": "fa:t_peak:3-5_1-10_1-5_60"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_3-10_20",
+          "t_K": "fa:t_K:3-5_1-10_3-10_20",
+          "t_peak": "fa:t_peak:3-5_1-10_3-10_20"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_3-10_60",
+          "t_K": "fa:t_K:3-5_1-10_3-10_60",
+          "t_peak": "fa:t_peak:3-5_1-10_3-10_60"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_2-5_20",
+          "t_K": "fa:t_K:3-5_1-10_2-5_20",
+          "t_peak": "fa:t_peak:3-5_1-10_2-5_20"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "212226707787637333818194232206396935978548807035193230722143178918342182465244871306306935772231041/664551571204610425196381783005589086139794545755291648000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 3,
+        "t_peak": 28,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_2-5_60",
+          "t_K": "fa:t_K:3-5_1-10_2-5_60",
+          "t_peak": "fa:t_peak:3-5_1-10_2-5_60"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "38611225893445746958962760218052201071196745437792343945020087761718405781495818375517980709756152092454580856427396152653442379019200281713433936300730380368751693703786838500992505596171921415332571281/166522363749099042514407685404824599135245945125552987702276321403893476632833796027161847759094996187217920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 6,
+        "t_peak": 40,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-2_20",
+          "t_K": "fa:t_K:3-5_1-10_1-2_20",
+          "t_peak": "fa:t_peak:3-5_1-10_1-2_20"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "14171169758421432085200999166105824820500491807984089935559614473495097897663833547587104634011107096924160815327947882687784607/168020131114192029408449405305067305332602143603974733824000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 16,
+        "t_peak": 54,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_1-2_60",
+          "t_K": "fa:t_K:3-5_1-10_1-2_60",
+          "t_peak": "fa:t_peak:3-5_1-10_1-2_60"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "6692362050433391303269159499126043882098975307271686349572860696290245994626733333705788373534508829679669164910013137891515743898457870133681907613078125843499090429805906771785501175593604930277735174620336639036689/277182787693656409560896511926737089248518072231838468886694765743688915973263501379860726970560020480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 37,
+        "t_peak": 60,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_3-5_20",
+          "t_K": "fa:t_K:3-5_1-10_3-5_20",
+          "t_peak": "fa:t_peak:3-5_1-10_3-5_20"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_3-5_60",
+          "t_K": "fa:t_K:3-5_1-10_3-5_60",
+          "t_peak": "fa:t_peak:3-5_1-10_3-5_60"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_7-10_20",
+          "t_K": "fa:t_K:3-5_1-10_7-10_20",
+          "t_peak": "fa:t_peak:3-5_1-10_7-10_20"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-10_7-10_60",
+          "t_K": "fa:t_K:3-5_1-10_7-10_60",
+          "t_peak": "fa:t_peak:3-5_1-10_7-10_60"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/10",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-10_20",
+          "t_K": "fa:t_K:3-5_1-5_1-10_20",
+          "t_peak": "fa:t_peak:3-5_1-5_1-10_20"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-10_60",
+          "t_K": "fa:t_K:3-5_1-5_1-10_60",
+          "t_peak": "fa:t_peak:3-5_1-5_1-10_60"
+        },
+        "e_eq": "10/11",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-5_20",
+          "t_K": "fa:t_K:3-5_1-5_1-5_20",
+          "t_peak": "fa:t_peak:3-5_1-5_1-5_20"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-5_60",
+          "t_K": "fa:t_K:3-5_1-5_1-5_60",
+          "t_peak": "fa:t_peak:3-5_1-5_1-5_60"
+        },
+        "e_eq": "5/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_3-10_20",
+          "t_K": "fa:t_K:3-5_1-5_3-10_20",
+          "t_peak": "fa:t_peak:3-5_1-5_3-10_20"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_3-10_60",
+          "t_K": "fa:t_K:3-5_1-5_3-10_60",
+          "t_peak": "fa:t_peak:3-5_1-5_3-10_60"
+        },
+        "e_eq": "30/13",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_2-5_20",
+          "t_K": "fa:t_K:3-5_1-5_2-5_20",
+          "t_peak": "fa:t_peak:3-5_1-5_2-5_20"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "does not start below equilibrium",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_2-5_60",
+          "t_K": "fa:t_K:3-5_1-5_2-5_60",
+          "t_peak": "fa:t_peak:3-5_1-5_2-5_60"
+        },
+        "e_eq": "20/7",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "2/5",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "1501447126940963792990146300542986521255053840355622436109277240571236102003475055815200686987798512445422200972017303872917255838609861085856740207841946999660017575205086687855366121/6818681632161870882647543332793640639426267141704502692297056490739259385867793938251776000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 3,
+        "t_peak": 38,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-2_20",
+          "t_K": "fa:t_K:3-5_1-5_1-2_20",
+          "t_peak": "fa:t_peak:3-5_1-5_1-2_20"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": true,
+        "hump_height": "9390759190188917626253456741907687243647106949936827273282538055945735899749839043736803012600848850812681375491/104381575921647857547996932834711971341992460288000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": null,
+        "t_K": 12,
+        "t_peak": 47,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_1-2_60",
+          "t_K": "fa:t_K:3-5_1-5_1-2_60",
+          "t_peak": "fa:t_peak:3-5_1-5_1-2_60"
+        },
+        "e_eq": "10/3",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "1/2",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": "523465280348881751428462610992961094735561019645735345348469894796200729048938662215874624600935560318233969204665999516593384852973455387401777424565594539399439698090172939687072808995398794528178253/37076516687871732711130784851159482586343914888873036759006219595663399009072342630400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "miss_reason": "no return from peak",
+        "t_K": 44,
+        "t_peak": 60,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_3-5_20",
+          "t_K": "fa:t_K:3-5_1-5_3-5_20",
+          "t_peak": "fa:t_peak:3-5_1-5_3-5_20"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_3-5_60",
+          "t_K": "fa:t_K:3-5_1-5_3-5_60",
+          "t_peak": "fa:t_peak:3-5_1-5_3-5_60"
+        },
+        "e_eq": "15/4",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "3/5",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_7-10_20",
+          "t_K": "fa:t_K:3-5_1-5_7-10_20",
+          "t_peak": "fa:t_peak:3-5_1-5_7-10_20"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 20,
+        "tau_probe": 60
+      },
+      {
+        "N": 10,
+        "abort_reason": null,
+        "cell_id_prefix": "fa",
+        "cell_ids": {
+          "hump_height": "fa:hump_height:3-5_1-5_7-10_60",
+          "t_K": "fa:t_K:3-5_1-5_7-10_60",
+          "t_peak": "fa:t_peak:3-5_1-5_7-10_60"
+        },
+        "e_eq": "70/17",
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "epsilon_mid": "7/10",
+        "evidence_type": "exact_rational",
+        "found": false,
+        "hump_height": null,
+        "miss_reason": "no crossing",
+        "t_K": null,
+        "t_peak": null,
+        "t_w": 60,
+        "tau_probe": 60
+      }
+    ],
+    "hump_surface_mc_spotcheck": {
+      "coverage": "Fixed slice epsilon_hi=7/10, epsilon_lo=1/10, t_w=20, N=16, tau_probe=60; epsilon_mid sweeps all 7 grid points. Broader N=16/20 coverage across the full 56-cell grid is not computed in this F4 artifact.",
+      "rows": [
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_1-10_20",
+            "t_K": "fa:t_K:7-10_1-10_1-10_20",
+            "t_peak": "fa:t_peak:7-10_1-10_1-10_20"
+          },
+          "e_eq": 1.4545454545454546,
+          "epsilon_mid": "1/10",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": false,
+          "hump_height": null,
+          "mc_band_at_peak": null,
+          "n_traj": 20000,
+          "seed": 80000,
+          "t_K": null,
+          "t_peak": null
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_1-5_20",
+            "t_K": "fa:t_K:7-10_1-10_1-5_20",
+            "t_peak": "fa:t_peak:7-10_1-10_1-5_20"
+          },
+          "e_eq": 2.6666666666666665,
+          "epsilon_mid": "1/5",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": false,
+          "hump_height": null,
+          "mc_band_at_peak": null,
+          "n_traj": 20000,
+          "seed": 80001,
+          "t_K": null,
+          "t_peak": null
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_3-10_20",
+            "t_K": "fa:t_K:7-10_1-10_3-10_20",
+            "t_peak": "fa:t_peak:7-10_1-10_3-10_20"
+          },
+          "e_eq": 3.6923076923076925,
+          "epsilon_mid": "3/10",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": false,
+          "hump_height": null,
+          "mc_band_at_peak": null,
+          "n_traj": 20000,
+          "seed": 80002,
+          "t_K": null,
+          "t_peak": null
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_2-5_20",
+            "t_K": "fa:t_K:7-10_1-10_2-5_20",
+            "t_peak": "fa:t_peak:7-10_1-10_2-5_20"
+          },
+          "e_eq": 4.571428571428571,
+          "epsilon_mid": "2/5",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": false,
+          "hump_height": null,
+          "mc_band_at_peak": null,
+          "n_traj": 20000,
+          "seed": 80003,
+          "t_K": null,
+          "t_peak": null
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_1-2_20",
+            "t_K": "fa:t_K:7-10_1-10_1-2_20",
+            "t_peak": "fa:t_peak:7-10_1-10_1-2_20"
+          },
+          "e_eq": 5.333333333333333,
+          "epsilon_mid": "1/2",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": true,
+          "hump_height": 0.3973166666666665,
+          "mc_band_at_peak": 0.009696806461694263,
+          "n_traj": 20000,
+          "seed": 80004,
+          "t_K": 9,
+          "t_peak": 53
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_3-5_20",
+            "t_K": "fa:t_K:7-10_1-10_3-5_20",
+            "t_peak": "fa:t_peak:7-10_1-10_3-5_20"
+          },
+          "e_eq": 6.0,
+          "epsilon_mid": "3/5",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": true,
+          "hump_height": 0.10250000000000092,
+          "mc_band_at_peak": 0.01917086910450912,
+          "n_traj": 20000,
+          "seed": 80005,
+          "t_K": 30,
+          "t_peak": 54
+        },
+        {
+          "N": 16,
+          "cell_ids": {
+            "hump_height": "fa:hump_height:7-10_1-10_7-10_20",
+            "t_K": "fa:t_K:7-10_1-10_7-10_20",
+            "t_peak": "fa:t_peak:7-10_1-10_7-10_20"
+          },
+          "e_eq": 6.588235294117647,
+          "epsilon_mid": "7/10",
+          "evidence_type": "monte_carlo_frozen_seeds",
+          "found": false,
+          "hump_height": null,
+          "mc_band_at_peak": null,
+          "n_traj": 20000,
+          "seed": 80006,
+          "t_K": null,
+          "t_peak": null
+        }
+      ]
+    },
+    "n10_cross_validation": [
+      {
+        "N": 10,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "family": "fa",
+        "n_blocks": 10,
+        "n_traj": 5000,
+        "pass": true,
+        "rows": [
+          {
+            "exact": 4.117647058823529,
+            "mc_band": 0.016664533196782523,
+            "mc_mean": 4.1212,
+            "step": 0,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.9044834668689745,
+            "mc_band": 0.013724916514621628,
+            "mc_mean": 3.9152,
+            "step": 1,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.7243880170286268,
+            "mc_band": 0.01112274946025285,
+            "mc_mean": 3.7424,
+            "step": 2,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.5723505228474117,
+            "mc_band": 0.01332749872339978,
+            "mc_mean": 3.592999999999999,
+            "step": 3,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.444018717120807,
+            "mc_band": 0.013283908394076711,
+            "mc_mean": 3.4608000000000003,
+            "step": 4,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.3356504523779513,
+            "mc_band": 0.013162910856730062,
+            "mc_mean": 3.3508000000000004,
+            "step": 5,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.2440532584059247,
+            "mc_band": 0.014157212531662654,
+            "mc_mean": 3.2416000000000005,
+            "step": 6,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.166520033729058,
+            "mc_band": 0.011994257885430962,
+            "mc_mean": 3.1638,
+            "step": 7,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.1007660465111404,
+            "mc_band": 0.014179797835888446,
+            "mc_mean": 3.09,
+            "step": 8,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.044870110657302,
+            "mc_band": 0.016989408465276225,
+            "mc_mean": 3.0332,
+            "step": 9,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.997221340438949,
+            "mc_band": 0.019728828314592505,
+            "mc_mean": 2.9863999999999997,
+            "step": 10,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.956471980451164,
+            "mc_band": 0.01920289330051882,
+            "mc_mean": 2.9478,
+            "step": 11,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.921496264680415,
+            "mc_band": 0.015621779668142792,
+            "mc_mean": 2.9202,
+            "step": 12,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.891354951176937,
+            "mc_band": 0.016549051668029544,
+            "mc_mean": 2.8874000000000004,
+            "step": 13,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.8652650224053215,
+            "mc_band": 0.0165360212868755,
+            "mc_mean": 2.8608,
+            "step": 14,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.842573979484419,
+            "mc_band": 0.017583451816346463,
+            "mc_mean": 2.8369999999999997,
+            "step": 15,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.8227381540687086,
+            "mc_band": 0.01589912646097963,
+            "mc_mean": 2.8184000000000005,
+            "step": 16,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.8053044902656468,
+            "mc_band": 0.016066528353484898,
+            "mc_mean": 2.804,
+            "step": 17,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.7898952950447216,
+            "mc_band": 0.014296697365320254,
+            "mc_mean": 2.7838,
+            "step": 18,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.77619550915349,
+            "mc_band": 0.01504954779682392,
+            "mc_mean": 2.7620000000000005,
+            "step": 19,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.7639421055218105,
+            "mc_band": 0.016314819439188808,
+            "mc_mean": 2.7482,
+            "step": 20,
+            "within_tolerance": true
+          }
+        ],
+        "seed": 41000,
+        "t_w": 20,
+        "tolerance_bandwidths": 3.0
+      },
+      {
+        "N": 10,
+        "epsilon_hi": "3/5",
+        "epsilon_lo": "1/5",
+        "family": "fa",
+        "n_blocks": 10,
+        "n_traj": 5000,
+        "pass": true,
+        "rows": [
+          {
+            "exact": 3.75,
+            "mc_band": 0.01795562431229958,
+            "mc_mean": 3.7485999999999997,
+            "step": 0,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.6197916666666665,
+            "mc_band": 0.018217939876213604,
+            "mc_mean": 3.6236000000000006,
+            "step": 1,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.5088365342881946,
+            "mc_band": 0.01961586659370984,
+            "mc_mean": 3.5103999999999997,
+            "step": 2,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.4142062999584057,
+            "mc_band": 0.02144812864149742,
+            "mc_mean": 3.4190000000000005,
+            "step": 3,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.3333952849293933,
+            "mc_band": 0.01860656992689531,
+            "mc_mean": 3.3443999999999994,
+            "step": 4,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.264268683722235,
+            "mc_band": 0.01834060461865357,
+            "mc_mean": 3.275,
+            "step": 5,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.205013815027096,
+            "mc_band": 0.016902333829648737,
+            "mc_mean": 3.224,
+            "step": 6,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.1540955866435323,
+            "mc_band": 0.017284032451305394,
+            "mc_mean": 3.1724000000000006,
+            "step": 7,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.1102166585762805,
+            "mc_band": 0.015228044304287182,
+            "mc_mean": 3.1276,
+            "step": 8,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.072282345973013,
+            "mc_band": 0.012270289320142385,
+            "mc_mean": 3.0856,
+            "step": 9,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.0393700464122726,
+            "mc_band": 0.01809960097779936,
+            "mc_mean": 3.0522,
+            "step": 10,
+            "within_tolerance": true
+          },
+          {
+            "exact": 3.0107028381224197,
+            "mc_band": 0.01739233547667861,
+            "mc_mean": 3.0233999999999996,
+            "step": 11,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.9856268334820713,
+            "mc_band": 0.015388884877656906,
+            "mc_mean": 2.9947999999999997,
+            "step": 12,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.963591856862679,
+            "mc_band": 0.012804339542167358,
+            "mc_mean": 2.9638,
+            "step": 13,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.9441350286039296,
+            "mc_band": 0.012015730430472285,
+            "mc_mean": 2.945,
+            "step": 14,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.926866865311857,
+            "mc_band": 0.012540423526429353,
+            "mc_mean": 2.9188,
+            "step": 15,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.911459542783783,
+            "mc_band": 0.014955340926311985,
+            "mc_mean": 2.9132,
+            "step": 16,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.897637006677532,
+            "mc_band": 0.012727747465893424,
+            "mc_mean": 2.9002000000000003,
+            "step": 17,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.885166654493984,
+            "mc_band": 0.01206298286310462,
+            "mc_mean": 2.8853999999999997,
+            "step": 18,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.873852348761446,
+            "mc_band": 0.013471946159829072,
+            "mc_mean": 2.8724,
+            "step": 19,
+            "within_tolerance": true
+          },
+          {
+            "exact": 2.8635285545679308,
+            "mc_band": 0.011684747893443549,
+            "mc_mean": 2.8619999999999997,
+            "step": 20,
+            "within_tolerance": true
+          }
+        ],
+        "seed": 41001,
+        "t_w": 20,
+        "tolerance_bandwidths": 3.0
+      }
+    ]
+  },
+  "quantifier_domain": {
+    "N_values": [
+      10,
+      16
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "fa1f"
+    ],
+    "protocol_catalog_hash": "0c91fc99c9f3c4697dc41070c277710bee73501cbffcd9fedb2967ae195eaffe"
+  },
+  "readouts_freeze_hash": "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+  "scope_note": "This implementation's cross-family transfer claim covers hump_surface readouts (t_K, t_peak, hump_height) only; memdim_profile and deficit_decay are computed for the East reference only, with no cross-family transfer prediction attempted in this pass.",
+  "tau_probe": 60
+}

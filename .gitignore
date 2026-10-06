@@ -1,0 +1,73 @@
+six-birds-papers
+
+# Unpublished Six Birds corpus material and internal review scaffolding — keep private.
+# external_review/ holds full .tex of unpublished corpus papers + the reviewer zip.
+# design/reference/ holds digests of those unpublished papers and absolute local paths.
+# .codex/ is the internal Cody/Eddy multi-agent review tooling, prompts, and session logs.
+# proposal_glass_unclosed_layer.md is the internal executable build plan for the paper.
+external_review/
+design/reference/
+.codex/
+proposal_glass_unclosed_layer.md
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+build/
+dist/
+.venv/
+
+# Local design pack, paper working documents and submission templates (kept on disk)
+/design/README.md
+/design/paper_plan.md
+/design/specs/
+/paper/f2_s16_checklist.md
+/paper/external_citation_bibliography.md
+/paper/narrative.md
+/paper/gap_register.md
+/paper/notation_and_terminology.md
+/paper/notes/
+/paper/submission/*-template.*
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local secrets and credentials (keep only an explicit example file)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.pypirc
+credentials*.json
+*secret*
+*token*.txt
+
+# Local agent, prompt, transcript and session state (any depth)
+**/.agents/
+**/.codex/
+**/.claude/
+**/.cursor/
+**/.aider*
+**/.continue/
+**/.specstory/
+**/.windsurf/
+**/.codex_thread_id*
+/memory/
+/prompts/
+/skills/
+**/transcripts/
+**/rollout-*.jsonl
+**/*.transcript*
+**/CLAUDE.local.md
+**/.claude.json

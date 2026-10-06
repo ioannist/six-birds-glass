@@ -1,0 +1,42 @@
+{
+  "arithmetic": {
+    "max_denominator_bits": 4096,
+    "mode": "exact_rational"
+  },
+  "config_version": 1,
+  "epsilon_grid": [
+    "1/10",
+    "1/5",
+    "3/10",
+    "2/5",
+    "1/2",
+    "3/5",
+    "7/10"
+  ],
+  "lens": {
+    "id": "L_energy"
+  },
+  "model": {
+    "N": 10,
+    "boundary": "wall_up",
+    "family": "east"
+  },
+  "protocol": {
+    "id": "P_kovacs(epsilon_hi=7/10,epsilon_lo=1/10,epsilon_mid=2/5,t_w=40,tau_probe=60)",
+    "word": [
+      {
+        "epsilon": "7/10",
+        "steps": 0
+      },
+      {
+        "epsilon": "1/10",
+        "steps": 40
+      },
+      {
+        "epsilon": "2/5",
+        "steps": 60
+      }
+    ]
+  },
+  "run_label": "kovacs_hump_default"
+}

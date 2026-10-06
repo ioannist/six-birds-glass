@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sixbirds-glass/continuation_catalog.schema.json",
+  "title": "GB3 declared continuation catalog",
+  "description": "The frozen protocol catalog defining future signatures (M is relative to this). No transitive closure: every composite M must see appears explicitly. Content-hash of this file is quoted by every witness/loop certificate.",
+  "type": "object",
+  "required": ["catalog_version", "interfaces", "events", "continuations"],
+  "properties": {
+    "catalog_version": { "const": 1 },
+    "interfaces": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "events": {
+      "type": "array",
+      "description": "per-interface declared event package: rational weight functions on the visible labels",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "interface", "weights"],
+        "properties": {
+          "event_id": { "type": "string" },
+          "interface": { "type": "string" },
+          "weights": { "type": "object", "additionalProperties": { "$ref": "#/$defs/rational" }, "description": "visible label -> rational weight" }
+        }
+      }
+    },
+    "continuations": {
+      "type": "array",
+      "description": "declared ordered list; order fixes the canonical future-signature vector",
+      "items": {
+        "type": "object",
+        "required": ["continuation_id", "source", "target", "kind"],
+        "properties": {
+          "continuation_id": { "type": "string" },
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "kind": { "enum": ["identity", "hold", "schedule_word", "randomized_stop_mix", "conditioned_anneal", "composite"] },
+          "word": { "type": "array", "items": { "type": "object", "required": ["epsilon", "steps"], "properties": { "epsilon": { "$ref": "#/$defs/rational" }, "steps": { "type": "integer" } } } },
+          "mix": { "type": "array", "description": "randomized_stop_mix: list of (weight, word) with rational weights summing to 1", "items": { "type": "object", "required": ["weight", "word"], "properties": { "weight": { "$ref": "#/$defs/rational" }, "word": { "type": "array" } } } },
+          "condition_table": { "type": "object", "description": "conditioned_anneal: visible-label -> next word id" },
+          "components": { "type": "array", "items": { "type": "string" }, "description": "composite: ordered continuation_ids; the composite is itself declared, never derived" },
+          "is_loop": { "type": "boolean", "default": false }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rational": { "type": "string", "pattern": "^-?[0-9]+/[1-9][0-9]*$" }
+  }
+}

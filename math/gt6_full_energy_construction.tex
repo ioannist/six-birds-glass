@@ -1,0 +1,143 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\title{GT6: constructive full-energy strictness and finite-window persistence}
+\author{}
+\date{}
+\maketitle
+
+This note repairs the finite mathematical bridge without editing the paper.
+It does not certify the existing filing's other gates. In particular, future
+separation and fixed points of a packaging operator are different obligations.
+
+\paragraph{Declared carrier and legal preparations.}
+Let $X=\{0,1\}^8$, $e(x)=\sum_i x_i$, and $K$ be the random-site, wall-up East
+heat-bath kernel at $\epsilon=2/5$. Its stationary law is the product law with
+occupation probability $\epsilon/(1+\epsilon)$. The frozen configuration
+\texttt{configs/gt6\_shell\_witness\_n8.json} prescribes initial equilibrium
+at $7/10$, twenty quench steps at $1/10$, and a thirty-step observation window
+at $2/5$. Define
+\[
+ \mu_t=\pi_{7/10} K_{1/10}^{20} K^t,\qquad 0\leq t\leq9,
+ \qquad a_t(j)=\mu_t\{e=j\},\quad 0\leq j\leq8.
+\]
+A legal preparation may choose a stopping time independently of the spin
+trajectory, using a precomputed probability law on these ten times, then run
+the stated kernel for that number of steps. Subsequent experiments begin from
+that stopped spin law. This extension of the deterministic-run carrier must
+be declared: the two sources are convex random stopping mixtures, rather
+than two deterministic stopping times or path-dependent selection rules.
+
+\paragraph{Current-only selector.}
+Let $A$ have columns $a_0,\ldots,a_9$. Rational RREF, with the first free
+column assigned coefficient one and subsequent free coefficients zero,
+produces a nonzero $c\in\ker A$. For the frozen data, the rank is nine and
+the free column is nine. Because each column has mass one,
+$\sum_t c_t=0$. Therefore
+\[
+ z=\sum_t(c_t)_+=\sum_t(-c_t)_+>0,\qquad
+ p_t=(c_t)_+/z,\quad q_t=(-c_t)_+/z
+\]
+are probability weights. Define $h_+=\sum_t p_t\mu_t$ and
+$h_-=\sum_t q_t\mu_t$. They are nonnegative probability laws and
+\[
+ a(h_+)-a(h_-)=Ac/z=0.
+\]
+Only current energy-law columns enter this selector. Neither future energy
+values nor an equilibrium target enter it. A null vector alone does not
+guarantee a future split: stationary repeated columns yield identical
+mixtures, and the implementation rejects such a false target.
+
+\paragraph{Strictness and its exact computational premises.}
+Freeze the selector, then evaluate $u_\tau(h)=hK^\tau e$ for every
+$\tau\in H=\{1,\ldots,21\}$. All preparations and continuations remain
+inside the declared window because $9+21=30$. Exact rational replay shows
+\[
+ d_\tau=|u_\tau(h_+)-u_\tau(h_-)|>0\quad(\tau\in H),
+ \qquad d=\min_{\tau\in H}d_\tau>0.
+\]
+The machine-readable certificate stores the rational values, coefficients,
+weights, current columns, source-law hashes and binding configuration.
+The minimum is approximately $1.486528865476599\cdot10^{-10}$; this decimal
+is illustrative, not the proof of positivity.
+
+On the declared two-object carrier set
+\[
+ \pi_0(h)=a(h),\qquad
+ \pi_1(h)=(a(h),(u_\tau(h))_{\tau\in H}).
+\]
+The projection to the first coordinate retains $\pi_0$. If a function
+$f$ satisfied $\pi_1=f\circ\pi_0$, equality of the current vectors would
+force equality of every future coordinate, contradicting any $d_\tau>0$.
+Thus the predictive layer strictly extends the \emph{complete current energy
+law}, not merely its mean. This is the split-pair-to-nonfactorization direction
+of F-III T12/T13. T19/T20 concern consequences of accepted verdicts; they
+cannot replace proofs of the other gates. On this finite carrier all
+$2^9=512$ energy predicates also agree, as certified by exhaustive exact
+summing. No claim about arbitrary other carriers follows from this example.
+
+\paragraph{Finite persistence and quantitative robustness.}
+As a corollary of full current-law equality, every descriptor computed from
+that law, including nonlinear summaries and any collection of energy-only
+scalars, takes the same value on the two histories. Such a descriptor cannot
+be future-sufficient. The corresponding generic and actual-table corollaries
+are mechanized in Lean. In the declared scalar buyback pool the expected
+grid-index fictive-temperature readout $T_f$ indeed fails to separate the
+pair. The bond-count mean and first-spin mean do separate it, so either
+restores zero loss on this two-history exhibit. The certificate records all
+subset losses, using the sum of two unit-weight squared errors, not their
+mean. MaxFiber is two on this current fiber; this does not lower-bound the
+number of real-valued scalar coordinates needed to resolve arbitrary memory.
+
+For probability measures $\nu,\eta$ and a bounded observable with range
+$[0,8]$, $|\nu e-\eta e|\leq8\operatorname{TV}(\nu,\eta)$.
+Consequently the future energy laws have TV distance at least $d_\tau/8$.
+Markov kernels contract TV. If each source law is perturbed by at most
+$r=d/(4\cdot8)$, then each perturbed future gap is at least
+$d-2\cdot8r=d/2>0$ throughout $H$. To retain the nonfactorization conclusion,
+the perturbed sources must additionally have equal current energy laws;
+arbitrary perturbations do not preserve that equality. This is a finite
+window result, with a tiny but explicit tolerance. It is not a claim of
+macroscopic gap size, experimental detectability, all-time persistence,
+asymptotic metastability, or a window-uniform large-$N$ theorem.
+
+\paragraph{Target-coupled negative control.}
+Keep $h_+,h_-$ and their common current vector unchanged, and replace only
+the future probe kernel by unconstrained random-site heat bath at $2/5$.
+Its energy process is lumpable: at energy $j$, the probabilities of gaining
+and losing one spin are $(8-j)(2/7)/8$ and $j(5/7)/8$, respectively.
+Equal initial energy laws therefore give equal future energy laws at every
+time. Exact replay checks that every mean-energy gap on $H$ is zero.
+This ablation changes the actual experiment, rather than deleting a required
+field from a conjunction.
+
+\paragraph{Packaging obstruction.}
+Let $Q$ map a law to its energy law, and $U$ relift each energy level using
+the conditional Gibbs prototype (uniform within that level). The row-kernel
+implementation of $E$ first evolves by $K$, then applies $Q$, then $U$.
+The exact graph check shows it is irreducible; exact arithmetic shows
+$\pi_{2/5}E=\pi_{2/5}$. A finite irreducible stochastic kernel has a unique
+stationary probability law. Hence this $E$ cannot possess multiple exact
+fixed-point strata of probability laws. Its maximum prototype retention
+error at one step is $5/7$, not a small number. Indeed the all-up prototype
+leaves energy eight with probability $5/7$, while any spin-flip probability
+is at most $5/7$. Saturation of a set of support labels does not certify
+fixed points of $E$. Finite predictive persistence therefore cannot be
+used to mark a completion-fixed-point stability gate as passed.
+
+\paragraph{Mechanization boundary.}
+\texttt{GlassWitness/EnergyCore.lean} declares separate current events for
+all nine energy probabilities and twenty-one actual continuation labels.
+Probe histories retain both the source index and selected horizon.
+Python verifies equality of the two actual current laws before the exporter
+instantiates their shared current vector in Lean. That equality and the
+preparation-to-table bridge are source-replay evidence, not a second
+independent Lean computation of the two laws.
+\texttt{EnergyN8.lean} checks every exported rational split with kernel
+reduction and proves corrected-core strict refinement, nonfactorization
+through the complete current vector at every horizon, and insufficiency
+of that vector. The generic constructor also proves a constant-future
+false-target control. Full East evolution, RREF, lawful convex preparation,
+and the packaging graph are replayed in exact Python; they are not claimed
+as independently mechanized Lean kernel computations.
+\end{document}

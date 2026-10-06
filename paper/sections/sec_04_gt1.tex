@@ -1,0 +1,83 @@
+\section{GT1: The Energy Readout Is Not Closed}
+\label{sec:gt1}
+
+\subsection{Claim}
+
+In plain terms: for an aging East chain, the microstate tells you substantially more about the
+energy a few steps ahead than the present energy does, and it does so by a certified factor more
+than at constrained equilibrium. Precisely:
+
+\claimref{GT1}{287c64d67c666ebac399a10b237a8738183e25f41de1406d18153549dbbeadab}
+On the declared scope (East model, $N=8$, lens $L_{\mathrm{energy}}$, horizon ladder
+$\tau \in \{1,2,4,8\}$, quench $\epsilon: 7/10 \to 1/10$ with waiting time $t_w = 20$), the
+closure deficit $\mathrm{CD}_\tau$ of the aging protocol exceeds the constrained-East
+stationary-equilibrium baseline at every declared horizon by at least the declared margin $3/2$.
+The certified lower bound on the smallest ratio is $1.6391$, at $\tau=8$
+(Table~\ref{tab:gt1-margins}). Every inequality is proved in exact arithmetic: the joint and
+conditional probabilities are exact rationals and each logarithm is enclosed between
+outward-rounded rational bounds, so the decimal values shown are illustrative. Alongside, the
+one-step idempotence defect of the packaging map is $1225/1936$ for the cold ($\epsilon=1/10$)
+quench kernel and $1225/4624$ for the hot ($\epsilon=7/10$) equilibrium kernel, an exact ratio
+$289/121$ above its declared margin $2$. Grade: theorem (audited class), exact rational. In the
+framework's filing vocabulary: the P5 channel of the standard thermodynamic packaging is not
+\texttt{active\_projection} as a closed packaging on this scope; packaging the present energy
+readout does not yield a closed description. Anchors: F-III T8, F-I D-IC-01/D-IC-02/T-CL-01,
+\sbtcite{sbt-paper-b} Def.~3.1.
+
+\input{tables/out/tab_gt1_margins.tex}
+
+The two packaging defects are each bounded by a different, larger quantity, the
+prototype-retention error ($10/11$ cold, $10/17$ hot), and the two quantities are reported
+separately. As stated in \S\ref{sec:methods}, the defect is a saturation diagnostic, not a
+closure criterion; the closure claim rests on the deficit.
+
+\subsection{The controls, and why equilibrium is not zero}
+
+The controls deserve emphasis, because the intuitive control is wrong. One might expect an
+equilibrated chain to have nothing left to remember, and so to serve as a zero-deficit control.
+That expectation is \emph{false}, and provably so. $\mathrm{CD}_\tau = 0$ for a fully supported
+distribution if and only if the energy readout is $\tau$-lumpable, and lumpability depends on
+the kinetic constraint, not on stationarity. In East a spin can flip only when its left neighbor
+is up, so the number of spins free to move, and hence the rate at which the energy can change,
+depends on \emph{where} the up spins sit, not merely on how many there are. The energy readout of
+East is therefore not closed even at equilibrium.
+
+The certificate uses two controls with different jobs (Fig.~\ref{fig:gt1-ladder}). The
+\emph{unconstrained} model, whose energy readout is lumpable by construction, sits at exact
+rational $\mathrm{CD} = 0$ (exact lumpability verified symbolically; float evaluation gives
+residuals near $10^{-17}$). Constrained-East equilibrium is an honest \emph{nonzero baseline}. The
+content of the certificate is that aging exceeds even that baseline by the declared margin.
+Equilibrium is never used as a zero control.
+
+\claimref{GB2}{847f389464f9196f2315c05e3cef842efa94f201aad26f19b5dc4071e043f081}
+Because the aging chain is driven by a temperature schedule, the closure deficit must be defined
+relative to the protocol rather than to a single stationary kernel. GB2 supplies that machinery:
+finite protocol-relative deficit computations (East versus unconstrained, $N=4$, declared
+$\epsilon$ grid), with exactness reserved for the lumpability check and float64 windowed
+diagnostics labeled as such. GB2 is recognition-grade, a demonstration rather than a certificate.
+The GT1 artifact carries a passing consistency gate for it: on a single stationary cell the
+protocol-relative deficit equals the stationary deficit by definition, with residual exactly $0$.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\linewidth]{figures/out/fig_gt1_cd_ladder.pdf}
+  \caption{GT1 closure deficit (nats) versus horizon $\tau$: aging protocol,
+    constrained-equilibrium baseline (nonzero because the energy readout is not lumpable), and the
+    unconstrained control at exact zero. Annotations give the aging/equilibrium ratio at each
+    horizon; the declared margin is $3/2$. Plotted values are floats; the margin is certified with
+    rational enclosures (Table~\ref{tab:gt1-margins}).}
+  \label{fig:gt1-ladder}
+\end{figure}
+
+\subsection{Scope and an open control}
+
+The certificate quantifies over exactly its declared cell: East, $N=8$, $L_{\mathrm{energy}}$,
+the declared horizon ladder and the declared quench. FA replication, the richer
+$L_{\mathrm{panel}}$ lens and $N=10$ are extensions that were not run, listed as such in the
+artifact envelope.
+
+\claimref{NEG.gt1\_b\_parity\_control\_open}{287c64d67c666ebac399a10b237a8738183e25f41de1406d18153549dbbeadab}
+One intended control is open: the benchmark-parity check against the example chains of paper [B]
+was not ported, and the GT1 artifact files it as an explicitly skipped control with its reason
+(machine-readable \texttt{status: skipped}). The margins are internal to the declared scope and do
+not route through [B]'s example chains; no [B]-parity is claimed until the control is run.

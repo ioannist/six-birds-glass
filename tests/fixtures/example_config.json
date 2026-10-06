@@ -1,0 +1,25 @@
+{
+  "config_version": 1,
+  "run_label": "p0_example",
+  "model": {
+    "family": "east",
+    "N": 6,
+    "boundary": "wall_up"
+  },
+  "epsilon_grid": ["1/5"],
+  "lens": {
+    "id": "L_energy"
+  },
+  "protocol": {
+    "id": "P_eq(1/5)",
+    "word": [
+      {
+        "epsilon": "1/5",
+        "steps": 1
+      }
+    ]
+  },
+  "arithmetic": {
+    "mode": "exact_rational"
+  }
+}

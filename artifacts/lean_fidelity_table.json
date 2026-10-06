@@ -1,0 +1,1327 @@
+{
+  "artifact_kind": "lean_fidelity_table",
+  "claim_grade": "bridge_record",
+  "claim_id": "GB9.lean_fidelity_table",
+  "code_version": "8e3aba29afd9656ef69a5c2cc88d449cf36411e1",
+  "config_hash": "6697e7afd49c0b039e2b7b12c9726fa7655d3ab9ae2c4b164e70f0fabd832051",
+  "config_path": "lean/",
+  "evidence_type": "lean_checked",
+  "nonclaims": [
+    "Full East kernel evolution, preparation and tuning are exact Python evidence.",
+    "Lean's numeric strictness concerns the exported finite observation tables.",
+    "No shell-general, asymptotic or packaging-fixed-point theorem is mechanized.",
+    "The legacy glassInstance remains a structural index-based instance."
+  ],
+  "payload": {
+    "allowed_extra_fidelity": "computational evidence only",
+    "factorization_direction": "ReachableState(S) -> PredictiveQuotient(M): M factors through S. S need not be a function of M; it may retain redundant information.",
+    "fidelity_legend": [
+      "verified",
+      "narrowed / parametric",
+      "schema (projection)",
+      "trivial",
+      "typed mirror"
+    ],
+    "native_decide_grep_result": "",
+    "rows": [
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveToCurrent_eq_of_currentLoopTrivial' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Asymmetry.lean",
+        "lean_name": "predictiveToCurrent_eq_of_currentLoopTrivial",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveToCurrent_eq_of_currentLoopTrivial",
+        "qualified_lean_name": "DeclaredMemory.predictiveToCurrent_eq_of_currentLoopTrivial"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Asymmetry.lean",
+        "lean_name": "loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+        "qualified_lean_name": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Asymmetry.lean",
+        "lean_name": "loopAsymmetry_exhibits_movedPredictive_currentFixed",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed",
+        "qualified_lean_name": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.currentEventEquiv_refl' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_refl",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentEventEquiv_refl",
+        "qualified_lean_name": "DeclaredMemory.currentEventEquiv_refl"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.currentEventEquiv_symm' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_symm",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentEventEquiv_symm",
+        "qualified_lean_name": "DeclaredMemory.currentEventEquiv_symm"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.currentEventEquiv_trans' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_trans",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentEventEquiv_trans",
+        "qualified_lean_name": "DeclaredMemory.currentEventEquiv_trans"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futurePredictiveEquiv_refl' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_refl",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.futurePredictiveEquiv_refl",
+        "qualified_lean_name": "DeclaredMemory.futurePredictiveEquiv_refl"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futurePredictiveEquiv_symm' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_symm",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.futurePredictiveEquiv_symm",
+        "qualified_lean_name": "DeclaredMemory.futurePredictiveEquiv_symm"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futurePredictiveEquiv_trans' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_trans",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.futurePredictiveEquiv_trans",
+        "qualified_lean_name": "DeclaredMemory.futurePredictiveEquiv_trans"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futurePredictiveEquiv_implies_currentEventEquiv' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_implies_currentEventEquiv",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.futurePredictiveEquiv_implies_currentEventEquiv",
+        "qualified_lean_name": "DeclaredMemory.futurePredictiveEquiv_implies_currentEventEquiv"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.currentEventEquiv_push' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_push",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentEventEquiv_push",
+        "qualified_lean_name": "DeclaredMemory.currentEventEquiv_push"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.currentEventEquiv_implies_future_of_all_compatible' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_implies_future_of_all_compatible",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentEventEquiv_implies_future_of_all_compatible",
+        "qualified_lean_name": "DeclaredMemory.currentEventEquiv_implies_future_of_all_compatible"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.bitCore_witness' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Examples.lean",
+        "lean_name": "bitCore_witness",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.bitCore_witness",
+        "qualified_lean_name": "DeclaredMemory.bitCore_witness"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.bitCore_swap_compatible' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Examples.lean",
+        "lean_name": "bitCore_swap_compatible",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.bitCore_swap_compatible",
+        "qualified_lean_name": "DeclaredMemory.bitCore_swap_compatible"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.bitCore_loop_asymmetry' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Examples.lean",
+        "lean_name": "bitCore_loop_asymmetry",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.bitCore_loop_asymmetry",
+        "qualified_lean_name": "DeclaredMemory.bitCore_loop_asymmetry"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.bitCore_read_not_compatible' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Examples.lean",
+        "lean_name": "bitCore_read_not_compatible",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.bitCore_read_not_compatible",
+        "qualified_lean_name": "DeclaredMemory.bitCore_read_not_compatible"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveLoopAction_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Loops.lean",
+        "lean_name": "predictiveLoopAction_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveLoopAction_mk",
+        "qualified_lean_name": "DeclaredMemory.predictiveLoopAction_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.currentLoopAction_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Loops.lean",
+        "lean_name": "currentLoopAction_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentLoopAction_mk",
+        "qualified_lean_name": "DeclaredMemory.currentLoopAction_mk"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveToCurrent_commutes_with_loopAction' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Loops.lean",
+        "lean_name": "predictiveToCurrent_commutes_with_loopAction",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. Transport compatibility is an explicit hypothesis.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveToCurrent_commutes_with_loopAction",
+        "qualified_lean_name": "DeclaredMemory.predictiveToCurrent_commutes_with_loopAction"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.predictiveQuotient_futureSufficient' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "predictiveQuotient_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.predictiveQuotient_futureSufficient",
+        "qualified_lean_name": "DeclaredMemory.predictiveQuotient_futureSufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_stateEq_implies_futurePredictiveEquiv",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv",
+        "qualified_lean_name": "DeclaredMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv"
+      },
+      {
+        "axioms": [
+          "Classical.choice"
+        ],
+        "axioms_raw": "'DeclaredMemory.reachableStateRepresentative_state_eq' depends on axioms: [Classical.choice]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "reachableStateRepresentative_state_eq",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.reachableStateRepresentative_state_eq",
+        "qualified_lean_name": "DeclaredMemory.reachableStateRepresentative_state_eq"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.reachableStateToPredictiveQuotient_commutes' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "reachableStateToPredictiveQuotient_commutes",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. Transport compatibility is an explicit hypothesis. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.reachableStateToPredictiveQuotient_commutes",
+        "qualified_lean_name": "DeclaredMemory.reachableStateToPredictiveQuotient_commutes"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable' depends on axioms: [Classical.choice,\n Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+        "qualified_lean_name": "DeclaredMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.futureSufficient_factorization_unique_onReachable' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorization_unique_onReachable",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.futureSufficient_factorization_unique_onReachable",
+        "qualified_lean_name": "DeclaredMemory.futureSufficient_factorization_unique_onReachable"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.reachableStateToPredictiveQuotient_unique' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Sufficiency.lean",
+        "lean_name": "reachableStateToPredictiveQuotient_unique",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "DeclaredMemory.reachableStateToPredictiveQuotient_unique",
+        "qualified_lean_name": "DeclaredMemory.reachableStateToPredictiveQuotient_unique"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'DeclaredMemory.futurePredictiveEquiv_push' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Transport.lean",
+        "lean_name": "futurePredictiveEquiv_push",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.futurePredictiveEquiv_push",
+        "qualified_lean_name": "DeclaredMemory.futurePredictiveEquiv_push"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveTransport_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Transport.lean",
+        "lean_name": "predictiveTransport_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveTransport_mk",
+        "qualified_lean_name": "DeclaredMemory.predictiveTransport_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveToCurrent_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Transport.lean",
+        "lean_name": "predictiveToCurrent_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveToCurrent_mk",
+        "qualified_lean_name": "DeclaredMemory.predictiveToCurrent_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.currentTransport_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Transport.lean",
+        "lean_name": "currentTransport_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.currentTransport_mk",
+        "qualified_lean_name": "DeclaredMemory.currentTransport_mk"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.predictiveToCurrent_commutes_with_transport' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Transport.lean",
+        "lean_name": "predictiveToCurrent_commutes_with_transport",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core. Transport compatibility is an explicit hypothesis.",
+        "paper_or_project_claim": "DeclaredMemory.predictiveToCurrent_commutes_with_transport",
+        "qualified_lean_name": "DeclaredMemory.predictiveToCurrent_commutes_with_transport"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.PredictiveWitness.distinct_predictive_classes_same_current_class' depends on axioms: [propext,\n Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Witnesses.lean",
+        "lean_name": "distinct_predictive_classes_same_current_class",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.PredictiveWitness.distinct_predictive_classes_same_current_class",
+        "qualified_lean_name": "DeclaredMemory.PredictiveWitness.distinct_predictive_classes_same_current_class"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.PredictiveWitness.induces_strictRefinement' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Witnesses.lean",
+        "lean_name": "induces_strictRefinement",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.PredictiveWitness.induces_strictRefinement",
+        "qualified_lean_name": "DeclaredMemory.PredictiveWitness.induces_strictRefinement"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.strictRefinement_implies_predictiveWitness' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Witnesses.lean",
+        "lean_name": "strictRefinement_implies_predictiveWitness",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.strictRefinement_implies_predictiveWitness",
+        "qualified_lean_name": "DeclaredMemory.strictRefinement_implies_predictiveWitness"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'DeclaredMemory.strictRefinement_iff_nonempty_predictiveWitness' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/DeclaredMemory/Witnesses.lean",
+        "lean_name": "strictRefinement_iff_nonempty_predictiveWitness",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the corrected declared-event core.",
+        "paper_or_project_claim": "DeclaredMemory.strictRefinement_iff_nonempty_predictiveWitness",
+        "qualified_lean_name": "DeclaredMemory.strictRefinement_iff_nonempty_predictiveWitness"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.Energy.strict_refinement' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyCore.lean",
+        "lean_name": "strict_refinement",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Energy.strict_refinement",
+        "qualified_lean_name": "GlassWitness.Energy.strict_refinement"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Energy.nonfactorization' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyCore.lean",
+        "lean_name": "nonfactorization",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Energy.nonfactorization",
+        "qualified_lean_name": "GlassWitness.Energy.nonfactorization"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Energy.current_law_not_futureSufficient' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyCore.lean",
+        "lean_name": "current_law_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Energy.current_law_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.Energy.current_law_not_futureSufficient"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Energy.energy_descriptor_not_futureSufficient' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyCore.lean",
+        "lean_name": "energy_descriptor_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Energy.energy_descriptor_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.Energy.energy_descriptor_not_futureSufficient"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.Energy.constant_future_not_strict' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyCore.lean",
+        "lean_name": "constant_future_not_strict",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Energy.constant_future_not_strict",
+        "qualified_lean_name": "GlassWitness.Energy.constant_future_not_strict"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.EnergyN8.all_horizons_split' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyN8.lean",
+        "lean_name": "all_horizons_split",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.EnergyN8.all_horizons_split",
+        "qualified_lean_name": "GlassWitness.EnergyN8.all_horizons_split"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.EnergyN8.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyN8.lean",
+        "lean_name": "strict_refinement",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.EnergyN8.strict_refinement",
+        "qualified_lean_name": "GlassWitness.EnergyN8.strict_refinement"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.EnergyN8.all_horizons_nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyN8.lean",
+        "lean_name": "all_horizons_nonfactorization",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.EnergyN8.all_horizons_nonfactorization",
+        "qualified_lean_name": "GlassWitness.EnergyN8.all_horizons_nonfactorization"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.EnergyN8.current_law_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyN8.lean",
+        "lean_name": "current_law_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.EnergyN8.current_law_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.EnergyN8.current_law_not_futureSufficient"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.EnergyN8.energy_descriptor_not_futureSufficient' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/EnergyN8.lean",
+        "lean_name": "energy_descriptor_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.EnergyN8.energy_descriptor_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.EnergyN8.energy_descriptor_not_futureSufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'GlassWitness.glassPredictiveQuotient_futureSufficient' does not depend on any axioms",
+        "fidelity": "schema (projection)",
+        "lean_file": "lean/GlassWitness/Instance.lean",
+        "lean_name": "glassPredictiveQuotient_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Specializes a generic theorem to the legacy structural instance.",
+        "paper_or_project_claim": "GlassWitness.glassPredictiveQuotient_futureSufficient",
+        "qualified_lean_name": "GlassWitness.glassPredictiveQuotient_futureSufficient"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.strict_refinement' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "strict_refinement",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.strict_refinement",
+        "qualified_lean_name": "GlassWitness.Numeric.strict_refinement"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.nonfactorization' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "nonfactorization",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.nonfactorization",
+        "qualified_lean_name": "GlassWitness.Numeric.nonfactorization"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.probe_not_currentCompatible' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "probe_not_currentCompatible",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.probe_not_currentCompatible",
+        "qualified_lean_name": "GlassWitness.Numeric.probe_not_currentCompatible"
+      },
+      {
+        "axioms": [
+          "propext"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.current_panel_not_futureSufficient' depends on axioms: [propext]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "current_panel_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.current_panel_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.Numeric.current_panel_not_futureSufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'GlassWitness.Numeric.index_state_futureSufficient' does not depend on any axioms",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "index_state_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.index_state_futureSufficient",
+        "qualified_lean_name": "GlassWitness.Numeric.index_state_futureSufficient"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.index_state_factors_onReachable' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "index_state_factors_onReachable",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.index_state_factors_onReachable",
+        "qualified_lean_name": "GlassWitness.Numeric.index_state_factors_onReachable"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.Numeric.constant_future_not_strict' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericCore.lean",
+        "lean_name": "constant_future_not_strict",
+        "native_decide_used": false,
+        "notes": "Finite lookup implication in the corrected core; strictness requires an actual rational split. Constant-future negative controls are proved.",
+        "paper_or_project_claim": "GlassWitness.Numeric.constant_future_not_strict",
+        "qualified_lean_name": "GlassWitness.Numeric.constant_future_not_strict"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN10.future_split' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN10.lean",
+        "lean_name": "future_split",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN10.future_split",
+        "qualified_lean_name": "GlassWitness.NumericN10.future_split"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN10.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN10.lean",
+        "lean_name": "strict_refinement",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN10.strict_refinement",
+        "qualified_lean_name": "GlassWitness.NumericN10.strict_refinement"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN10.nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN10.lean",
+        "lean_name": "nonfactorization",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN10.nonfactorization",
+        "qualified_lean_name": "GlassWitness.NumericN10.nonfactorization"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN10.current_panel_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN10.lean",
+        "lean_name": "current_panel_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN10.current_panel_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.NumericN10.current_panel_not_futureSufficient"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN8.future_split' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN8.lean",
+        "lean_name": "future_split",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN8.future_split",
+        "qualified_lean_name": "GlassWitness.NumericN8.future_split"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN8.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN8.lean",
+        "lean_name": "strict_refinement",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN8.strict_refinement",
+        "qualified_lean_name": "GlassWitness.NumericN8.strict_refinement"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN8.nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN8.lean",
+        "lean_name": "nonfactorization",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN8.nonfactorization",
+        "qualified_lean_name": "GlassWitness.NumericN8.nonfactorization"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'GlassWitness.NumericN8.current_panel_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "fidelity": "narrowed / parametric",
+        "lean_file": "lean/GlassWitness/NumericN8.lean",
+        "lean_name": "current_panel_not_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Actual recomputed rational lookup witness in the corrected core; kernel evolution remains exact Python. EnergyN8 covers the complete current energy law and every future horizon 1..21; NumericN8/N10 cover current mean energy and one declared continuation.",
+        "paper_or_project_claim": "GlassWitness.NumericN8.current_panel_not_futureSufficient",
+        "qualified_lean_name": "GlassWitness.NumericN8.current_panel_not_futureSufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.current_implies_future_GENERIC' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "current_implies_future_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proves the legacy core's collapse and impossibility consequences.",
+        "paper_or_project_claim": "HolonomyMemory.current_implies_future_GENERIC",
+        "qualified_lean_name": "HolonomyMemory.current_implies_future_GENERIC"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.predictiveWitness_impossible_GENERIC' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "predictiveWitness_impossible_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proves the legacy core's collapse and impossibility consequences.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveWitness_impossible_GENERIC",
+        "qualified_lean_name": "HolonomyMemory.predictiveWitness_impossible_GENERIC"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.strictRefinement_impossible_GENERIC' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "strictRefinement_impossible_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proves the legacy core's collapse and impossibility consequences.",
+        "paper_or_project_claim": "HolonomyMemory.strictRefinement_impossible_GENERIC",
+        "qualified_lean_name": "HolonomyMemory.strictRefinement_impossible_GENERIC"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveToCurrent_injective_GENERIC' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "predictiveToCurrent_injective_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proves the legacy core's collapse and impossibility consequences.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveToCurrent_injective_GENERIC",
+        "qualified_lean_name": "HolonomyMemory.predictiveToCurrent_injective_GENERIC"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.loopAsymmetry_impossible_GENERIC' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/GlassWitness/ScopeBoundary.lean",
+        "lean_name": "loopAsymmetry_impossible_GENERIC",
+        "native_decide_used": false,
+        "notes": "Proves the legacy core's collapse and impossibility consequences.",
+        "paper_or_project_claim": "HolonomyMemory.loopAsymmetry_impossible_GENERIC",
+        "qualified_lean_name": "HolonomyMemory.loopAsymmetry_impossible_GENERIC"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveToCurrent_eq_of_currentLoopTrivial' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Asymmetry.lean",
+        "lean_name": "predictiveToCurrent_eq_of_currentLoopTrivial",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveToCurrent_eq_of_currentLoopTrivial",
+        "qualified_lean_name": "HolonomyMemory.predictiveToCurrent_eq_of_currentLoopTrivial"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Asymmetry.lean",
+        "lean_name": "loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+        "qualified_lean_name": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Asymmetry.lean",
+        "lean_name": "loopAsymmetry_exhibits_movedPredictive_currentFixed",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed",
+        "qualified_lean_name": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.currentEventEquiv_refl' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_refl",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentEventEquiv_refl",
+        "qualified_lean_name": "HolonomyMemory.currentEventEquiv_refl"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.currentEventEquiv_symm' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_symm",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentEventEquiv_symm",
+        "qualified_lean_name": "HolonomyMemory.currentEventEquiv_symm"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.currentEventEquiv_trans' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_trans",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentEventEquiv_trans",
+        "qualified_lean_name": "HolonomyMemory.currentEventEquiv_trans"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futurePredictiveEquiv_refl' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_refl",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.futurePredictiveEquiv_refl",
+        "qualified_lean_name": "HolonomyMemory.futurePredictiveEquiv_refl"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futurePredictiveEquiv_symm' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_symm",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.futurePredictiveEquiv_symm",
+        "qualified_lean_name": "HolonomyMemory.futurePredictiveEquiv_symm"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futurePredictiveEquiv_trans' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_trans",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.futurePredictiveEquiv_trans",
+        "qualified_lean_name": "HolonomyMemory.futurePredictiveEquiv_trans"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futurePredictiveEquiv_implies_currentEventEquiv' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "futurePredictiveEquiv_implies_currentEventEquiv",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.futurePredictiveEquiv_implies_currentEventEquiv",
+        "qualified_lean_name": "HolonomyMemory.futurePredictiveEquiv_implies_currentEventEquiv"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.currentEventEquiv_push' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Equivalences.lean",
+        "lean_name": "currentEventEquiv_push",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentEventEquiv_push",
+        "qualified_lean_name": "HolonomyMemory.currentEventEquiv_push"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveLoopAction_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Loops.lean",
+        "lean_name": "predictiveLoopAction_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveLoopAction_mk",
+        "qualified_lean_name": "HolonomyMemory.predictiveLoopAction_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.currentLoopAction_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Loops.lean",
+        "lean_name": "currentLoopAction_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentLoopAction_mk",
+        "qualified_lean_name": "HolonomyMemory.currentLoopAction_mk"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveToCurrent_commutes_with_loopAction' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Loops.lean",
+        "lean_name": "predictiveToCurrent_commutes_with_loopAction",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveToCurrent_commutes_with_loopAction",
+        "qualified_lean_name": "HolonomyMemory.predictiveToCurrent_commutes_with_loopAction"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.predictiveQuotient_futureSufficient' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "predictiveQuotient_futureSufficient",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.predictiveQuotient_futureSufficient",
+        "qualified_lean_name": "HolonomyMemory.predictiveQuotient_futureSufficient"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_stateEq_implies_futurePredictiveEquiv",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv",
+        "qualified_lean_name": "HolonomyMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv"
+      },
+      {
+        "axioms": [
+          "Classical.choice"
+        ],
+        "axioms_raw": "'HolonomyMemory.reachableStateRepresentative_state_eq' depends on axioms: [Classical.choice]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "reachableStateRepresentative_state_eq",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.reachableStateRepresentative_state_eq",
+        "qualified_lean_name": "HolonomyMemory.reachableStateRepresentative_state_eq"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.reachableStateToPredictiveQuotient_commutes' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "reachableStateToPredictiveQuotient_commutes",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.reachableStateToPredictiveQuotient_commutes",
+        "qualified_lean_name": "HolonomyMemory.reachableStateToPredictiveQuotient_commutes"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable' depends on axioms: [Classical.choice,\n Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+        "qualified_lean_name": "HolonomyMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.futureSufficient_factorization_unique_onReachable' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "futureSufficient_factorization_unique_onReachable",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.futureSufficient_factorization_unique_onReachable",
+        "qualified_lean_name": "HolonomyMemory.futureSufficient_factorization_unique_onReachable"
+      },
+      {
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.reachableStateToPredictiveQuotient_unique' depends on axioms: [Classical.choice, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Sufficiency.lean",
+        "lean_name": "reachableStateToPredictiveQuotient_unique",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. The factor map has direction ReachableState(S) -> PredictiveQuotient(M).",
+        "paper_or_project_claim": "HolonomyMemory.reachableStateToPredictiveQuotient_unique",
+        "qualified_lean_name": "HolonomyMemory.reachableStateToPredictiveQuotient_unique"
+      },
+      {
+        "axioms": [],
+        "axioms_raw": "'HolonomyMemory.futurePredictiveEquiv_push' does not depend on any axioms",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "futurePredictiveEquiv_push",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.futurePredictiveEquiv_push",
+        "qualified_lean_name": "HolonomyMemory.futurePredictiveEquiv_push"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveTransport_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "predictiveTransport_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveTransport_mk",
+        "qualified_lean_name": "HolonomyMemory.predictiveTransport_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveToCurrent_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "predictiveToCurrent_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveToCurrent_mk",
+        "qualified_lean_name": "HolonomyMemory.predictiveToCurrent_mk"
+      },
+      {
+        "axioms": [
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.currentTransport_mk' depends on axioms: [Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "currentTransport_mk",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.currentTransport_mk",
+        "qualified_lean_name": "HolonomyMemory.currentTransport_mk"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.predictiveToCurrent_commutes_with_transport' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Transport.lean",
+        "lean_name": "predictiveToCurrent_commutes_with_transport",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core.",
+        "paper_or_project_claim": "HolonomyMemory.predictiveToCurrent_commutes_with_transport",
+        "qualified_lean_name": "HolonomyMemory.predictiveToCurrent_commutes_with_transport"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.PredictiveWitness.distinct_predictive_classes_same_current_class' depends on axioms: [propext,\n Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Witnesses.lean",
+        "lean_name": "distinct_predictive_classes_same_current_class",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.PredictiveWitness.distinct_predictive_classes_same_current_class",
+        "qualified_lean_name": "HolonomyMemory.PredictiveWitness.distinct_predictive_classes_same_current_class"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.PredictiveWitness.induces_strictRefinement' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Witnesses.lean",
+        "lean_name": "induces_strictRefinement",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.PredictiveWitness.induces_strictRefinement",
+        "qualified_lean_name": "HolonomyMemory.PredictiveWitness.induces_strictRefinement"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.strictRefinement_implies_predictiveWitness' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Witnesses.lean",
+        "lean_name": "strictRefinement_implies_predictiveWitness",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.strictRefinement_implies_predictiveWitness",
+        "qualified_lean_name": "HolonomyMemory.strictRefinement_implies_predictiveWitness"
+      },
+      {
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ],
+        "axioms_raw": "'HolonomyMemory.strictRefinement_iff_nonempty_predictiveWitness' depends on axioms: [propext, Quot.sound]",
+        "fidelity": "verified",
+        "lean_file": "lean/HolonomyMemory/Witnesses.lean",
+        "lean_name": "strictRefinement_iff_nonempty_predictiveWitness",
+        "native_decide_used": false,
+        "notes": "Generic theorem in the legacy pullback-closed core. In the legacy HolonomyMemory core, the strictness/asymmetry antecedent is unsatisfiable; see strictRefinement_impossible_GENERIC and loopAsymmetry_impossible_GENERIC. This limitation does not apply to the corrected DeclaredMemory core.",
+        "paper_or_project_claim": "HolonomyMemory.strictRefinement_iff_nonempty_predictiveWitness",
+        "qualified_lean_name": "HolonomyMemory.strictRefinement_iff_nonempty_predictiveWitness"
+      },
+      {
+        "fidelity": "computational evidence only",
+        "lean_file": null,
+        "lean_name": null,
+        "native_decide_used": false,
+        "notes": "Exact Python source replay; rational lookup consequences are separately in Lean.",
+        "paper_or_project_claim": "Full East preparation, stopping-mixture construction and evolution",
+        "qualified_lean_name": null
+      }
+    ],
+    "source_sha256": {
+      "lean/DeclaredMemory.lean": "1267cdb123fd0cc1750cd4e92f1bd09f85fa6c28791e4c2e38e17cd549bac3a4",
+      "lean/DeclaredMemory/Asymmetry.lean": "0d5091b4e32c60fa34187ade63cb7d04cfc2f07fad32d0def4c712993c52cf43",
+      "lean/DeclaredMemory/Basic.lean": "142dbb4651935b9cefe3989b4403f4beda364e43ec6a3886bb698a204e4ea8b8",
+      "lean/DeclaredMemory/Equivalences.lean": "d013fa47517abd1d33b7d3949cffbc217e86686f7d5c14ea4b703202554dbf6d",
+      "lean/DeclaredMemory/Examples.lean": "e70dca6a0c6af81aa6b3739140f52308ca3e264218825a752601d8e895c8a4fe",
+      "lean/DeclaredMemory/Interfaces.lean": "e56d15c978f0392c83edd264f7bc0fd35504ab682d937cef8121b8a50e08eb80",
+      "lean/DeclaredMemory/Loops.lean": "f986fa6f2a02d0cfd78df6e82f83162a2746e280073f0c17d11db088afad29a7",
+      "lean/DeclaredMemory/Sufficiency.lean": "e23d6d2c3c23be3842f4c27aa7e6967f9959504d936be14741cad970c57f96d4",
+      "lean/DeclaredMemory/Transport.lean": "c9742b629413fa762903447e37c79e492e815c6522fde1cc27d9e50035d482a2",
+      "lean/DeclaredMemory/Witnesses.lean": "a2120988d7a661e66a01804d73ff2ac2cc4ac39e3b205db9a197aa6feaf11c27",
+      "lean/GlassWitness.lean": "ffe48df03b2bfa9e624a8d7fbb2c46a5e76ef6023c5b5873cf4596a0c1014dc4",
+      "lean/GlassWitness/EnergyCore.lean": "fd644c155f781a7024c0c1de568ea36be158a9707c915ef8f8d03b10fb23183e",
+      "lean/GlassWitness/EnergyN8.lean": "f242addad9b0a4766585059d7d35233844908cb16f4d91ce661c79cad26b5f47",
+      "lean/GlassWitness/Instance.lean": "8df214180a49c4bde6b73b456a2c34e7c32ddb4f33110f8e749a583144fa554b",
+      "lean/GlassWitness/NumericCore.lean": "772289f4eaed0161a3e61e138536b48d9e0f6508ff7e015f7d96e8ac0a0f21bc",
+      "lean/GlassWitness/NumericN10.lean": "5cd5de8216545b5aaa6afc6f0bf5ae24582e386dfe5d36b1a06285f321d69d6e",
+      "lean/GlassWitness/NumericN8.lean": "f8366dbbb6714804350661a937a4921ca1daf6a8efb55ec986e16376ba635565",
+      "lean/GlassWitness/ScopeBoundary.lean": "b29d612b26eddaa25183177e66a480e4b317ebd3e7794e16f1776a1e8ac08e11",
+      "lean/HolonomyMemory.lean": "ccfab89cd11646e81f9c3becb6d68c985a6008cbce859fefb7df4bfcc96602b6",
+      "lean/HolonomyMemory/Asymmetry.lean": "755550e091a88e44eb61d70375ba17ab8240bedafed4396155a6879d5bce9487",
+      "lean/HolonomyMemory/Basic.lean": "be0deec8c5147927263d5f4405a31bbaac87827208773819d2d2dde07e760a9a",
+      "lean/HolonomyMemory/Equivalences.lean": "05264f45e1273233dd2c96b4744231ecf9affc1a31f36e3f5b89f94b994fbfda",
+      "lean/HolonomyMemory/Interfaces.lean": "36404f8b5458056e556cf339a15ea633259b6d0dba7e02132f3d75f18e0b5ffe",
+      "lean/HolonomyMemory/Loops.lean": "766b72a626a4ce95f27234240d90b0fb61b4f4bac36540912318db1830b5e311",
+      "lean/HolonomyMemory/Sufficiency.lean": "6dc4803a34f3ece0a64556b1de26eef839cb5a841b146adddb4fa86eba9dcc71",
+      "lean/HolonomyMemory/Transport.lean": "3578f5ee1a69e2a98d2590cc18ed851b1aeaa75c09c52b1d2e476fb5073cb507",
+      "lean/HolonomyMemory/Witnesses.lean": "2b893d247aa25eadfd42323e600945674875f84ddccd51562ab5ce8a4911b235"
+    },
+    "theorem_count": 96
+  },
+  "quantifier_domain": {
+    "N_values": [],
+    "epsilon_grid": [],
+    "lens_catalog_hash": "49d191708fa01e51f4ea4bb85576c46f9c3b142ed6d9d13242cac77bf467474a",
+    "model_families": [
+      "legacy_pullback_closed_core",
+      "declared_event_core",
+      "glass_numeric_lookup"
+    ],
+    "protocol_catalog_hash": "46a03e8fbd9afc2527b6e68c4e76171ff54001e8c036985a0253f408faff9d46"
+  },
+  "scope_boundary_finding": "The legacy HolonomyMemory core is pullback-closed, so current equivalence already implies future equivalence and its strictness antecedents are unsatisfiable. The corrected DeclaredMemory core removes this collapse premise and admits non-vacuous exported N8/N10 mean-energy witnesses and the N8 full-energy-law witness. Python replays preparation and evolution; Lean checks the actual rational tables and their logical consequences."
+}

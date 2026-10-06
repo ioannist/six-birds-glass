@@ -1,0 +1,3078 @@
+{
+  "artifact_kind": "transfer_scores",
+  "claim_grade": "run_only_readout",
+  "claim_id": "GT7.transfer_scores",
+  "code_version": "961e58f6fa34aa9001a24745aac41e808ea8325a",
+  "config_hash": "3afe026caa7491c1e8ba30e49cc4971f8156864ccbdff1cf1ccd3e95a83cf637",
+  "config_path": "registry/predictions_f5e2a3332a2191a2.json",
+  "evidence_type": "float64_deterministic",
+  "nonclaims": [
+    "transfer scoring is mechanical comparison against pre-registered predictions",
+    "score counts are not a fitted scaling law"
+  ],
+  "payload": {
+    "aggregate": {
+      "n_fail": 14,
+      "n_no_prediction": 294,
+      "n_pass": 8,
+      "n_unobserved": 22,
+      "total": 338
+    },
+    "cells": [
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_2-5_20",
+        "observed": 1.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_2-5_20",
+        "observed": 24.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_2-5_20",
+        "observed": 0.4511650148114651,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_2-5_60",
+        "observed": 3.0,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_2-5_60",
+        "observed": 33.0,
+        "predicted": "[10, 30]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_2-5_60",
+        "observed": 0.3451430877824813,
+        "predicted": "[0.09364431283700693, 0.2809329385110208]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0.005418008387634635, 0.016254025162903904]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-2_20",
+        "observed": 8.0,
+        "predicted": "[2, 8]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-2_20",
+        "observed": 35.0,
+        "predicted": "[12, 36]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-2_20",
+        "observed": 0.20334969369935296,
+        "predicted": "[0.06691890475324341, 0.20075671425973024]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-2_20",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-2_20",
+        "observed": null,
+        "predicted": "[1, 3]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-2_20",
+        "observed": null,
+        "predicted": "[0.004942596746686314, 0.014827790240058942]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_1-2_60",
+        "observed": 15.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_1-2_60",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_1-2_60",
+        "observed": 0.12301575422583606,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_3-5_20",
+        "observed": 28.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_3-5_20",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_3-5_20",
+        "observed": 0.037108278841774235,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_2-5_60",
+        "observed": 1.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_2-5_60",
+        "observed": 30.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_2-5_60",
+        "observed": 0.3258510758375526,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_2-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_2-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_2-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-2_20",
+        "observed": 5.0,
+        "predicted": "[1, 3]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-2_20",
+        "observed": 31.0,
+        "predicted": "[10, 32]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-2_20",
+        "observed": 0.21071444841847675,
+        "predicted": "[0.07181817263054525, 0.21545451789163578]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[1, 3]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[0.005304454215226596, 0.015913362645679788]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_1-2_60",
+        "observed": 14.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_1-2_60",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_1-2_60",
+        "observed": 0.10633522192973989,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_3-5_20",
+        "observed": 24.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_3-5_20",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_3-5_20",
+        "observed": 0.04079043029037429,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:7-10_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_2-5_20",
+        "observed": 3.0,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_2-5_20",
+        "observed": 28.0,
+        "predicted": "[8, 26]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_2-5_20",
+        "observed": 0.3193532556140693,
+        "predicted": "[0.08517706750259761, 0.2555312025077928]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_2-5_20",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_2-5_20",
+        "observed": null,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_2-5_20",
+        "observed": null,
+        "predicted": "[0.004928116317821074, 0.01478434895346322]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_2-5_60",
+        "observed": 6.0,
+        "predicted": "[1, 5]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_2-5_60",
+        "observed": 40.0,
+        "predicted": "[12, 38]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_2-5_60",
+        "observed": 0.23186811082997644,
+        "predicted": "[0.06269012152380851, 0.18807036457142554]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_2-5_60",
+        "observed": null,
+        "predicted": "[0.0036270820293061285, 0.010881246087918385]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-2_20",
+        "observed": 16.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-2_20",
+        "observed": 54.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-2_20",
+        "observed": 0.08434209439338097,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-2_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-2_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-2_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_1-2_60",
+        "observed": 37.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_1-2_60",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_1-2_60",
+        "observed": 0.024144219437715657,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-10_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_3-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_3-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_2-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_2-5_60",
+        "observed": 3.0,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_2-5_60",
+        "observed": 38.0,
+        "predicted": "[11, 33]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_2-5_60",
+        "observed": 0.2201961035780062,
+        "predicted": "[0.06222091626159685, 0.18666274878479056]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "fail"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_2-5_60",
+        "observed": null,
+        "predicted": "[0, 0]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_2-5_60",
+        "observed": null,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_2-5_60",
+        "observed": null,
+        "predicted": "[0.0035999350732426054, 0.010799805219727817]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-2_20",
+        "observed": 12.0,
+        "predicted": "[4, 12]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-2_20",
+        "observed": 47.0,
+        "predicted": "[16, 48]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-2_20",
+        "observed": 0.0899656774413707,
+        "predicted": "[0.030689621783258715, 0.09206886534977615]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[0, 2]",
+        "prediction_type": "interval",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[1, 3]",
+        "prediction_type": "interval",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-2_20",
+        "observed": null,
+        "predicted": "[0.0022667200747277035, 0.006800160224183111]",
+        "prediction_type": "interval",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_1-2_60",
+        "observed": 44.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_1-2_60",
+        "observed": 60.0,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_1-2_60",
+        "observed": 0.014118512932476067,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_1-2_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_3-5_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_3-5_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_7-10_20",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_peak:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:hump_height:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "fa1f",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_K:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:t_peak:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "t_peak",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "trap:hump_height:3-5_1-5_7-10_60",
+        "observed": null,
+        "predicted": "no_prediction",
+        "prediction_type": "no_prediction",
+        "readout_id": "hump_height",
+        "target_family": "trap",
+        "verdict": "no_prediction"
+      },
+      {
+        "cell_id": "fa:t_K_order:eps_mid_3-5_vs_1-2",
+        "observed": 28.0,
+        "predicted": "fa:t_K_order:eps_mid_3-5_vs_1-2 >= fa:t_K:7-10_1-10_1-2_20",
+        "prediction_type": "order_relation",
+        "readout_id": "t_K",
+        "target_family": "fa1f",
+        "verdict": "pass"
+      },
+      {
+        "cell_id": "trap:t_K_order:eps_mid_3-5_vs_1-2",
+        "observed": null,
+        "predicted": "trap:t_K_order:eps_mid_3-5_vs_1-2 >= trap:t_K:7-10_1-10_1-2_20",
+        "prediction_type": "order_relation",
+        "readout_id": "t_K",
+        "target_family": "trap",
+        "verdict": "unobserved"
+      }
+    ]
+  },
+  "predictions_source_hash": "3afe026caa7491c1e8ba30e49cc4971f8156864ccbdff1cf1ccd3e95a83cf637",
+  "quantifier_domain": {
+    "N_values": [],
+    "epsilon_grid": [],
+    "lens_catalog_hash": "1af8851d46e6545ea08fa7074f5196957541b82c7f7d7dd04359d04d90483111",
+    "model_families": [
+      "fa1f",
+      "trap"
+    ],
+    "protocol_catalog_hash": "4905b013624462549b9a4cdb18f51d0220f70be29976be461e5a8681978dcab8"
+  },
+  "scoring_script_hash": "beb83ce759f656ae1b60fdecd22dc736fe682440eba338e279dab9199ad21b22"
+}

@@ -1,0 +1,111 @@
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{8.4cm}p{2.9cm}}
+\caption{Lean fidelity table, every row. Rows with no Lean encoding are labeled by the claim they document instead of a Lean identifier}\label{tab:lean-fidelity-full} \\
+\toprule
+module & Lean name / documented claim & fidelity \\
+\midrule
+\endfirsthead
+\toprule
+module & Lean name / documented claim & fidelity \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+DeclaredMemory/\allowbreak{}Asymmetry & predictiveToCurrent\_\allowbreak{}eq\_\allowbreak{}of\_\allowbreak{}currentLoopTrivial & verified \\
+DeclaredMemory/\allowbreak{}Asymmetry & loopAsymmetry\_\allowbreak{}exhibits\_\allowbreak{}movedPredictive\_\allowbreak{}fixedCurrent & verified \\
+DeclaredMemory/\allowbreak{}Asymmetry & loopAsymmetry\_\allowbreak{}exhibits\_\allowbreak{}movedPredictive\_\allowbreak{}currentFixed & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}refl & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}symm & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}trans & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}refl & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}symm & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}trans & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}implies\_\allowbreak{}currentEventEquiv & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}push & verified \\
+DeclaredMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}implies\_\allowbreak{}future\_\allowbreak{}of\_\allowbreak{}all\_\allowbreak{}compatible & verified \\
+DeclaredMemory/\allowbreak{}Examples & bitCore\_\allowbreak{}witness & verified \\
+DeclaredMemory/\allowbreak{}Examples & bitCore\_\allowbreak{}swap\_\allowbreak{}compatible & verified \\
+DeclaredMemory/\allowbreak{}Examples & bitCore\_\allowbreak{}loop\_\allowbreak{}asymmetry & verified \\
+DeclaredMemory/\allowbreak{}Examples & bitCore\_\allowbreak{}read\_\allowbreak{}not\_\allowbreak{}compatible & verified \\
+DeclaredMemory/\allowbreak{}Loops & predictiveLoopAction\_\allowbreak{}mk & verified \\
+DeclaredMemory/\allowbreak{}Loops & currentLoopAction\_\allowbreak{}mk & verified \\
+DeclaredMemory/\allowbreak{}Loops & predictiveToCurrent\_\allowbreak{}commutes\_\allowbreak{}with\_\allowbreak{}loopAction & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & predictiveQuotient\_\allowbreak{}futureSufficient & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}stateEq\_\allowbreak{}implies\_\allowbreak{}futurePredictiveEquiv & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & reachableStateRepresentative\_\allowbreak{}state\_\allowbreak{}eq & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & reachableStateToPredictiveQuotient\_\allowbreak{}commutes & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}factorsThroughPredictiveQuotient\_\allowbreak{}onReachable & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}factorization\_\allowbreak{}unique\_\allowbreak{}onReachable & verified \\
+DeclaredMemory/\allowbreak{}Sufficiency & reachableStateToPredictiveQuotient\_\allowbreak{}unique & verified \\
+DeclaredMemory/\allowbreak{}Transport & futurePredictiveEquiv\_\allowbreak{}push & verified \\
+DeclaredMemory/\allowbreak{}Transport & predictiveTransport\_\allowbreak{}mk & verified \\
+DeclaredMemory/\allowbreak{}Transport & predictiveToCurrent\_\allowbreak{}mk & verified \\
+DeclaredMemory/\allowbreak{}Transport & currentTransport\_\allowbreak{}mk & verified \\
+DeclaredMemory/\allowbreak{}Transport & predictiveToCurrent\_\allowbreak{}commutes\_\allowbreak{}with\_\allowbreak{}transport & verified \\
+DeclaredMemory/\allowbreak{}Witnesses & distinct\_\allowbreak{}predictive\_\allowbreak{}classes\_\allowbreak{}same\_\allowbreak{}current\_\allowbreak{}class & verified \\
+DeclaredMemory/\allowbreak{}Witnesses & induces\_\allowbreak{}strictRefinement & verified \\
+DeclaredMemory/\allowbreak{}Witnesses & strictRefinement\_\allowbreak{}implies\_\allowbreak{}predictiveWitness & verified \\
+DeclaredMemory/\allowbreak{}Witnesses & strictRefinement\_\allowbreak{}iff\_\allowbreak{}nonempty\_\allowbreak{}predictiveWitness & verified \\
+GlassWitness/\allowbreak{}EnergyCore & strict\_\allowbreak{}refinement & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyCore & nonfactorization & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyCore & current\_\allowbreak{}law\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyCore & energy\_\allowbreak{}descriptor\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyCore & constant\_\allowbreak{}future\_\allowbreak{}not\_\allowbreak{}strict & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyN8 & all\_\allowbreak{}horizons\_\allowbreak{}split & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyN8 & strict\_\allowbreak{}refinement & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyN8 & all\_\allowbreak{}horizons\_\allowbreak{}nonfactorization & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyN8 & current\_\allowbreak{}law\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}EnergyN8 & energy\_\allowbreak{}descriptor\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}Instance & glassPredictiveQuotient\_\allowbreak{}futureSufficient & schema (projection) \\
+GlassWitness/\allowbreak{}NumericCore & strict\_\allowbreak{}refinement & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & nonfactorization & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & probe\_\allowbreak{}not\_\allowbreak{}currentCompatible & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & current\_\allowbreak{}panel\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & index\_\allowbreak{}state\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & index\_\allowbreak{}state\_\allowbreak{}factors\_\allowbreak{}onReachable & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericCore & constant\_\allowbreak{}future\_\allowbreak{}not\_\allowbreak{}strict & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN10 & future\_\allowbreak{}split & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN10 & strict\_\allowbreak{}refinement & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN10 & nonfactorization & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN10 & current\_\allowbreak{}panel\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN8 & future\_\allowbreak{}split & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN8 & strict\_\allowbreak{}refinement & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN8 & nonfactorization & narrowed / parametric \\
+GlassWitness/\allowbreak{}NumericN8 & current\_\allowbreak{}panel\_\allowbreak{}not\_\allowbreak{}futureSufficient & narrowed / parametric \\
+GlassWitness/\allowbreak{}ScopeBoundary & current\_\allowbreak{}implies\_\allowbreak{}future\_\allowbreak{}GENERIC & verified \\
+GlassWitness/\allowbreak{}ScopeBoundary & predictiveWitness\_\allowbreak{}impossible\_\allowbreak{}GENERIC & verified \\
+GlassWitness/\allowbreak{}ScopeBoundary & strictRefinement\_\allowbreak{}impossible\_\allowbreak{}GENERIC & verified \\
+GlassWitness/\allowbreak{}ScopeBoundary & predictiveToCurrent\_\allowbreak{}injective\_\allowbreak{}GENERIC & verified \\
+GlassWitness/\allowbreak{}ScopeBoundary & loopAsymmetry\_\allowbreak{}impossible\_\allowbreak{}GENERIC & verified \\
+HolonomyMemory/\allowbreak{}Asymmetry & predictiveToCurrent\_\allowbreak{}eq\_\allowbreak{}of\_\allowbreak{}currentLoopTrivial & verified \\
+HolonomyMemory/\allowbreak{}Asymmetry & loopAsymmetry\_\allowbreak{}exhibits\_\allowbreak{}movedPredictive\_\allowbreak{}fixedCurrent & verified \\
+HolonomyMemory/\allowbreak{}Asymmetry & loopAsymmetry\_\allowbreak{}exhibits\_\allowbreak{}movedPredictive\_\allowbreak{}currentFixed & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}refl & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}symm & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}trans & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}refl & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}symm & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}trans & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & futurePredictiveEquiv\_\allowbreak{}implies\_\allowbreak{}currentEventEquiv & verified \\
+HolonomyMemory/\allowbreak{}Equivalences & currentEventEquiv\_\allowbreak{}push & verified \\
+HolonomyMemory/\allowbreak{}Loops & predictiveLoopAction\_\allowbreak{}mk & verified \\
+HolonomyMemory/\allowbreak{}Loops & currentLoopAction\_\allowbreak{}mk & verified \\
+HolonomyMemory/\allowbreak{}Loops & predictiveToCurrent\_\allowbreak{}commutes\_\allowbreak{}with\_\allowbreak{}loopAction & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & predictiveQuotient\_\allowbreak{}futureSufficient & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}stateEq\_\allowbreak{}implies\_\allowbreak{}futurePredictiveEquiv & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & reachableStateRepresentative\_\allowbreak{}state\_\allowbreak{}eq & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & reachableStateToPredictiveQuotient\_\allowbreak{}commutes & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}factorsThroughPredictiveQuotient\_\allowbreak{}onReachable & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & futureSufficient\_\allowbreak{}factorization\_\allowbreak{}unique\_\allowbreak{}onReachable & verified \\
+HolonomyMemory/\allowbreak{}Sufficiency & reachableStateToPredictiveQuotient\_\allowbreak{}unique & verified \\
+HolonomyMemory/\allowbreak{}Transport & futurePredictiveEquiv\_\allowbreak{}push & verified \\
+HolonomyMemory/\allowbreak{}Transport & predictiveTransport\_\allowbreak{}mk & verified \\
+HolonomyMemory/\allowbreak{}Transport & predictiveToCurrent\_\allowbreak{}mk & verified \\
+HolonomyMemory/\allowbreak{}Transport & currentTransport\_\allowbreak{}mk & verified \\
+HolonomyMemory/\allowbreak{}Transport & predictiveToCurrent\_\allowbreak{}commutes\_\allowbreak{}with\_\allowbreak{}transport & verified \\
+HolonomyMemory/\allowbreak{}Witnesses & distinct\_\allowbreak{}predictive\_\allowbreak{}classes\_\allowbreak{}same\_\allowbreak{}current\_\allowbreak{}class & verified \\
+HolonomyMemory/\allowbreak{}Witnesses & induces\_\allowbreak{}strictRefinement & verified \\
+HolonomyMemory/\allowbreak{}Witnesses & strictRefinement\_\allowbreak{}implies\_\allowbreak{}predictiveWitness & verified \\
+HolonomyMemory/\allowbreak{}Witnesses & strictRefinement\_\allowbreak{}iff\_\allowbreak{}nonempty\_\allowbreak{}predictiveWitness & verified \\
+(exact Python) & Full East preparation, stopping-mixture construction and evolution & computational evidence only \\
+\bottomrule
+\end{longtable}

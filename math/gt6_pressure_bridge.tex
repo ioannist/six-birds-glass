@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\title{GT6 pressure: valid limit bounds and the conditioning boundary}
+\author{}\date{}\maketitle
+
+Let $K$ be the finite wall-up East kernel on $\{0,1\}^8$ at $\epsilon=2/5$,
+$e$ its spin-count energy and $L_s(x,y)=K(x,y)\exp(se(y))$ with $s=1/5$.
+The submultiplicative row norm
+$\Phi_n=\max_x(L_s^n\mathbf1)(x)$ gives
+$P=\lim_n n^{-1}\log\Phi_n=\inf_n n^{-1}\log\Phi_n$ by Fekete.
+The endpoint of a finite ladder is an upper bound, not the limiting pressure.
+Nor does a small difference of successive endpoints certify closeness to the
+limit without an additional bound.
+
+\paragraph{Constructive comparison bounds.}
+For any strictly positive vector $v$, suppose $av\leq L_sv\leq bv$ with
+$a>0$. Positivity gives $a^nv\leq L_s^nv\leq b^nv$. Put
+$m=\min_xv(x)>0$ and $M=\max_xv(x)$. Comparing $\mathbf1$ to $v$ gives
+$(m/M)a^n\leq\Phi_n\leq(M/m)b^n$, hence $\log a\leq P\leq\log b$.
+In the certificate, float iteration merely chooses $v$, which is then
+converted to exact binary rational coordinates. Exact kernel probabilities
+and outward rational exponential enclosures bound every ratio
+$(L_sv)(x)/v(x)$. Rational logarithm enclosures complete the proof. No
+convergence assertion about the float iteration is needed. The resulting
+bound is approximately $1.039322126141286\leq P\leq1.039617636994712$.
+
+For $0\leq r\leq1$, the Taylor polynomial through degree $m$ is a lower
+bound for $\exp r$. Its tail is at most
+$\frac{r^{m+1}}{(m+1)!}(1-r/(m+2))^{-1}$. Repeated halving of a positive
+argument followed by interval squaring gives general positive arguments;
+negative arguments use reciprocal intervals. All rounding is outward.
+
+\paragraph{Initial-law conditioning has zero limiting gap.}
+The exact source graph is irreducible and every state has a positive
+self-loop. Therefore some power of $L_s$ is strictly positive. For any
+nonzero nonnegative row law $\mu$, choose $q$ such that $\nu=\mu L_s^q$
+is strictly positive. Then
+\[
+ (\min_x\nu(x))\Phi_n\leq\nu L_s^n\mathbf1
+ \leq(\sum_x\nu(x))\Phi_n.
+\]
+Taking logs and dividing by $n$ proves that every such initial law has the
+same limiting pressure $P$. A fixed shift by $q$ does not affect the limit.
+In particular, conditioning a full-support initial law on any nonempty
+energy fiber, while retaining the original dynamics, gives this same $P$.
+Consequently $P-\sum_f w_fP_f=0$ for any probability weights on those
+initial-law conditional profiles. Predictive strictness cannot by itself
+supply a positive gap for this choice of limiting conditional pressure.
+
+\paragraph{The old operation is a killed process.}
+Zeroing every transfer entry outside one fiber replaces $L_s$ by a principal
+restriction, killing trajectories as soon as they exit. This changes the
+experiment. In a one-step heat-bath spin kernel every transition inside an
+energy fiber is diagonal. Its surviving growth rate is therefore
+$\max_{x\in f}K(x,x)\exp(se(x))$. This is a survival-pressure diagnostic;
+it is not the initial-law conditioning operation above. A positive weighted
+contrast for this killed operation does not discharge the conditional
+disintegration or persistent-packaging premises imported from paper [C].
+The certificate separately computes the true limiting survival contrast:
+writing $a_f=\max_{x\in f}K(x,x)$, it encloses each pressure as
+$se(f)+\log a_f$ and sums with exact Gibbs fiber weights. Comparison with
+the certified original-process limit gives a diagnostic gap in approximately
+$[0.679497405992839,0.679792916846265]$, hence strictly greater than $1/2$.
+This preserves a positive limiting diagnostic with its actual killed-path
+semantics; it does not turn it into conditional disintegration.
+
+\paragraph{A lawful finite-time alternative.}
+Set $Z_n=L_s^n\mathbf1$, use the stationary comparison law $\pi=\pi_{2/5}$,
+and let $w_f=\pi(f)>0$. Define
+\[
+ P_n=\frac1n\log(\pi Z_n),\qquad
+ P_{n,f}=\frac1n\log(\pi(\cdot\mid f)Z_n),\qquad
+ \Delta_n=P_n-\sum_f w_fP_{n,f}.
+\]
+These use the original dynamics throughout. Since
+$\pi Z_n=\sum_fw_f\pi(\cdot\mid f)Z_n$, concavity of $\log$ proves
+$\Delta_n\geq0$. Exact exponential intervals propagated through the finite
+matrix powers and exact logarithm intervals certify
+$\Delta_n\geq1/1000$ for every $n=1,\ldots,8$ in the frozen N8 comparison.
+For example, $\Delta_1\simeq0.030568517668562$ and
+$\Delta_8\simeq0.189146816910146$. This finite Jensen contrast is already
+present for the stationary comparison law, so it is not a glass-specific
+strictness witness. It tends to zero in the infinite-time limit above.
+The new certificate records both results rather than identifying them.
+
+All computations are replayable in
+\texttt{experiments/audit\_gt6\_pressure.py} and
+\texttt{math/gt6\_pressure\_certificate.json}. No paper files are edited.
+\end{document}

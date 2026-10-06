@@ -1,0 +1,125 @@
+{
+  "artifact_kind": "strict_extension_hypotheses",
+  "claim_grade": "certificate_shell_local",
+  "claim_id": "GT6.strict_extension_inputs.east_shell_N8",
+  "code_version": "8e3aba29afd9656ef69a5c2cc88d449cf36411e1",
+  "config_hash": "044aea07f53aaf18ef7ae3da5cc871f3a2f7ed6d14671a2da28c8a82ebef9558",
+  "config_path": "configs/gt6_shell_witness_n8.json",
+  "evidence_type": "exact_rational",
+  "nonclaims": [
+    "strict-extension inputs are shell-local and do not claim continuum or all-protocol closure",
+    "H5 uses certified CD endpoints; the full-energy witness is replayed from source.",
+    "H3 is support-label saturation and does not discharge fixed-point stability."
+  ],
+  "payload": {
+    "H2_endomap": {
+      "prototype_rule": "gibbs_within_L_energy_fibers",
+      "seed_count": 9,
+      "tau": 1,
+      "well_defined": true
+    },
+    "H3_saturation": {
+      "final_strata": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "iterations_to_saturation": 3,
+      "meaning": "saturation of reached support labels; not fixed points of probability laws",
+      "saturated": true,
+      "seed_count": 9,
+      "strata_count": 9
+    },
+    "H4_forcing": {
+      "material_forcing_count": 0,
+      "material_forcing_strata": [],
+      "with_conditioning": {
+        "final_strata": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "iterations_to_saturation": 3,
+        "meaning": "saturation of reached support labels; not fixed points of probability laws",
+        "saturated": true,
+        "seed_count": 9,
+        "strata_count": 9
+      },
+      "without_conditioning": {
+        "final_strata": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "iterations_to_saturation": 3,
+        "meaning": "saturation of reached support labels; not fixed points of probability laws",
+        "saturated": true,
+        "seed_count": 9,
+        "strata_count": 9
+      }
+    },
+    "H5_macro_admissibility_obstruction": {
+      "artifact_path": "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+      "sha256": "287c64d67c666ebac399a10b237a8738183e25f41de1406d18153549dbbeadab",
+      "summary": "GT1 closure-deficit certificate records constrained East under L_energy with positive CD against the declared equilibrium baseline."
+    },
+    "nonfactorization": {
+      "citations": [
+        {
+          "artifact_path": "math/gt6_energy_mixture_witness.json",
+          "has_split_pair": true,
+          "sha256": "e2b43fdc8a52dd555b71247adb120739dbd017c80743e3bdfa290caecbc8350b",
+          "summary": "Actual N8 convex stopping preparations, full current energy law, horizons 1..21.",
+          "t0_descriptor": "L_energy.full_distribution.N8.stopping_mixtures"
+        }
+      ],
+      "descriptor_count": 1,
+      "rate": "1/1",
+      "split_descriptor_count": 1
+    },
+    "original_fixed_point_stability": {
+      "obstruction": {
+        "conclusion": "The packaging kernel has a unique stationary probability law.",
+        "epsilon": "2/5",
+        "gibbs_stationary_exact": true,
+        "irreducible_exact_graph_check": true,
+        "maximum_prototype_retention_error": "5/7",
+        "tau": 1
+      },
+      "passed": false
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "7/10",
+      "1/10",
+      "2/5"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "0b89a4ce75981d8341707c8a9fc8ffc27dbb6277a3960a4b3148eb977a3f68a4"
+  }
+}

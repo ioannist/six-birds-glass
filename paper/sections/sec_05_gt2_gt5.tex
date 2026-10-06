@@ -1,0 +1,135 @@
+\section{GT2 and GT5: The Kovacs Witness and What It Costs to Repair}
+\label{sec:gt2-gt5}
+
+\subsection{The Kovacs protocol on the audited class}
+
+The Kovacs protocol \cite{kovacs-1963} is: equilibrate hot, quench cold, age for $t_w$, jump up to
+an intermediate temperature, and watch a one-time observable relax. We located it on East by an
+exact search, run before any certificate and filed as a pre-certificate control. At $N=10$, with
+$\epsilon: 7/10 \to 1/10 \to 2/5$ and $t_w = 40$, the mean energy after the second jump starts
+below its new equilibrium value $20/7 \approx 2.857$ (at $\approx 2.741$), crosses it between
+steps $1$ and $2$ ($\approx 2.803$ and $\approx 2.859$), and overshoots through a hump peaking at
+$t_{\mathrm{peak}} = 35$ before returning (Fig.~\ref{fig:kovacs-hump}), all in exact rational
+arithmetic. We write $t_K = 1$ for the last step before the crossing. The raw trace never equals
+$20/7$ at an integer step; the preparation that does, a randomized stop between steps $1$ and $2$,
+is constructed in \S\ref{sec:gt2-witness}.
+
+The non-monotone excursion after the crossing is the classic signature that the present value
+does not determine the future. For a finite Markov chain in the linear-response regime, Prados and
+Brey showed that it is generic whenever the observable's relaxation is not a single exponential
+\cite{prados-brey-2010}. That East- and FA-type models show a Kovacs hump was established
+numerically by \cite{buhot-2003,arenzon-sellitto-2004}; what is new here is the exact-rational
+trace and the certificate built on it.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\linewidth]{figures/out/fig_gt2_kovacs_hump.pdf}
+  \caption{Kovacs hump on East $N=10$ (exact-rational trace, floats only for plotting): the mean
+    energy starts below its equilibrium value $20/7$, crosses it between steps $1$ and $2$
+    (inset), peaks at step $35$, and returns toward equilibrium.}
+  \label{fig:kovacs-hump}
+\end{figure}
+
+\subsection{GT2: the witness certificate}
+\label{sec:gt2-witness}
+
+In plain terms: we exhibit two preparation histories of the East chain with exactly the same
+present mean energy and provably different mean energies five steps later.
+
+The first history is the Kovacs run stopped at the crossing. Since no single time step lands
+exactly on $20/7$, the run is stopped at step $1$ with probability $\theta \approx 0.0359$ and at
+step $2$ otherwise, with $\theta$ solved exactly so that the mixture's mean energy is $20/7$ (a
+``randomized stop'', a declared move of the pipeline). The second history is the equilibrium
+distribution at $\epsilon = 2/5$, whose mean energy is $20/7$ by definition. Both are then held at
+$\epsilon = 2/5$ for five steps. The equilibrium history stays at $20/7 \approx 2.857$; the Kovacs
+history moves to $\approx 3.058$, a gap of $\approx 0.2005$. Only the mean energy is matched at the
+start, not the full energy distribution, and that is exactly what this lens sees. (GT6 removes
+this limitation: there, the whole distribution is matched.) Precisely:
+
+\claimref{GT2}{321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf}
+On the declared scope (East, $N=10$, \texttt{kovacs\_moment} lens, declared $\epsilon$ grid and
+continuation catalog), one exact-rational split pair of preparation histories is exhibited: the
+two histories agree on the present lens value (mean energy $20/7$) and their futures differ, with
+a strictly positive exact rational maximum future gap ($\approx 0.2005$ on the five-step hold; the
+exact fraction is in the artifact). By \sbtcite{sbt-paper-a} Thm.~3.5, such a pair exists if and
+only if the comparison map $\pi: M \to Q$ is strictly refining: the predictive description is
+genuinely finer than the present one. The exported rational table of this pair is also checked in
+Lean (\S\ref{sec:lean}). Grade: theorem (audited class).
+
+A ``different future'' could mean three things, and we claim only the first: that the future
+depends on more than the present readout. We do \emph{not} claim that the two histories took
+different routes to the same state (a P3 route mismatch), and we claim no directionality or
+irreversibility. In the framework's vocabulary the claim is \textbf{P4 staged-dependence}, filed on
+the standard witness template (F-II \texttt{prop:p1-witness}). No P6\_drive audit was performed,
+so no arrow-of-time statement of any kind is made on GT2's behalf.
+
+\claimref{NEG.gt2\_loop\_certificate\_not\_built}{321f9bffdbf1368ec764a8fcde97d569dd9f4292ee5a98a0b6f30ac9483ce7bf}
+A companion certificate about thermal loops was also planned: a closed temperature cycle that acts
+trivially on the present description $Q$ but nontrivially on the predictive description $M$. It
+is not filed. A tuned real East loop does return the current mean exactly, but the declared family
+of histories it generates does not close within six rounds of iteration (it reaches $14$
+histories), so no action of the loop on the quotients is certified. A constant-temperature
+control loop scores zero on both quotients, as it must. The split-pair witness stands alone, and
+nothing downstream depends on the loop.
+
+\subsection{GT5: what it costs to buy the distinction back}
+
+In plain terms: adding a single scalar to the energy readout is enough to tell the two GT2
+histories apart, and a fictive-temperature-like index is one of three declared choices that work.
+Precisely:
+
+\claimref{GT5}{da6ecf8908baf0a2d65e677113882e4ec7e9fbc359d7c96e269e0c16f798de84}
+On the declared scope (East, $N=10$, \texttt{kovacs\_moment} interface, the declared two-history
+class), the present lens collapses the witness pair into one class ($|Q| = 1$ on the pair) while
+the predictive quotient keeps two ($|M| = 2$), so the largest fiber of $\pi$ has size
+$\mathrm{MaxFiber} = 2$, meeting the nontriviality threshold. The buyback curve
+(Fig.~\ref{fig:buyback}) is published as a lift ledger per F-II \texttt{prop:forgetting-lifts}:
+each added memory coordinate is a recorded, selected, non-unique lift. At budget $0$ the pair is
+unresolved. At budget $1$, \emph{each} of the three declared scalar coordinates already resolves
+it exactly (loss $0$), so the shipped witness saturates at $\texttt{saturation\_budget} = 1$.
+Grade: theorem (audited class).
+
+The three coordinates are expectations, over the history's microstate distribution $\mu$, of a
+per-microstate quantity:
+\begin{itemize}
+  \item $T_f(\mu) = \mathbb{E}_\mu[\,i^*(E(n))\,]$, where $i^*(E)$ is the index of the grid value
+    $\epsilon_i$ whose equilibrium mean energy is closest to $E$. This is an index into the
+    declared grid, not a temperature. It is computed microstate by microstate, not from the
+    history's mean energy, so two histories with equal mean energy can have different $T_f$.
+  \item $D(\mu)$, the expected number of adjacent up-up spin pairs.
+  \item $n_1(\mu)$, the expected occupation of the site next to the wall.
+\end{itemize}
+The loss is the sum of the two histories' squared errors when both are predicted by their common
+mean, with unit weights; it is an in-sample bookkeeping quantity, not a held-out generalization
+error.
+
+The comparison with the GT6 pair (\S\ref{sec:gt6}) is instructive. $T_f$ depends on the history
+only through its energy distribution. On the GT2 pair only the mean energy is matched, so $T_f$
+can and does separate it. On the GT6 pair the entire energy distribution is matched, so the $T_f$
+difference is exactly $0$ there, as it must be for any descriptor computed from the energy law,
+while $D$ or $n_1$ alone still resolves that pair at budget $1$.
+
+The translation to the glass literature is deliberately modest. The TNM fictive temperature
+\cite{tool-1946,narayanaswamy-1971,moynihan-1976,hodge-1994} is the motivating analogy for $T_f$:
+an energy-indexed effective temperature, added as a declared step from the present description
+toward the predictive one. The implemented $T_f$ is the grid-index construction above, not the
+TNM quantity itself. Modern treatments of the Kovacs effect likewise pair an effective
+temperature with a second structural variable \cite{bouchbinder-langer-2010}, and the
+multiparameter models the Kovacs literature moved to \cite{kahr-1979} are why the general question
+is left open here rather than answered on two pairs. The certificate demonstrates the repair
+\emph{mechanism} and its ledger discipline. MaxFiber $=2$ does not bound how many real-valued
+coordinates memory needs in general, and we do not claim that a single fictive-temperature-like
+scalar is insufficient in general.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\linewidth]{figures/out/fig_gt5_buyback.pdf}
+  \caption{GT5 buyback curve for the GT2 pair: unresolved predictive loss versus added-coordinate
+    budget, annotated with resolved/attempted counts and the resolving coordinates. The loss is
+    the sum of the two unit-weight squared errors under common-mean prediction,
+    $(a-b)^2/2$, where $a$ and $b$ are the two histories' five-step future mean energies. It is
+    incurred only while the pair is left in one class ($\approx 0.0201$ at budget $0$, half the
+    squared witness gap); a coordinate that separates the pair has loss $0$. The witness
+    saturates at budget $1$.}
+  \label{fig:buyback}
+\end{figure}

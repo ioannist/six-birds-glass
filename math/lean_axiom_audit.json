@@ -1,0 +1,713 @@
+{
+  "allowed_baseline_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "build_stdout": "\u2714 [30/31] Built GlassWitness (239ms)\nBuild completed successfully (31 jobs).",
+  "scope": "current exported Lean declarations; numeric Python bridge audited separately",
+  "source_sha256": {
+    "lean/DeclaredMemory.lean": "1267cdb123fd0cc1750cd4e92f1bd09f85fa6c28791e4c2e38e17cd549bac3a4",
+    "lean/DeclaredMemory/Asymmetry.lean": "0d5091b4e32c60fa34187ade63cb7d04cfc2f07fad32d0def4c712993c52cf43",
+    "lean/DeclaredMemory/Basic.lean": "142dbb4651935b9cefe3989b4403f4beda364e43ec6a3886bb698a204e4ea8b8",
+    "lean/DeclaredMemory/Equivalences.lean": "d013fa47517abd1d33b7d3949cffbc217e86686f7d5c14ea4b703202554dbf6d",
+    "lean/DeclaredMemory/Examples.lean": "e70dca6a0c6af81aa6b3739140f52308ca3e264218825a752601d8e895c8a4fe",
+    "lean/DeclaredMemory/Interfaces.lean": "e56d15c978f0392c83edd264f7bc0fd35504ab682d937cef8121b8a50e08eb80",
+    "lean/DeclaredMemory/Loops.lean": "f986fa6f2a02d0cfd78df6e82f83162a2746e280073f0c17d11db088afad29a7",
+    "lean/DeclaredMemory/Sufficiency.lean": "e23d6d2c3c23be3842f4c27aa7e6967f9959504d936be14741cad970c57f96d4",
+    "lean/DeclaredMemory/Transport.lean": "c9742b629413fa762903447e37c79e492e815c6522fde1cc27d9e50035d482a2",
+    "lean/DeclaredMemory/Witnesses.lean": "a2120988d7a661e66a01804d73ff2ac2cc4ac39e3b205db9a197aa6feaf11c27",
+    "lean/GlassWitness.lean": "ffe48df03b2bfa9e624a8d7fbb2c46a5e76ef6023c5b5873cf4596a0c1014dc4",
+    "lean/GlassWitness/EnergyCore.lean": "fd644c155f781a7024c0c1de568ea36be158a9707c915ef8f8d03b10fb23183e",
+    "lean/GlassWitness/EnergyN8.lean": "f242addad9b0a4766585059d7d35233844908cb16f4d91ce661c79cad26b5f47",
+    "lean/GlassWitness/Instance.lean": "8df214180a49c4bde6b73b456a2c34e7c32ddb4f33110f8e749a583144fa554b",
+    "lean/GlassWitness/NumericCore.lean": "772289f4eaed0161a3e61e138536b48d9e0f6508ff7e015f7d96e8ac0a0f21bc",
+    "lean/GlassWitness/NumericN10.lean": "5cd5de8216545b5aaa6afc6f0bf5ae24582e386dfe5d36b1a06285f321d69d6e",
+    "lean/GlassWitness/NumericN8.lean": "f8366dbbb6714804350661a937a4921ca1daf6a8efb55ec986e16376ba635565",
+    "lean/GlassWitness/ScopeBoundary.lean": "b29d612b26eddaa25183177e66a480e4b317ebd3e7794e16f1776a1e8ac08e11",
+    "lean/HolonomyMemory.lean": "ccfab89cd11646e81f9c3becb6d68c985a6008cbce859fefb7df4bfcc96602b6",
+    "lean/HolonomyMemory/Asymmetry.lean": "755550e091a88e44eb61d70375ba17ab8240bedafed4396155a6879d5bce9487",
+    "lean/HolonomyMemory/Basic.lean": "be0deec8c5147927263d5f4405a31bbaac87827208773819d2d2dde07e760a9a",
+    "lean/HolonomyMemory/Equivalences.lean": "05264f45e1273233dd2c96b4744231ecf9affc1a31f36e3f5b89f94b994fbfda",
+    "lean/HolonomyMemory/Interfaces.lean": "36404f8b5458056e556cf339a15ea633259b6d0dba7e02132f3d75f18e0b5ffe",
+    "lean/HolonomyMemory/Loops.lean": "766b72a626a4ce95f27234240d90b0fb61b4f4bac36540912318db1830b5e311",
+    "lean/HolonomyMemory/Sufficiency.lean": "6dc4803a34f3ece0a64556b1de26eef839cb5a841b146adddb4fa86eba9dcc71",
+    "lean/HolonomyMemory/Transport.lean": "3578f5ee1a69e2a98d2590cc18ed851b1aeaa75c09c52b1d2e476fb5073cb507",
+    "lean/HolonomyMemory/Witnesses.lean": "2b893d247aa25eadfd42323e600945674875f84ddccd51562ab5ce8a4911b235"
+  },
+  "theorem_count": 96,
+  "theorems": [
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveToCurrent_eq_of_currentLoopTrivial",
+      "raw": "'DeclaredMemory.predictiveToCurrent_eq_of_currentLoopTrivial' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+      "raw": "'DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed",
+      "raw": "'DeclaredMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.currentEventEquiv_refl",
+      "raw": "'DeclaredMemory.currentEventEquiv_refl' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.currentEventEquiv_symm",
+      "raw": "'DeclaredMemory.currentEventEquiv_symm' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.currentEventEquiv_trans",
+      "raw": "'DeclaredMemory.currentEventEquiv_trans' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futurePredictiveEquiv_refl",
+      "raw": "'DeclaredMemory.futurePredictiveEquiv_refl' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futurePredictiveEquiv_symm",
+      "raw": "'DeclaredMemory.futurePredictiveEquiv_symm' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futurePredictiveEquiv_trans",
+      "raw": "'DeclaredMemory.futurePredictiveEquiv_trans' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futurePredictiveEquiv_implies_currentEventEquiv",
+      "raw": "'DeclaredMemory.futurePredictiveEquiv_implies_currentEventEquiv' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.currentEventEquiv_push",
+      "raw": "'DeclaredMemory.currentEventEquiv_push' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.currentEventEquiv_implies_future_of_all_compatible",
+      "raw": "'DeclaredMemory.currentEventEquiv_implies_future_of_all_compatible' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.bitCore_witness",
+      "raw": "'DeclaredMemory.bitCore_witness' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.bitCore_swap_compatible",
+      "raw": "'DeclaredMemory.bitCore_swap_compatible' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.bitCore_loop_asymmetry",
+      "raw": "'DeclaredMemory.bitCore_loop_asymmetry' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.bitCore_read_not_compatible",
+      "raw": "'DeclaredMemory.bitCore_read_not_compatible' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveLoopAction_mk",
+      "raw": "'DeclaredMemory.predictiveLoopAction_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.currentLoopAction_mk",
+      "raw": "'DeclaredMemory.currentLoopAction_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveToCurrent_commutes_with_loopAction",
+      "raw": "'DeclaredMemory.predictiveToCurrent_commutes_with_loopAction' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.predictiveQuotient_futureSufficient",
+      "raw": "'DeclaredMemory.predictiveQuotient_futureSufficient' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv",
+      "raw": "'DeclaredMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Classical.choice"
+      ],
+      "declaration": "DeclaredMemory.reachableStateRepresentative_state_eq",
+      "raw": "'DeclaredMemory.reachableStateRepresentative_state_eq' depends on axioms: [Classical.choice]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.reachableStateToPredictiveQuotient_commutes",
+      "raw": "'DeclaredMemory.reachableStateToPredictiveQuotient_commutes' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+      "raw": "'DeclaredMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable' depends on axioms: [Classical.choice,\n Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.futureSufficient_factorization_unique_onReachable",
+      "raw": "'DeclaredMemory.futureSufficient_factorization_unique_onReachable' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.reachableStateToPredictiveQuotient_unique",
+      "raw": "'DeclaredMemory.reachableStateToPredictiveQuotient_unique' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "DeclaredMemory.futurePredictiveEquiv_push",
+      "raw": "'DeclaredMemory.futurePredictiveEquiv_push' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveTransport_mk",
+      "raw": "'DeclaredMemory.predictiveTransport_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveToCurrent_mk",
+      "raw": "'DeclaredMemory.predictiveToCurrent_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.currentTransport_mk",
+      "raw": "'DeclaredMemory.currentTransport_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.predictiveToCurrent_commutes_with_transport",
+      "raw": "'DeclaredMemory.predictiveToCurrent_commutes_with_transport' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.PredictiveWitness.distinct_predictive_classes_same_current_class",
+      "raw": "'DeclaredMemory.PredictiveWitness.distinct_predictive_classes_same_current_class' depends on axioms: [propext,\n Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.PredictiveWitness.induces_strictRefinement",
+      "raw": "'DeclaredMemory.PredictiveWitness.induces_strictRefinement' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.strictRefinement_implies_predictiveWitness",
+      "raw": "'DeclaredMemory.strictRefinement_implies_predictiveWitness' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "DeclaredMemory.strictRefinement_iff_nonempty_predictiveWitness",
+      "raw": "'DeclaredMemory.strictRefinement_iff_nonempty_predictiveWitness' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.Energy.strict_refinement",
+      "raw": "'GlassWitness.Energy.strict_refinement' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Energy.nonfactorization",
+      "raw": "'GlassWitness.Energy.nonfactorization' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Energy.current_law_not_futureSufficient",
+      "raw": "'GlassWitness.Energy.current_law_not_futureSufficient' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Energy.energy_descriptor_not_futureSufficient",
+      "raw": "'GlassWitness.Energy.energy_descriptor_not_futureSufficient' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.Energy.constant_future_not_strict",
+      "raw": "'GlassWitness.Energy.constant_future_not_strict' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.EnergyN8.all_horizons_split",
+      "raw": "'GlassWitness.EnergyN8.all_horizons_split' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.EnergyN8.strict_refinement",
+      "raw": "'GlassWitness.EnergyN8.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.EnergyN8.all_horizons_nonfactorization",
+      "raw": "'GlassWitness.EnergyN8.all_horizons_nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.EnergyN8.current_law_not_futureSufficient",
+      "raw": "'GlassWitness.EnergyN8.current_law_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.EnergyN8.energy_descriptor_not_futureSufficient",
+      "raw": "'GlassWitness.EnergyN8.energy_descriptor_not_futureSufficient' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "GlassWitness.glassPredictiveQuotient_futureSufficient",
+      "raw": "'GlassWitness.glassPredictiveQuotient_futureSufficient' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.Numeric.strict_refinement",
+      "raw": "'GlassWitness.Numeric.strict_refinement' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Numeric.nonfactorization",
+      "raw": "'GlassWitness.Numeric.nonfactorization' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Numeric.probe_not_currentCompatible",
+      "raw": "'GlassWitness.Numeric.probe_not_currentCompatible' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "declaration": "GlassWitness.Numeric.current_panel_not_futureSufficient",
+      "raw": "'GlassWitness.Numeric.current_panel_not_futureSufficient' depends on axioms: [propext]"
+    },
+    {
+      "axioms": [],
+      "declaration": "GlassWitness.Numeric.index_state_futureSufficient",
+      "raw": "'GlassWitness.Numeric.index_state_futureSufficient' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.Numeric.index_state_factors_onReachable",
+      "raw": "'GlassWitness.Numeric.index_state_factors_onReachable' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.Numeric.constant_future_not_strict",
+      "raw": "'GlassWitness.Numeric.constant_future_not_strict' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN10.future_split",
+      "raw": "'GlassWitness.NumericN10.future_split' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN10.strict_refinement",
+      "raw": "'GlassWitness.NumericN10.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN10.nonfactorization",
+      "raw": "'GlassWitness.NumericN10.nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN10.current_panel_not_futureSufficient",
+      "raw": "'GlassWitness.NumericN10.current_panel_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN8.future_split",
+      "raw": "'GlassWitness.NumericN8.future_split' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN8.strict_refinement",
+      "raw": "'GlassWitness.NumericN8.strict_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN8.nonfactorization",
+      "raw": "'GlassWitness.NumericN8.nonfactorization' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "GlassWitness.NumericN8.current_panel_not_futureSufficient",
+      "raw": "'GlassWitness.NumericN8.current_panel_not_futureSufficient' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.current_implies_future_GENERIC",
+      "raw": "'HolonomyMemory.current_implies_future_GENERIC' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.predictiveWitness_impossible_GENERIC",
+      "raw": "'HolonomyMemory.predictiveWitness_impossible_GENERIC' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.strictRefinement_impossible_GENERIC",
+      "raw": "'HolonomyMemory.strictRefinement_impossible_GENERIC' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveToCurrent_injective_GENERIC",
+      "raw": "'HolonomyMemory.predictiveToCurrent_injective_GENERIC' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.loopAsymmetry_impossible_GENERIC",
+      "raw": "'HolonomyMemory.loopAsymmetry_impossible_GENERIC' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveToCurrent_eq_of_currentLoopTrivial",
+      "raw": "'HolonomyMemory.predictiveToCurrent_eq_of_currentLoopTrivial' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent",
+      "raw": "'HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_fixedCurrent' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed",
+      "raw": "'HolonomyMemory.loopAsymmetry_exhibits_movedPredictive_currentFixed' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.currentEventEquiv_refl",
+      "raw": "'HolonomyMemory.currentEventEquiv_refl' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.currentEventEquiv_symm",
+      "raw": "'HolonomyMemory.currentEventEquiv_symm' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.currentEventEquiv_trans",
+      "raw": "'HolonomyMemory.currentEventEquiv_trans' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futurePredictiveEquiv_refl",
+      "raw": "'HolonomyMemory.futurePredictiveEquiv_refl' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futurePredictiveEquiv_symm",
+      "raw": "'HolonomyMemory.futurePredictiveEquiv_symm' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futurePredictiveEquiv_trans",
+      "raw": "'HolonomyMemory.futurePredictiveEquiv_trans' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futurePredictiveEquiv_implies_currentEventEquiv",
+      "raw": "'HolonomyMemory.futurePredictiveEquiv_implies_currentEventEquiv' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.currentEventEquiv_push",
+      "raw": "'HolonomyMemory.currentEventEquiv_push' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveLoopAction_mk",
+      "raw": "'HolonomyMemory.predictiveLoopAction_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.currentLoopAction_mk",
+      "raw": "'HolonomyMemory.currentLoopAction_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveToCurrent_commutes_with_loopAction",
+      "raw": "'HolonomyMemory.predictiveToCurrent_commutes_with_loopAction' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.predictiveQuotient_futureSufficient",
+      "raw": "'HolonomyMemory.predictiveQuotient_futureSufficient' does not depend on any axioms"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv",
+      "raw": "'HolonomyMemory.futureSufficient_stateEq_implies_futurePredictiveEquiv' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Classical.choice"
+      ],
+      "declaration": "HolonomyMemory.reachableStateRepresentative_state_eq",
+      "raw": "'HolonomyMemory.reachableStateRepresentative_state_eq' depends on axioms: [Classical.choice]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.reachableStateToPredictiveQuotient_commutes",
+      "raw": "'HolonomyMemory.reachableStateToPredictiveQuotient_commutes' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable",
+      "raw": "'HolonomyMemory.futureSufficient_factorsThroughPredictiveQuotient_onReachable' depends on axioms: [Classical.choice,\n Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.futureSufficient_factorization_unique_onReachable",
+      "raw": "'HolonomyMemory.futureSufficient_factorization_unique_onReachable' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.reachableStateToPredictiveQuotient_unique",
+      "raw": "'HolonomyMemory.reachableStateToPredictiveQuotient_unique' depends on axioms: [Classical.choice, Quot.sound]"
+    },
+    {
+      "axioms": [],
+      "declaration": "HolonomyMemory.futurePredictiveEquiv_push",
+      "raw": "'HolonomyMemory.futurePredictiveEquiv_push' does not depend on any axioms"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveTransport_mk",
+      "raw": "'HolonomyMemory.predictiveTransport_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveToCurrent_mk",
+      "raw": "'HolonomyMemory.predictiveToCurrent_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.currentTransport_mk",
+      "raw": "'HolonomyMemory.currentTransport_mk' depends on axioms: [Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.predictiveToCurrent_commutes_with_transport",
+      "raw": "'HolonomyMemory.predictiveToCurrent_commutes_with_transport' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.PredictiveWitness.distinct_predictive_classes_same_current_class",
+      "raw": "'HolonomyMemory.PredictiveWitness.distinct_predictive_classes_same_current_class' depends on axioms: [propext,\n Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.PredictiveWitness.induces_strictRefinement",
+      "raw": "'HolonomyMemory.PredictiveWitness.induces_strictRefinement' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.strictRefinement_implies_predictiveWitness",
+      "raw": "'HolonomyMemory.strictRefinement_implies_predictiveWitness' depends on axioms: [propext, Quot.sound]"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "declaration": "HolonomyMemory.strictRefinement_iff_nonempty_predictiveWitness",
+      "raw": "'HolonomyMemory.strictRefinement_iff_nonempty_predictiveWitness' depends on axioms: [propext, Quot.sound]"
+    }
+  ],
+  "toolchain": "leanprover/lean4:4.29.0"
+}

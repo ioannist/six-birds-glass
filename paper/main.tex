@@ -1,0 +1,166 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{mathtools}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[numbers]{natbib}
+\usepackage{doi}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{orcidlink}
+\usepackage{titling}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit}
+
+%--- paper-local packages ---
+% longtable is required by the generated tables under tables/out/.
+\usepackage{longtable}
+
+\input{includes/paper_macros.tex}
+\input{includes/release_metadata}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\floatname{algorithm}{Algorithm}
+
+\urlstyle{same}
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  labelsep=period
+}
+\captionsetup[table]{skip=6pt,position=top}
+\captionsetup[figure]{skip=6pt}
+\captionsetup[algorithm]{skip=6pt,position=top}
+\crefname{algorithm}{algorithm}{algorithms}
+\Crefname{algorithm}{Algorithm}{Algorithms}
+\crefname{theorem}{theorem}{theorems}
+\Crefname{theorem}{Theorem}{Theorems}
+\crefname{lemma}{lemma}{lemmas}
+\Crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{proposition}{propositions}
+\Crefname{proposition}{Proposition}{Propositions}
+\crefname{corollary}{corollary}{corollaries}
+\Crefname{corollary}{Corollary}{Corollaries}
+\crefname{definition}{definition}{definitions}
+\Crefname{definition}{Definition}{Definitions}
+\crefname{remark}{remark}{remarks}
+\Crefname{remark}{Remark}{Remarks}
+\setlist[enumerate]{leftmargin=*, itemsep=2pt, topsep=4pt}
+\setlength{\droptitle}{-3.2em}
+\pretitle{\begin{center}\LARGE\bfseries}
+\posttitle{\par\end{center}\vspace{0.5em}}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\par\end{center}\vspace{-0.4em}}
+\predate{\begin{center}\small}
+\postdate{\par\end{center}\vspace{0.6em}}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+\allowdisplaybreaks[2]
+\fancypagestyle{firstpage}{\fancyhf{}
+  \fancyfoot[C]{\scriptsize Automorph Inc., Wilmington, DE, USA \quad \texttt{ioannis@automorph.io} \quad \textcopyright\ \manuscriptyear \quad CC-BY 4.0}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\title{Glass Is an Unclosed Layer:\\
+  Kovacs Memory as Predictive-Quotient Residue}
+\author{Ioannis Tsiokos\,\orcidlink{0009-0009-7659-5964}}
+\date{\manuscriptversion: \manuscriptdate\ifpaperhasdoi\quad
+  DOI: \href{https://doi.org/\paperdoi}{\paperdoi}\fi\\[0.2em]
+  \manuscriptfirstversion: \manuscriptfirstdate\quad
+  DOI: \href{https://doi.org/\paperfirstdoi}{\paperfirstdoi}}
+\hypersetup{
+  pdftitle={Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue},
+  pdfauthor={Ioannis Tsiokos},
+  hidelinks
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{firstpage}
+
+\begin{abstract}
+A glass and its equilibrium liquid can agree in every routinely monitored quantity and still
+evolve differently. Kovacs's 1963 crossover experiment makes the point vivid: at the moment an
+aged sample's volume equals its equilibrium value, the volume moves away again. We study the
+question behind this on finite Markov models small enough to settle it by exact computation (the
+East and Fredrickson--Andersen kinetically constrained spin chains and a Bouchaud-type trap
+family):
+is a declared readout, here the energy, a \emph{closed} description, one whose present value fixes
+its own future statistics? On the declared East scopes where we certify it, it is not, and
+we certify this in several independent ways. For an aging East chain, the energy readout's closure deficit
+is at least $3/2$ times its constrained-equilibrium value at every tested horizon, certified in
+exact rational arithmetic, and the equilibrium value is itself provably nonzero. The Kovacs
+protocol yields two preparations with the same mean energy now and different mean energies
+later. Two randomized stops of one aging run share the \emph{entire} energy distribution, exactly,
+yet their mean energies separate at each of 21 later horizons, so no function of the current
+energy law, a fictive-temperature-like index included, predicts the future on that shell. All
+$512$ yes/no functions of the energy agree on a further, constructed pair that one structural
+coordinate separates. A kill-test panel rejects five look-alike regimes, and one added coordinate resolves
+each exhibited pair. Aging constants frozen on East and scored mechanically on FA pass 8 of 22
+predictions; the trap column is empty for a reason we prove. Lean checks the abstract theorems
+and the exported witness tables. We also report what does not hold: the fixed-point route to a
+full strict-extension filing fails here, and a positive infinite-time conditional pressure gap
+is provably zero. Every claim is pinned by content hash to its evidence, and every nonclaim is
+printed.
+\end{abstract}
+
+\medskip
+\noindent\textbf{Keywords.} glass transition; Kovacs effect; aging and memory; kinetically
+constrained models; East model; fictive temperature; closure deficit; lumpability; predictive
+quotient; Six Birds Theory; emergence calculus; exact finite certificates; pre-registered
+prediction; Lean.
+
+% Manuscript inputs.
+\input{sections/sec_01_introduction}
+\input{sections/sec_02_architecture_methods}
+\input{sections/sec_03_models_pipeline}
+\input{sections/sec_04_gt1}
+\input{sections/sec_05_gt2_gt5}
+\input{sections/sec_06_gt3_gt4}
+\input{sections/sec_07_gt6}
+\input{sections/sec_08_gt7}
+\input{sections/sec_09_gb9_lean}
+\input{sections/sec_10_gb10_bridges}
+\input{sections/sec_11_discussion}
+\input{sections/sec_12_conclusion}
+
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\input{sections/sec_13_appendix_lean_table}
+\input{sections/sec_14_appendix_nonclaims}
+\input{sections/sec_15_appendix_versions}
+
+\end{document}

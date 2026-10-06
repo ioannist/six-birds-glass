@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "access_right": "open",
+    "creators": [
+      {
+        "affiliation": "Automorph Inc.",
+        "name": "Tsiokos, Ioannis",
+        "orcid": "0009-0009-7659-5964"
+      }
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/ioannist/six-birds-glass",
+      "code:programmingLanguage": [
+        {
+          "id": "lean",
+          "title": {
+            "en": "Lean"
+          }
+        },
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        },
+        {
+          "id": "tex",
+          "title": {
+            "en": "TeX"
+          }
+        }
+      ]
+    },
+    "description": "<p><em>Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue</em> asks, on a small and exactly computable class of kinetically constrained models, whether a declared readout forms a <em>closed</em> description: whether its present value determines its own future statistics. The question is made precise with the certificate-based closure calculus of Six Birds Theory, which the paper cites rather than re-derives; every object is also defined in ordinary probabilistic terms.</p>\n<p>On the East, Fredrickson&ndash;Andersen, and Bouchaud-type trap families studied, kernels, stationary measures, witnesses, and zero controls are ratios of integers, and the remaining certificate evidence is deterministic float64 labeled as such in each artifact. The results, each stated at its declared scope: the energy readout of an aging East chain is far from closed, its closure deficit exceeding the constrained-equilibrium baseline by a certified margin (GT1); the Kovacs protocol yields an exact pair of histories with identical present mean energy and different futures (GT2); all 512 yes/no functions of the energy readout agree on such a pair while a finer readout separates it, so no static order parameter built from the energy readout separates, on that class, what the pair's futures separate (GT3); five look-alike regimes are correctly rejected by the classifier that accepts the Kovacs candidate (GT4); one added scalar coordinate resolves the pair (GT5); future-equivalence strictly extends the energy-based description on the audited shell (GT6); and aging constants frozen on East and transferred to Fredrickson&ndash;Andersen under a pre-registered no-fitting protocol are scored, with the trap family provably temperature-invariant (GT7).</p>\n<p>A vendored Lean core machine-checks the abstract witness and refinement theorems; an attempt to encode the numeric witness produced a machine-checked impossibility theorem locating that core's expressiveness boundary. Every claim is hash-pinned to its artifacts, and the full ledger of what is <em>not</em> claimed is printed unabridged.</p>\n<p>This work is part of the Six Birds Theory programme. It is substantially AI-assisted; the manuscript discloses the workflow and its limitations, and the author's relationship to the programme.</p>",
+    "imprint_publisher": "Zenodo",
+    "keywords": [
+      "glass transition",
+      "Kovacs effect",
+      "aging and memory",
+      "kinetically constrained models",
+      "East model",
+      "fictive temperature",
+      "closure deficit",
+      "lumpability",
+      "predictive quotient",
+      "Six Birds Theory",
+      "emergence calculus",
+      "exact finite certificates",
+      "pre-registered prediction",
+      "Lean"
+    ],
+    "language": "eng",
+    "license": "cc-by-4.0",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.22911309",
+      "recid": 22911309
+    },
+    "publication_date": "2026-09-23",
+    "publication_type": "preprint",
+    "related_identifiers": [
+      {
+        "identifier": "10.1126/science.267.5204.1615-e",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/RevModPhys.83.587",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1038/35065704",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/j.physrep.2009.03.003",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1093/acprof:oso/9780199691470.003.0002",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1016/j.physrep.2014.11.004",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1063/1.4795539",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevA.40.1045",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1146/annurev.physchem.58.032806.104653",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1063/1.1696442",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/BFb0050366",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1002/pol.1979.180170701",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "9780444416551",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1111/j.1151-2916.1956.tb15613.x",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1111/j.1151-2916.1946.tb11592.x",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1111/j.1151-2916.1971.tb12186.x",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1111/j.1151-2916.1976.tb09376.x",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/0022-3093(94)90321-2",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1021/acs.macromol.7b01014",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.92.045504",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1039/c001388a",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/RevModPhys.91.035002",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1080/0001873031000093582",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1093/acprof:oso/9780199691470.003.0010",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1146/annurev.physchem.040808.090405",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.53.958",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/BF01453764",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.53.1244",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1063/1.1703954",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.83.3238",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.89.035704",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1023/A:1015170205728",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/s00440-007-0072-3",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/0305-4470/36/50/002",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1140/epjb/e2005-00012-0",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/1742-5468/2010/02/P02009",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.58.792",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1051/jp1:1992238",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/0305-4470/29/14/012",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.84.5403",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/S0924-8099(06)80045-4",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1103/PhysRevE.83.031505",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/0305-4470/36/43/003",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "9780387901923",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1214/aoms/1177706444",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.2307/3215235",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.2307/3214403",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1002/047174882X",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "9781586036447",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1142/S0219525914500076",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRev.124.983",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1143/PTP.33.423",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.63.105",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1023/A:1010388907793",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/s10701-024-00814-1",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1371/journal.pcbi.1008289",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1073/pnas.1314922110",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/BFb0064579",
+        "relation": "cites",
+        "resource_type": "publication-book"
+      },
+      {
+        "identifier": "10.1016/S0168-0072(98)00043-8",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.48550/arXiv.2412.11478",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.1007/978-3-030-79876-5_37",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1073/pnas.1708274114",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1038/s41562-016-0021",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevLett.81.3243",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1007/3-540-69684-9_2",
+        "relation": "cites",
+        "resource_type": "publication-section"
+      },
+      {
+        "identifier": "10.1103/PhysRevB.65.024439",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/0953-8984/17/6/R01",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1126/science.287.5453.627",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1088/0953-8984/15/1/349",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1103/PhysRevE.93.042603",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/S0032-3861(00)00623-6",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      },
+      {
+        "identifier": "10.1016/S0022-3093(02)01463-1",
+        "relation": "cites",
+        "resource_type": "publication-article"
+      }
+    ],
+    "title": "Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue",
+    "upload_type": "publication"
+  }
+}

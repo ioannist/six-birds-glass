@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sixbirds-glass/artifact_envelope.schema.json",
+  "title": "Common artifact envelope",
+  "description": "Every artifact JSON produced by the glass lab embeds this envelope at top level, plus a 'payload' whose shape is per-artifact (see the payload schemas). Envelope fields make artifacts self-describing, replayable, and honest-ledger-compliant.",
+  "type": "object",
+  "required": ["artifact_kind", "claim_id", "config_hash", "code_version", "claim_grade", "quantifier_domain", "nonclaims", "payload"],
+  "properties": {
+    "artifact_kind": {
+      "enum": [
+        "cd_table", "delta_table", "spectral_gap_table",
+        "witness_certificate", "loop_certificate",
+        "foreclosure_sweep", "canonicity", "repair_sweep_ledger",
+        "max_fiber", "buyback_curve",
+        "triage_regime_table",
+        "gate_table", "knockout_panel", "pressure_closure", "strict_extension_hypotheses", "admdomain_filing", "audit",
+        "constants_readout", "predictions_registry", "transfer_scores",
+        "math_demo", "window_table",
+        "lean_fidelity_table", "empirical_bridge"
+      ]
+    },
+    "claim_id": { "type": "string", "description": "GT1..GT7 or GB1..GB10 sub-claim id, e.g. 'GT2.witness.kovacs_N10'" },
+    "config_hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "config_path": { "type": "string" },
+    "code_version": { "type": "string", "description": "git commit hash of six-birds-glass at run time" },
+    "freeze_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "git hashes of the freeze commits this artifact depends on (lens catalog, protocol catalog, prediction file)"
+    },
+    "claim_grade": { "enum": ["theorem_audited_class", "certificate_shell_local", "conditional", "recognition", "run_only_readout", "bridge_record", "control"] },
+    "evidence_type": { "enum": ["exact_rational", "float64_deterministic", "monte_carlo_frozen_seeds", "lean_checked", "manual_proof"], "description": "Lean fidelity discipline: label at true fidelity" },
+    "quantifier_domain": {
+      "type": "object",
+      "description": "The frozen finite class every universal/negative claim ranges over.",
+      "required": ["model_families", "N_values", "epsilon_grid", "lens_catalog_hash", "protocol_catalog_hash"],
+      "properties": {
+        "model_families": { "type": "array", "items": { "type": "string" } },
+        "N_values": { "type": "array", "items": { "type": "integer" } },
+        "epsilon_grid": { "type": "array", "items": { "type": "string" } },
+        "lens_catalog_hash": { "type": "string" },
+        "protocol_catalog_hash": { "type": "string" },
+        "repair_budget": { "type": ["integer", "null"] }
+      }
+    },
+    "nonclaims": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Mandatory standing nonclaims, verbatim strings from the honesty ledger (00_architecture.md §6). Checkers assert the required set per artifact_kind."
+    },
+    "controls": {
+      "type": "array",
+      "description": "Companion control runs and their expected-null outcomes.",
+      "items": {
+        "type": "object",
+        "required": ["control_id", "expected", "observed", "pass"],
+        "properties": {
+          "control_id": { "type": "string" },
+          "expected": { "type": "string" },
+          "observed": { "type": "string" },
+          "pass": { "type": "boolean" }
+        }
+      }
+    },
+    "payload": { "type": "object" }
+  }
+}

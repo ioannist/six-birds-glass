@@ -1,0 +1,257 @@
+{
+  "artifact_kind": "cd_table",
+  "claim_grade": "theorem_audited_class",
+  "claim_id": "GT1.east.8.L_energy",
+  "code_version": "6f9fb9b80b2836bd9d4dd3fd6e9d361e5c0042e1",
+  "config_hash": "6f148b4971abcdda81daac4ba7b49d2b8d9b34158c63e921c3c034372b8b96f8",
+  "evidence_type": "exact_rational",
+  "nonclaims": [
+    "GT1 certificate is scoped to East N=8 and L_energy only; FA and L_panel are undone extensions.",
+    "The tau ladder is the declared finite ladder [1, 2, 4, 8], not the full combinatorial grid.",
+    "Constrained East equilibrium under L_energy is a nonzero stationary CD baseline; only the unconstrained lumpable control is exact-zero.",
+    "[B] benchmark-parity control is filed as skipped in this artifact because the paper-specific example chains were not ported in this remediation packet."
+  ],
+  "payload": {
+    "certification": {
+      "float_values": "illustrative; inequality gates use rational interval endpoints",
+      "log_series_terms": 24,
+      "method": "exact probabilities and outward rational atanh-series logarithm bounds",
+      "stationary_identity": "single stationary protocol cell equals stationary CD by definition"
+    },
+    "controls": {
+      "b_benchmark_parity": {
+        "pass": null,
+        "reason": "Paper [B] example-chain parity was not ported in this remediation packet; the artifact files this as an explicit open control.",
+        "status": "skipped"
+      },
+      "closure_discipline": {
+        "note": "No E^2=E closure-operator assertion is made; idempotence is reported only as a saturation diagnostic in the delta artifact.",
+        "pass": true
+      },
+      "east_equilibrium_stationary_consistency": {
+        "note": "This is a GB2 consistency control, not a zero-CD control: constrained East under L_energy is non-lumpable even at stationarity.",
+        "pass": true,
+        "rows": [
+          {
+            "cd_certified_interval": [
+              "225673040656558803179496978483100405405/11956215223211670361109853068914551947264",
+              "225673040656558803179497035463788460285/11956215223211670361109853068914551947264"
+            ],
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.018874956367332683,
+            "stationary_cd": 0.018874956367332683,
+            "stationary_probability_law_exact": true,
+            "tau": 1,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_certified_interval": [
+              "37948758714851157354215051535499851552325/1052146939642626991777667070064480571359232",
+              "18974379357425578677107530250322903459725/526073469821313495888833535032240285679616"
+            ],
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.03606792671728994,
+            "stationary_cd": 0.03606792671728994,
+            "stationary_probability_law_exact": true,
+            "tau": 2,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_certified_interval": [
+              "534295716067931143245382761414240603640882405/8147825900592503424326253790579337544605892608",
+              "267147858033965571622691443021865390799584625/4073912950296251712163126895289668772302946304"
+            ],
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.06557524946980982,
+            "stationary_cd": 0.06557524946980982,
+            "stationary_probability_law_exact": true,
+            "tau": 4,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          },
+          {
+            "cd_certified_interval": [
+              "52825637124423349205072675484120301840703597100278365/488621338667314555435256552439284043737394682567589888",
+              "52825637124423349205072688430031101730318808512340695/488621338667314555435256552439284043737394682567589888"
+            ],
+            "cd_residual": 0.0,
+            "protocol_relative_cd": 0.10811160492601928,
+            "stationary_cd": 0.10811160492601928,
+            "stationary_probability_law_exact": true,
+            "tau": 8,
+            "window_flags": [
+              "stationary_consistency_gate"
+            ]
+          }
+        ]
+      },
+      "lumpable_unconstrained": {
+        "epsilon": "1/10",
+        "pass": true,
+        "rows": [
+          {
+            "closure_deficit_float": 1.506753534417161e-17,
+            "is_exactly_lumpable": true,
+            "tau": 1,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": -8.14318868963266e-18,
+            "is_exactly_lumpable": true,
+            "tau": 2,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": 1.960103628275049e-17,
+            "is_exactly_lumpable": true,
+            "tau": 4,
+            "within_zero_tolerance": true
+          },
+          {
+            "closure_deficit_float": -4.263899298582603e-17,
+            "is_exactly_lumpable": true,
+            "tau": 8,
+            "within_zero_tolerance": true
+          }
+        ]
+      }
+    },
+    "gb2_consistency_gate_pass": true,
+    "grid": [
+      {
+        "cd": 0.033650428255697584,
+        "cd_certified_interval": [
+          "5077590315072570002610994708329158840445209204720234436681466108478082629730475/150892294044217680667105975589833512995460253090498685727765118297737943740055552",
+          "5077590315072570002610995383893479258676965707304035072738701873137758670805595/150892294044217680667105975589833512995460253090498685727765118297737943740055552"
+        ],
+        "cd_ratio_certified_interval": [
+          "145074009002073428646028420237975966869863120134863841048041888813659503706585/81373870464323959550776832876919650597165487824353456423913594734903891591168",
+          "1015518063014514000522199076778695851735393141460807014547740374627551734161119/569617093250267716855437686314550541393174012698756266836824225004339916177408"
+        ],
+        "cd_ratio_vs_equilibrium": 1.7828082672517933,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.018874956367332683,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 1,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.06372973562773282,
+        "cd_certified_interval": [
+          "846236688677609703485939048605097700648020618973156285263657777957213974069176535/13278521875891155898705325851905349143600502271963884344043330410200939049124888576",
+          "846236688677609703485939170994100977672256971508520353792084626084584801290242175/13278521875891155898705325851905349143600502271963884344043330410200939049124888576"
+        ],
+        "cd_ratio_certified_interval": [
+          "169247337735521940697187809721019540129604123794631257052731555591442794813835307/95785750786714724464571692741188086465472817079714142505806608582631554044395520",
+          "33849467547104388139437566839764039106890278860340814151683385043383392051609687/19157150157342944892914334022486233961256129235596284026990506514861049222529024"
+        ],
+        "cd_ratio_vs_equilibrium": 1.7669364842416238,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.03606792671728994,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 2,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.1131102045688765,
+        "cd_certified_interval": [
+          "2907748726660423284384116652303038044390258221007650526281111425083166305893886873315/25707218351725277819893510849288755942010572398522080090067887674149017999105784283136",
+          "2907748726660423284384117248269000504156781396340423131338327504245438985297583359675/25707218351725277819893510849288755942010572398522080090067887674149017999105784283136"
+        ],
+        "cd_ratio_certified_interval": [
+          "581549745332084656876823330460607608878051644201530105256222285016633261178777374663/337151451317851573958111732705196960204245366084872822433703689203716685812675379200",
+          "581549745332084656876823449653800100831356279268084626267665500849087797059516671935/337151451317851573958111654061456748818749135988347094794191978613403192973330481152"
+        ],
+        "cd_ratio_vs_equilibrium": 1.72489171575247,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.06557524946980982,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 4,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      },
+      {
+        "cd": 0.1772123309557659,
+        "cd_certified_interval": [
+          "1092797529168583218434234373631492555290912070137932249486357566247088769789689485790685991165/6166599825614598841320421660171250495438467735335104915024837729275343217048089193503034179584",
+          "136599691146072902304279327523560668803504715876347705800053336922033912710011281682852101115/770824978201824855165052707521406311929808466916888114378104716159417902131011149187879272448"
+        ],
+        "cd_ratio_certified_interval": [
+          "218559505833716643686846874726298511058182414027586449897271513249417753957937897158137198233/133336200816740903748804777762409589687190839692384028709923527233825893682350006813748887552",
+          "27319938229214580460855865504712133760700943175269541160010667384406782542002256336570420223/16667025102092612968600593135734840088538117541949341142317908682034017253096456724894711808"
+        ],
+        "cd_ratio_vs_equilibrium": 1.6391610417497016,
+        "epsilon_hi": "7/10",
+        "epsilon_lo": "1/10",
+        "equilibrium_baseline_cd": 0.10811160492601928,
+        "protocol": "p_quench",
+        "t_w": 20,
+        "tau": 8,
+        "window_flags": [
+          "declared_tau_ladder",
+          "glassy_quench_cell"
+        ]
+      }
+    ],
+    "scope": {
+      "N": 8,
+      "epsilon_hi": "7/10",
+      "epsilon_lo": "1/10",
+      "lens": "L_energy",
+      "math_reference": "math/gb2_protocol_cd.md",
+      "model": "east",
+      "out_of_scope": [
+        "FA replication",
+        "L_panel",
+        "N=10",
+        "full tau ladder"
+      ],
+      "t_w": 20
+    },
+    "tau_ladder": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "thresholds": {
+      "achieved_min_cd_ratio": 1.6391610417497016,
+      "achieved_min_cd_ratio_certified_lower": "218559505833716643686846874726298511058182414027586449897271513249417753957937897158137198233/133336200816740903748804777762409589687190839692384028709923527233825893682350006813748887552",
+      "aging_exceeds_equilibrium_margin": true,
+      "cd_margin_ratio_declared": "3/2"
+    }
+  },
+  "quantifier_domain": {
+    "N_values": [
+      8
+    ],
+    "epsilon_grid": [
+      "1/10",
+      "7/10"
+    ],
+    "lens_catalog_hash": "49649e075570ce9cd24809783858a7f5e42c70f3fe2195d0888751ea4c9d950e",
+    "model_families": [
+      "east"
+    ],
+    "protocol_catalog_hash": "51c57c8652174929c1511da78fecd41620dd1713d370b45de194adc61a0594f3"
+  }
+}

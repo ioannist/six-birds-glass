@@ -1,0 +1,114 @@
+\section{GT3 and GT4: Foreclosure and the Kill-Test Panel}
+\label{sec:gt3-gt4}
+
+\subsection{GT3: the order-parameter search, foreclosed on its declared class}
+
+In plain terms: a static order parameter built from the energy readout is a function of the energy
+value. On $N=8$ spins the energy takes $9$ values, so there are exactly $2^9 = 512$ yes/no
+functions of it, and we can check them all. Every one of them agrees on a pair of histories that a
+finer readout of the same microstate, the occupation of the site next to the wall, tells apart.
+Precisely:
+
+\claimref{GT3}{25e78910189098978f58f5e083cd3553f42fd9eb2b94cc7818d0ed80f0f661a7}
+On the declared scope (East, $N=8$, $\epsilon = 1/2$), the definability bound of F-III T14 makes
+the static-order-parameter search space finite: a fixed lens with image size $9$ defines exactly
+$2^9 = 512$ predicates. The sweep checks all $512$. Every one agrees on the exhibited witness
+pair, while a readout based on $n_1$ (the occupation of the site next to the wall) separates it,
+with exact gap $169/1536$ under the identity continuation (Table~\ref{tab:gt3-foreclosure}). The
+witness pair is a standalone reflection pair constructed for this sweep and deliberately
+\emph{not} chained to the GT2 certificate, so the two results fail independently. The foreclosure
+is constructive: the distinguishing readout is exhibited and proven absent from the set of
+energy-definable predicates, not inferred from counting. Grade: theorem (audited class).
+
+\input{tables/out/tab_gt3_foreclosure.tex}
+
+The field-facing sentence ``there is no static order parameter for glass'' is licensed here
+\emph{only} as the declared-class shadow of this theorem (F-II item E2), with the class, the
+catalog and the suppressed content named in the same breath: no predicate definable from the
+declared energy lens on the declared class separates what memory separates. Reading it as a
+statement about other instruments, other lens classes (in particular the amorphous order of
+random first-order transition theory \cite{kirkpatrick-thirumalai-wolynes-1989,lubchenko-wolynes-2007},
+the configurational-entropy line descending from \cite{adam-gibbs-1965}, or the local-structure
+measures surveyed in \cite{royall-williams-2015}), or the continuum is not licensed, and this
+paper does not do so.
+
+What the theorem does license, via the framework's no-free-distinction law (F-IV F12), is narrower
+and exact: any readout that \emph{does} separate this pair must carry information beyond the
+energy readout. Here that information is a present structural coordinate of the microstate
+($n_1$, under the identity continuation), not a record of the history. The separation shows that
+the energy-based description is incomplete. In fact the two histories have the same complete
+energy distribution, so every descriptor computed from it, not only the $512$ predicates, agrees
+on them. GT6 (\S\ref{sec:gt6}) supplies the same full-law match for two preparations of a real
+aging run, separated by the East dynamics rather than by a present readout, and GT5 shows that
+one added coordinate suffices to repair the Kovacs pair.
+
+\subsection{GT4: the kill-test panel}
+
+A memory signature can be faked. GT4 builds five schematic fixtures for the ways it can be faked
+and checks that the same deterministic classifier that accepts the Kovacs candidate rejects all
+five. The candidate, \texttt{kovacs\_wheel}, is a reflection pair at $N=8$ that the full spin panel
+distinguishes but its reflection-invariant part does not. The control fixtures use the 16-state $N=4$ carrier and two or three
+interfaces, with declared readouts and continuations; they are regime schemata, structural toys,
+not physical mechanisms:
+\begin{itemize}
+  \item The \emph{protocol trap}: a pair whose readout difference is a residue of its schedule.
+    Its cleared twin exposes the toy clock label in the current readout while leaving every
+    future unchanged, so the pair is visibly different now and the apparent memory disappears.
+  \item The \emph{flattenable} pair: an apparent memory caused by an incomplete continuation
+    catalog. Its cleared twin applies an admissible completion that averages the declared
+    two-state orbit, an idempotent stochastic map on the same support, after which the futures
+    agree.
+  \item The \emph{explicitly latent} pair differs in a bit that the present readout does not see.
+  \item The \emph{dissipative} fixture merges the two histories at a later interface.
+  \item The \emph{flat} control is two copies of the $N=4$ equilibrium distribution, which by
+    construction has nothing to separate.
+\end{itemize}
+Precisely:
+
+\claimref{GT4}{b9ff2b977e8e947c9138d4d60a4c9588fa8dbfacd6dc902a97249978d40fd6d5}
+Over the declared $9$-member benchmark family of small structural packages, the deterministic
+exact triage classification identifies \texttt{kovacs\_wheel}, the Kovacs memory candidate, as
+the sole \texttt{coherent\_candidate}, while the five declared non-coherent regime controls
+(\texttt{artifact\_trap}, \texttt{dissipative}, \texttt{explicit\_latent}, \texttt{flat},
+\texttt{flattenable}) are correctly killed or cleared (Table~\ref{tab:gt4-regime-triage}).
+Protocol-trap discipline is applied: raw and cleared classifications are both recorded, so the
+table shows each artifact being caught. For instance, the naive protocol-trap fixture classifies
+as \texttt{artifact\_trap} raw, and its clock-exposing twin as \texttt{flat}. Grade: theorem
+(audited class), over the declared finite family only, not a shell-general theorem. The
+robustness fractions cover three declared structural perturbations; they are not probabilistic
+confidence guarantees.
+
+\input{tables/out/tab_gt4_regime_triage.tex}
+
+\subsection{GB1: the protocol-trap caveat, carried openly}
+
+The ``protocol trap'' is a warning about arrows of time, not about memory. A system whose dynamics
+switch between several kernels under a clock can show a spurious time asymmetry if the clock is
+left outside the state. The framework's published theorem on this (F-I T-AOT-02) concerns the
+random-scan autonomous lift initialized at its stationary product law $\pi\times s$: when the
+clock is reversible and every phase kernel is reversible with respect to a \emph{common}
+measure $\pi$, that lift, started stationary, has zero entropy production and zero
+path-reversal asymmetry at every horizon, so any observed arrow must come from an external schedule, a non-stationary
+start, or a stroboscopic fit. The conclusion does not cover arbitrary initial laws. Kovacs kernels $K_\epsilon$ are reversible with respect to a different Gibbs
+measure for each $\epsilon$, so the theorem does not apply as published: the temperature switches
+contribute a boundary term.
+
+\claimref{GB1}{4173705a52c358bc74b51815929cb2a28c8f680b3421dafdb7633e97b051fa8e}
+GB1 is the temperature-protocol version of that audit, in the style of the protocol-trap
+microarticle \sbtcite{sbt-protocol-trap}, at recognition grade. Three facts are established. (i) An
+exact identity expresses the stationary entropy production through a candidate measure built from
+the phase Gibbs laws plus a boundary term. (ii) That candidate expression is \emph{not} a general
+upper bound: an exact rational three-state counterexample, with a reversible clock and a common
+energy function, exceeds it by more than $9.5\times10^{-8}$, certified with rational logarithm
+bounds. (iii) A corrected stationary budget is proved: it adds an explicit residual,
+$\operatorname{osc}(b)\,k\,\mathrm{TV}(\hat\mu P,\hat\mu)/(1-D_k)$, controlled by a Dobrushin
+contraction coefficient $D_k<1$, and it recovers the published zero-entropy-production conclusion
+when all phases share one Gibbs law and the clock is reversible. No bound of this form holds for
+arbitrary initial laws; a two-state transient counterexample shows why. The three-state
+demonstration in the artifact is a float64 numerical check.
+
+GB1's role is to keep the arrow-of-time audit separate from the memory classification. GT4's triage
+computation is deterministic and exact, but the clock-audit \emph{discipline} it applies (raw
+versus cleared classification) rests, for temperature protocols, on a recognition-grade
+demonstration with a stationary budget rather than on a closed transient theorem. This is the
+framework's conditional-reporting rule working as designed.

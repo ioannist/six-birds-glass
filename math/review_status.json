@@ -1,0 +1,233 @@
+{
+  "checkpoint_before_review": "785b05f",
+  "completed_repairs": [
+    {
+      "files": [
+        "math/gb1_temperature_trap.md",
+        "math/gb1_stationary_counterexample.json",
+        "experiments/audit_gb1_stationary_bound.py"
+      ],
+      "finding": "Candidate-measure pseudo-EPR is not a general stationary upper bound, even for Gibbs laws with a common energy and a reversible clock.",
+      "id": "GB1.stationary_budget",
+      "repair": "Exact rational counterexample with certified logarithm intervals; proved upper bound adds osc(b)*k*TV(hat_mu P,hat_mu)/(1-D_k); common-pi recovery and fixed-family quadratic scaling retained."
+    },
+    {
+      "finding": "Zero stationary EPR cannot bound arbitrary-initial-law path reversal KL; a one-step resampling counterexample proves this.",
+      "id": "GB1.transient_boundary",
+      "repair": "Mathematical scope separates stationary, transient, and deterministic-schedule experiments. A two-phase successor is exempt from the one-way-cycle claim."
+    },
+    {
+      "finding": "Checking one quotient representative can assign an invalid loop action.",
+      "id": "loop.descent",
+      "repair": "Check every class member, its class membership, closure, and a unique image class. Counterexample regression fails the old implementation."
+    },
+    {
+      "finding": "Builder copied idempotence defect into epsilon_retention_pq; these are unequal in general.",
+      "id": "GT1.retention",
+      "repair": "Compute the true prototype retention error and exact delta <= epsilon. Regenerated historical GT1 tables: hot epsilon_retention=10/17 and cold=10/11; both differ from idempotence defects."
+    },
+    {
+      "finding": "Probability kernels/packages could admit empty or extraneous source carriers, fake identities, ambiguous continuations, inconsistent carriers, out-of-range history mass, or silently distinct conditioning cells with the same R label.",
+      "id": "exact.carriers",
+      "repair": "Validate those premises. Zero mass no longer alters support or distribution identity; prototype masses must be Fractions."
+    },
+    {
+      "finding": "Legacy pullback-closed core collapse is valid; loop impossibility was stated but only indirectly proved.",
+      "id": "Lean.scope_boundary",
+      "repair": "Added injectivity of predictiveToCurrent and explicit loopAsymmetry impossibility, with live per-theorem axiom audit."
+    },
+    {
+      "files": [
+        "math/declared_memory_provenance.json",
+        "lean/DeclaredMemory.lean",
+        "lean/DeclaredMemory/",
+        "lean/GlassWitness/NumericCore.lean",
+        "lean/GlassWitness/NumericN8.lean",
+        "lean/GlassWitness/NumericN10.lean",
+        "experiments/export_lean_witness.py",
+        "tests/test_lean_numeric_export.py"
+      ],
+      "finding": "The legacy core cannot admit a real split pair, but the corrected upstream core is available and admits one.",
+      "id": "Lean.numeric_lookup_bridge",
+      "repair": "Adapted the corrected upstream core by namespace/module renaming only; preserved legacy core; recomputed and exported actual N8 and N10 rational signatures; proved non-vacuous strict refinement, object-map nonfactorization, and insufficiency of the current mean panel. Added constant-future false-target control.",
+      "scope": "Verified finite rational lookup statements and generic corrected-core implications; full East kernel evolution/tuning remains exact-rational Python evidence."
+    },
+    {
+      "files": [
+        "math/gt6_full_energy_construction.tex",
+        "math/gt6_energy_mixture_witness.json",
+        "src/sixbirds_glass/pipeline/energy_witness.py",
+        "experiments/audit_gt6_energy_witness.py",
+        "lean/GlassWitness/EnergyCore.lean",
+        "lean/GlassWitness/EnergyN8.lean"
+      ],
+      "finding": "The old filing had no same-shell full-energy-law witness.",
+      "id": "GT6.full_energy_constructive_bridge",
+      "repair": "Constructed lawful current-only nullspace stopping mixtures on the frozen N8 preparation; full current energy law equal, every horizon 1..21 separates; all 512 current energy predicates agree; unconstrained same-source probe ablation erases every split.",
+      "scope": "Independent random stopping mixtures are an explicitly declared carrier extension. Exact Python replays preparation and evolution; Lean checks actual observation tables and corrected-core implications. Tiny gap does not imply experimental detectability."
+    },
+    {
+      "finding": "A generic trap lift used bitmask packing although its state_count is not 2**N.",
+      "id": "schedule_lift_carrier",
+      "repair": "Pack using the actual finite base carrier, validate identical carriers at all temperatures, expose checked pack/unpack methods; spin packing is preserved. Exact cyclic and noncyclic trap marginals match plain schedule evolution."
+    },
+    {
+      "files": [
+        "src/sixbirds_glass/pipeline/protocol_cd.py",
+        "experiments/build_gt1_closure_deficit.py",
+        "artifacts/gt1_cd_tables/east_n8_l_energy.json",
+        "artifacts/gt1_delta_tables/east_n8_l_energy.json"
+      ],
+      "finding": "The claimed universal finite-cell aging/equilibrium margin used only float64 comparisons and scope listed unused epsilon-grid values.",
+      "id": "GT1.certified_CD_margin",
+      "repair": "Add exact joint/conditional probabilities and rigorous rational logarithm intervals, certify every tau in 1,2,4,8 has ratio >=3/2, regenerate CD/delta artifacts with actual endpoint-temperature scope. Certified minimum ratio is approximately1.6391610417497031."
+    },
+    {
+      "files": [
+        "experiments/build_lean_fidelity_table.py",
+        "artifacts/lean_fidelity_table.json"
+      ],
+      "finding": "Hardcoded axiom inventory and Python-only numeric-witness claims were stale.",
+      "id": "GB9.live_inventory",
+      "repair": "Generate all96theorem rows from live Lean builds/#print axioms, bind source hashes, distinguish corrected numeric lookup mechanizations from Python preparation/evolution. Correct sufficient-state factorization direction."
+    },
+    {
+      "files": [
+        "src/sixbirds_glass/extension/filing.py",
+        "src/sixbirds_glass/extension/strict.py",
+        "experiments/build_gt6_filing.py",
+        "experiments/check_gt6_filing.py",
+        "experiments/build_gt6_strict_hypotheses.py",
+        "artifacts/gt6_bridge/audit.json",
+        "artifacts/gt6_bridge/strict_extension.json"
+      ],
+      "finding": "Filing manufactured passing gates, cited off-scope witnesses, reversed T12/T13 versus T19/T20, and inferred fixed-point stability from label saturation.",
+      "id": "GT6.evidence_bound_filing",
+      "repair": "Bind actual N8 full-energy-law maps to exact source replay, replay complete scientific payload including pressure values, require real boolean gate flags, forbid disabling mandatory stability. Original filing verdict is failed while actual object-map strictness is certified. AdmDomain semantic exclusions remain explicitly pending rather than prefilled all-clear. Strict-hypotheses artifact uses the same exact witness and states support saturation is not fixed-point stability."
+    },
+    {
+      "files": [
+        "math/gt6_pressure_bridge.tex",
+        "math/gt6_pressure_certificate.json",
+        "experiments/audit_gt6_pressure.py",
+        "src/sixbirds_glass/io/exp_bounds.py"
+      ],
+      "finding": "Finite ladder endpoints are not limiting pressures; principal fiber restrictions kill paths rather than condition only the initial law.",
+      "id": "GT6.pressure_semantics_and_limits",
+      "repair": "Exact positive-vector exp/log intervals bound the Fekete limit; primitive-kernel proof shows all nonzero initial laws share that limit and conditional limiting gap is zero. Constructed original-path finite Jensen gaps >=1/1000 for horizons1..8 and a separate killed limiting diagnostic >1/2.",
+      "scope": "Positive finite contrast already holds at stationary Gibbs comparison; neither finite Jensen nor killed contrast discharges the original glass conditional-disintegration theorem."
+    },
+    {
+      "finding": "Fictive-temperature repair needed a same-shell full-law witness; specification reversed the minimal predictive-state factorization.",
+      "id": "GT3.energy_descriptors_and_factorization",
+      "repair": "Lean generic and actual N8 theorems rule out every descriptor computed from the current energy law. Current-only Tf delta is exactly zero. Other coordinates resolve this pair at budget1; no general scalar-dimension bound. Corrected direction Reach(S)->M in nonpaper specification."
+    },
+    {
+      "finding": "Clock internalization and completion previously erased futures by constant resets; robustness status flags were predetermined.",
+      "id": "GT4.control_integrity",
+      "repair": "Expose actual toy clock while preserving every future law; use idempotent orbit averaging that retains own-state support. Compute paired supports, classifications and dissipative erasure from real toy kernels. Refreshed artifacts and two scientific bridge hashes.",
+      "scope": "Structural controls and3declared perturbations, not thermal coherence, cross-fire matrix,20-trial confidence, or exhaustive repair class."
+    },
+    {
+      "finding": "Two-point loss documentation conflated sum squared error with uniformly averaged squared error; builders hardcoded N10 labels/config path.",
+      "id": "GT5.buyback_measure",
+      "repair": "Keep correct SSE=(a-b)^2/2, declare unit history/entry weights, correct dynamic provenance labels and deny held-out generalization. Add actual N8 full-law-pair pool results to source certificate."
+    },
+    {
+      "finding": "Legacy mixing_time_bound is a diagnostic calibration proxy, not a general TV mixing upper bound.",
+      "id": "GB4.spectral_window_scope",
+      "repair": "Clarified source/builder/shell semantics and validated finite gap/thresholds. Kept frozen numeric calibration table and GT7 prediction/scorer untouched."
+    },
+    {
+      "finding": "Unsupported N>32, out-of-range uint64 states and noninteger sites/configs could silently truncate; empty ensembles could produce NaNs.",
+      "id": "MC.uint32_carrier",
+      "repair": "Validate original integer carrier before casting, require1<=N<=32, positive rational epsilon, nonempty trajectory ensembles and integer sites. Valid frozen-seed simulation path unchanged."
+    },
+    {
+      "finding": "Exact Kovacs wrappers ignored boundary/lens/initial-law/cyclic/arithmetic options and some denominator/horizon declarations. Dense evolution could discard out-of-carrier coordinates.",
+      "id": "source_preparation_guards",
+      "repair": "Reject unsupported declarations, enforce config arithmetic cap and preparation/continuation window, check initial-law denominator even at zero evolution, check exact carrier weights across sparse/dense paths, stationary CD invariance and exact source/target kernel indices."
+    },
+    {
+      "finding": "P4-P6 remove diagnostic capabilities, P5 usesN=min(N,8), P6 belongs to a separate three-state/two-phase toy; activity booleans do not prove one glass full loop.",
+      "id": "GT6.full_loop_lawfulness_scope",
+      "repair": "Explicitly mark shipped knockout panel certifies_full_loop_lawfulness=false and declare auxiliary scopes. Original GT6 verdict remains failed; no full-lawfulness theorem invoked."
+    },
+    {
+      "finding": "GT3 reflection/n1 crossrefs do not prove individual hump/dimension readout nonfactorization; content hashes do not establish temporal preregistration.",
+      "id": "GT7.procedural_vs_theorem_grade",
+      "repair": "Preserved frozen registry/scorer and scores; recorded missing per-readout witnesses and chronology in nonpaper spec and review options. Readouts freeze_note itself says proposed commits were not made; artifact code_version961e58 is the design-pack commit, not a completed experiment commit.",
+      "scope": "No claim of dishonest chronology; only no proof from currently retained evidence. Existing target results and freeze bytes remain unchanged."
+    }
+  ],
+  "completion_audit": "REVIEW VERIFIED:481scientific tests passed including all117slow tests; Lean builds and all96live axiom reports match stored audit. False original theorem applications are explicitly rejected, and concrete alternatives are proved. Original main-claim restoration/replacement is a separate pending research decision, not reported achieved. Paper synchronization deliberately deferred.",
+  "findings_to_repair_next": [
+    {
+      "id": "main_claim_research_choices",
+      "next": "Original multiple packaging-fixed-point strata and positive infinite conditional gap are obstructed in the declared finite primitive model. Proved finite persistence, finite conditional contrast and killed survival diagnostic are concrete alternatives. Await user choice for any new approximate-strata/common-substrate/limit research campaign; do not silently replace original main claims. Full thermal coherence and six causal primitive lawfulness also remain unestablished.",
+      "options_file": "math/audit_repair_options.tex",
+      "priority": 1
+    },
+    {
+      "id": "paper_synchronization",
+      "next": "User explicitly defers paper/ changes. Six ledger/manifest binding tests remain expected failures until a later paper synchronization phase; do not restamp them.",
+      "priority": 3
+    }
+  ],
+  "next_action": "Report verified review checkpoint and concrete mathematical options. Any subsequent original-main-claim restoration campaign requires choosing a changed construction; paper synchronization remains deferred.",
+  "objective": "Thoroughly review and repair all mathematics and Lean in six-birds-glass; preserve claims where possible; discuss material main-claim downgrades; do not edit paper.",
+  "original_repository_commit": "9e81f90",
+  "paper_modified": false,
+  "review_coverage": {
+    "GB1": "Counterexample, corrected stationary decomposition and Dobrushin bound, transient/degenerate-family boundaries; source exact logs and Lean are separate.",
+    "GB10": "Empirical bridge level maps remain pending source thresholds/precision, no realization or continuum assertions; hashes refreshed only for changed mathematical evidence.",
+    "GB2_GT1": "Stationary and protocol-relative CD, conditioning vs marginalization, full finite-row lumpability, exact aging margin and distinct retention/idempotence values.",
+    "GT2": "Exact mean tuning/probe window/source cap; real loop composite agrees rowwise with actual tuned image, finite closure absent rather than synthetic scores; constant-temperature control.",
+    "GT3": "512 energy predicates for declared reflection family; stronger same-shell energy-law construction and universal energy-derived descriptor result; corrected sufficient-state factorization; unshipped repair sweep explicitly recorded.",
+    "GT4": "All six structural regime rules, support-preserving controls, computed paired statuses and exact3-trial robustness; thermal four-test theorem/exhaustive class missing.",
+    "GT5": "MaxFiber, catalog refinement monotonicity, two-point SSE pool/envelope and budget1 saturation; no general real-coordinate dimension lower bound or held-out test.",
+    "GT6": "Pressure Fekete route/comparison inequalities and conditional vs killed semantics; packaging uniqueness obstruction, finite persistence, actual filing maps/hashes and gate/AdmDomain obligations; primitive panel limits.",
+    "GT7": "Frozen source/prediction/scoring hashes and grid-cell lookup, target spectral rescaling, empirical MC carrier/seeds/error bars; 8pass14fail294no_prediction22unobserved. No rescoring/retraining or freeze edits. GT3 crossrefs do not prove each individual registered readout nonfactorization; content-hash freezes do not certify chronological preregistration, explicitly noted by frozen registry itself.",
+    "Lean": "Legacy collapse/vacuity, corrected declared-event core provenance, conditional transport premises, numeric lookup export and generic nonfactorization/descriptor results; live per-theorem axiom inventory.",
+    "model_protocol_carriers": "East/FA/unconstrained exact heat-bath kernels, product Gibbs detailed balance, full finite carrier/probabilities; scalar-rescaled trap stationary invariance; actual-carrier schedule lift and exact continuation marginals."
+  },
+  "self_review": {
+    "checks": [
+      "Checked the log-series remainder and outward rounding with independent 100-digit Decimal evaluations.",
+      "Counterexample clock and per-phase kernels satisfy exact detailed balance; the exact stationary law satisfies mu P=mu.",
+      "Checked corrected GB1 signs by decomposing edge affinities into potential differences, clock flux, and phase Gibbs boundary terms.",
+      "Checked that the Dobrushin contraction and oscillation estimates use TV consistently and require D_k<1.",
+      "No transient or degenerating-family uniformity claim follows from the stationary theorem.",
+      "For pressure, checked positive-vector bounds independently against rank-one analytic control; finite conditional Jensen contrast against zero-tilt resampling; exact source replay rejects limiting/finite/killed-gap corruption.",
+      "Checked primitive positive-power comparison proof for arbitrary nonzero initial laws; killed within-energy restrictions verified diagonal before applying max diagonal growth.",
+      "No stationary Jensen contrast is claimed glass-specific; no finite ladder endpoint is claimed limiting pressure; no support-label saturation is claimed multiple fixed points.",
+      "Current-law equality is verified in exact Python before shared-vector Lean instantiation; Lean kernel independently checks exported future rational inequalities. Full kernel preparation/evolution is not claimed mechanized.",
+      "Final broad run used a stable source/evidence snapshot. Interrupted mixed-run failures are not included as final verification; latest complete481-test run passed."
+    ],
+    "review_kind": "distinct adversarial self-review; no independent agent used"
+  },
+  "skills_applied": [
+    "mathematics-proof-review",
+    "six-birds-proof-construction"
+  ],
+  "status": "audit_completed",
+  "verified_evidence": {
+    "GT1_tests": "10 protocol-CD tests passed, including independent 100-digit Decimal verification and a conditioning-versus-marginalization false target; 8 artifact tests passed; slow double-build deterministic replay passed in 101.31s.",
+    "GT6_filing_tests": "18 slow filing tests passed in 67.79s; 3 gate tests passed; 4 strict-hypothesis tests passed in 9.41s; repository citation check and actual-map/scope/pressure corruption replay passed (2 tests in 18.45s).",
+    "baseline_python": "315 passed, 116 deselected; non-slow suite excluding paper compilation/rendering tests",
+    "current_python": "481passed in540.03s. Includes all117slow tests. Excluded3paper compilation/rendering/prose test files and2paper ledger/manifest binding test files by instruction.",
+    "diff_check": "git diff --check passed. Since baseline9e81f90, no changes to paper/, frozen registry/, or score_transfer.py.",
+    "energy_bridge_tests": "10 passed in 17.57s; positive source laws and exact source evolution, all 21 splits, same-source negative control, false target, cap enforcement, corruption replay rejection and byte-stable Lean export.",
+    "inventory_tests": "97 rows=96live theorems+1Python evolution row; current live-source bindings12inventory/citation/bridge tests passed.",
+    "lean": "lake build successful (31jobs);96live theorem axiom reports and every source hash exactly match stored audit. No dependencies outside propext,Classical.choice,Quot.sound; no native_decide/sorry/admit/custom axioms.",
+    "lean_audit": "math/lean_axiom_audit.json",
+    "mypy": "Success: no issues found in54source files",
+    "new_regressions": "16 mathematical counterexample, carrier, and logarithm-enclosure tests included in current run",
+    "numeric_bridge_tests": "19 passed in 9.43s (16 mathematical regressions plus 3 numeric bridge tests); byte-stable regeneration and N10 values checked against existing exact certificate",
+    "paper_bindings": "Separate read-only ledger/manifest suite:10passed,6expected failures in0.18s from deferred stale hashes or coverage. Those tests remain intact; paper/ not restamped.",
+    "pressure_and_carrier_tests": "85 focused tests passed in40.46s, including pressure intervals/source-corruption controls, actual energy-law replay, carrier/MC guards, stationary CD and packaging.",
+    "proof_notes": "All3standalone construction/review TeX notes compiled into/tmp; no paper output generated.",
+    "ruff": "All checks passed for all src, experiments and tests.",
+    "schedule_lift_tests": "6 passed, 1 slow deselected; includes exact generic-trap cyclic and noncyclic continuation equivalence and carrier mismatch rejection."
+  }
+}

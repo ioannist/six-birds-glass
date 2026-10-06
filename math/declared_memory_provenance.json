@@ -1,0 +1,18 @@
+{
+  "adaptation": "Module imports and namespace HolonomyMemory renamed to DeclaredMemory; mathematical declarations unchanged.",
+  "purpose": "Use the corrected event interface for numeric witnesses while preserving the honest legacy collapse finding.",
+  "source_commit": "864602a46bbbd8a2ee3c87b15476044216de6a72",
+  "source_repository": "six-birds-route-transport",
+  "source_sha256": {
+    "HolonomyMemory.lean": "beaba954f72a91f91c425c1901f28e190b2ee812039f3de39c240ce0c970a62e",
+    "HolonomyMemory/Asymmetry.lean": "9cace3bb53a7b082944054598c34f94ee964ca4ab454ab4e6c6c1b65d42f7052",
+    "HolonomyMemory/Basic.lean": "be0deec8c5147927263d5f4405a31bbaac87827208773819d2d2dde07e760a9a",
+    "HolonomyMemory/Equivalences.lean": "e19f58c836193495a5b565c23e28b2e31f856e72c9d2a436ec341b1892ff835f",
+    "HolonomyMemory/Examples.lean": "e6fe665977b27253bb5c8796b5b7baecc9afc15625dbd660d75dc7d251f3f5ff",
+    "HolonomyMemory/Interfaces.lean": "a2b9a6d90d65aa6e09cea7a83b7c720abec27010ec4947dc9ad7aa8e1c1ce172",
+    "HolonomyMemory/Loops.lean": "d8c01ce677503f6f2f39dd00cbb6b36c4a49ff14155fdf5da704de1c968ff75c",
+    "HolonomyMemory/Sufficiency.lean": "6dc4803a34f3ece0a64556b1de26eef839cb5a841b146adddb4fa86eba9dcc71",
+    "HolonomyMemory/Transport.lean": "28794bc223d39da0a5976960ec0a815290f4255bae7755a0d6f4db615645b6ae",
+    "HolonomyMemory/Witnesses.lean": "2b893d247aa25eadfd42323e600945674875f84ddccd51562ab5ce8a4911b235"
+  }
+}

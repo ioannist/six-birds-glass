@@ -1,0 +1,12 @@
+name = "holonomy_memory_lean"
+version = "0.1.0"
+defaultTargets = ["HolonomyMemory", "DeclaredMemory", "GlassWitness"]
+
+[[lean_lib]]
+name = "HolonomyMemory"
+
+[[lean_lib]]
+name = "GlassWitness"
+
+[[lean_lib]]
+name = "DeclaredMemory"

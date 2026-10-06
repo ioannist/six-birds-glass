@@ -1,0 +1,17 @@
+{
+  "action": "created new-version draft",
+  "concept_record_id": "22911308",
+  "dashboard_url": "https://zenodo.org/uploads/23118261",
+  "doi": "10.5281/zenodo.23118261",
+  "doi_reservation": {
+    "client": "datacite",
+    "identifier": "10.5281/zenodo.23118261",
+    "provider": "datacite",
+    "verified_via": "rdm_pid_table"
+  },
+  "draft_id": 23118261,
+  "recorded_at": "2026-10-03T08:58:00+00:00",
+  "source_doi": "10.5281/zenodo.22911309",
+  "source_record_id": 22911309,
+  "source_title": "Glass Is an Unclosed Layer: Kovacs Memory as Predictive-Quotient Residue"
+}
